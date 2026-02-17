@@ -10,7 +10,7 @@ Pravni okvir SVETSKE ORGANIZACIJE uspostavlja sistem međunarodnog prava koji re
 
 - **Povelja organizacije**: Osnovni ustavni dokument
 - **Međunarodni ugovori**: Bilateralni i multilateralni sporazumi
-- **Međunarodno običajno pravo**: Ustaljene prakse priznaote kao pravno obavezujuće
+- **Međunarodno običajno pravo**: Ustaljene prakse priznate kao pravno obavezujuće
 - **Opšti pravni principi**: Priznati od civilizovanih nacija
 
 ### 2. Pomoćni izvori

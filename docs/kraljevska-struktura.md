@@ -94,7 +94,7 @@ Kraljevska i ceremonijalna struktura SVETSKE ORGANIZACIJE predstavlja tradiciona
 - Svečani prijem
 - Protokolarna procedura
 
-### Ceremonijalne događaje
+### Ceremonijalni događaji
 
 **Otvaranje Generalne skupštine:**
 - Svečana povorka

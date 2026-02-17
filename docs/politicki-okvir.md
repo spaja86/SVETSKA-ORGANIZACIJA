@@ -25,7 +25,7 @@ Politički okvir SVETSKE ORGANIZACIJE definiše principe, mehanizme i strukture 
 - Priznavanje suvereniteta svake države članice
 - Ravnopravnost svih nacija bez obzira na veličinu ili moć
 - Poštovanje teritorijalnog integriteta
-- Nepotrebna intervencija u unutrašnje stvari
+- Neprihvatljiva intervencija u unutrašnje stvari
 
 ### 4. Multilateralizam
 
