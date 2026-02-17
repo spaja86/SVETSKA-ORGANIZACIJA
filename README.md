@@ -15,4 +15,4 @@ SVETSKA ORGANIZACIJA za dobrobit čovečanstva
 - **Facebook**: [Poslovna stranica](https://www.facebook.com/profile.php?id=61583240952997)
 - **Instagram**: [@spaja.1986](https://instagram.com/spaja.1986)
 - **TikTok**: [@spaja.1986](https://tiktok.com/@spaja.1986)
-- **YouTube**: [Kanal](https://spajanikopenevolution?si=9JIUkOKsxLcRn)
+- **YouTube**: [Kanal](https://youtube.com/@spajanikopenevolution?si=9JIUkOKsxLcRn)
