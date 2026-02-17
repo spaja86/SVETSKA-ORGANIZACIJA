@@ -1,0 +1,2 @@
+# SVETSKA-ORGANIZACIJA
+SVETSKA ORGANIZACIJA za dobrobit čovečanstva
