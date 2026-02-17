@@ -239,7 +239,7 @@ Kraljevska i ceremonijalna struktura SVETSKE ORGANIZACIJE predstavlja tradiciona
 
 **Oprema:**
 - Ceremonijalni sto
-- Foteljе za dostojanstvenike
+- Fotelje za dostojanstvenike
 - Audio-vizuelni sistem
 - Ceremonijalna rasveta
 

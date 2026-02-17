@@ -33,7 +33,7 @@ Pravni okvir SVETSKE ORGANIZACIJE uspostavlja sistem međunarodnog prava koji re
    - Jednakost svih država pred zakonom
    - Teritorijalni integritet
    - Politička nezavisnost
-   - Neintervenija u unutrašnje stvari
+   - Neintervencija u unutrašnje stvari
 
 3. **Mirno rešavanje sporova**
    - Obaveza mirnog rešavanja
