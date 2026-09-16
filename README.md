@@ -90,35 +90,66 @@ U središtu proširenog modela nalaze se dva nova centralna stuba:
 
 ## 4) AI IQ WORLD BANK
 
-### Vizija AI IQ WORLD BANK
-AI IQ WORLD BANK predstavlja globalnu infrastrukturu za identifikaciju, razvoj i aktivaciju ljudskog potencijala. Njena svrha je da objedini znanje, procenu sposobnosti, razvoj karijere, finansiranje učenja i povezivanje sa realnim ekonomskim prilikama.
+### Pozicioniranje AI IQ WORLD BANK
+AI IQ WORLD BANK predstavlja **globalnu banku znanja, sposobnosti, rada i razvoja**. Njena svrha je da objedini identifikaciju potencijala, procenu znanja, razvoj veština, finansiranje učenja, verifikaciju učinka i povezivanje ljudi sa realnim ekonomskim prilikama kroz sve oblike rada.
 
-### Katalog delatnosti
-- Mapiranje talenata na lokalnom, regionalnom i globalnom nivou.
-- Procena kognitivnih i praktičnih sposobnosti uz ljudsku superviziju.
-- Baza znanja, kurseva i obrazovnih putanja.
-- AI savetnik za karijeru i profesionalni razvoj.
-- AI tutor za individualno i grupno učenje.
-- AI sistem za preporuku obuke, prekvalifikacije i sledećih koraka razvoja.
-- Matching radnika i poslova na osnovu kompetencija, iskustva i licenci.
-- Baza sertifikovanih mentora, instruktora i procenjivača.
-- Globalni portfolio veština sa dokazima, projektima i referencama.
-- Evidencija projekata, zadataka, učinka i iskustva korisnika.
-- Ocena spremnosti za rad po industrijama i nivoima složenosti.
-- Razvoj preduzetničkih kapaciteta i podrška samozapošljavanju.
-- Podrška startupovima, inovatorima i istraživačkim timovima.
-- Baza istraživača, eksperata i instruktora za međunarodne programe.
-- Indeks produktivnosti, napretka i sposobnosti učenja.
-- Sistem stipendiranja, mikrofondova i finansiranja učenja.
-- Sistem za procenu timskog potencijala i optimalnog sastava timova.
-- Validacija neformalnog znanja, iskustvenog rada i samostalno stečenih veština.
-- Podrška radu na daljinu i prekograničnom angažovanju.
-- Podrška migrantskoj i mobilnoj radnoj snazi kroz prenosive profile i preporuke.
+### Klasifikacija delatnosti
+- **Osnovne delatnosti:** hrana, voda, zdravlje, higijena, lokalna infrastruktura i zajedničke usluge.
+- **Stručne delatnosti:** administracija, trgovina, logistika, obrazovanje, finansije, turizam, usluge i podrška poslovanju.
+- **Specijalističke delatnosti:** medicina, inženjerstvo, pravo, istraživanje, napredna proizvodnja, regulatorni i ekspertni poslovi.
+- **Krizne delatnosti:** humanitarni odgovor, civilna zaštita, sanacija štete, medicinska hitnost i obnova zajednica.
+- **Digitalne delatnosti:** softver, podaci, AI, sajber bezbednost, digitalni marketing, platformski i rad na daljinu.
+- **Industrijske delatnosti:** proizvodnja, energetika, građevina, rudarstvo, održavanje, transport i lanci snabdevanja.
+- **Kreativne delatnosti:** mediji, kultura, dizajn, umetnost, sport, komunikacije i kreativna ekonomija.
+
+### Planetarni katalog delatnosti
+- **Obrazovanje i obuka:** procena znanja, individualne putanje učenja, mentorstvo, instruktorski razvoj i merenje napretka.
+- **Zdravstvo i nega:** validacija kompetencija, kliničke i nekliničke obuke, supervizija rada i lokalna regulatorna usklađivanja.
+- **Poljoprivreda i prehrambeni sistemi:** obuka za proizvodnju, bezbednost hrane, agrotehniku, preradu i distribuciju.
+- **Energija, klima i zelena tranzicija:** osposobljavanje za obnovljive izvore, energetsku efikasnost, klimatske intervencije i cirkularne modele rada.
+- **Logistika, transport i lanci snabdevanja:** mapiranje operativnih uloga, terenskih veština, bezbednosnih standarda i učinka.
+- **Građevina, održavanje i tehničke službe:** procena zanatskih i tehničkih sposobnosti, praksa na terenu i kontrola kvaliteta rada.
+- **Turizam, ugostiteljstvo i korisnička podrška:** standardi usluge, jezika, bezbednosti, komunikacije i reputacije rada.
+- **Trgovina, finansije i administracija:** razvoj poslovnih, računovodstvenih, prodajnih i organizacionih kompetencija.
+- **Javna uprava i društvene usluge:** priprema za upravljanje programima, lokalni razvoj, socijalnu podršku i rad sa zajednicama.
+- **Bezbednost, zaštita i krizni odgovor:** proverljive kompetencije za zaštitne, spasilačke, nadzorne i koordinacione uloge.
+- **Ekologija i upravljanje resursima:** obuka za zaštitu prirode, vodne sisteme, reciklažu, monitoring i sanaciju.
+- **Mediji, kultura, sport i kreativne industrije:** razvoj stvaralačkih, komunikacionih i organizacionih profila rada.
+- **Istraživanje, inovacije i startup ekosistemi:** podrška istraživačima, inovatorima, preduzetnicima i međunarodnim projektnim timovima.
+- **Proizvodnja i industrijske operacije:** validacija radnih standarda, mašinskih veština, sigurnosti i produktivnosti.
+- **Digitalne usluge i platformska ekonomija:** freelance rad, rad na daljinu, mikrozadaci, projektni angažmani i globalne online platforme.
+
+### Zajedničke funkcije po svakoj delatnosti
+- Procena kognitivnih, praktičnih i timskih sposobnosti uz ljudsku superviziju.
+- Razvoj veština kroz kurseve, praksu, mentorstvo i prekvalifikaciju.
+- Povezivanje korisnika sa poslovima, projektima, zadacima i međunarodnim angažmanima.
+- Evidencija učinka, referenci, radnih dokaza i istorije napredovanja.
+- Preporuke za sledeći nivo rada, licenci i profesionalnog razvoja.
+
+### Operativni tok korisnika
+- **Profil**: otvaranje globalnog dosijea kompetencija, iskustva i ciljeva.
+- **Procena**: AI i ljudska evaluacija znanja, potencijala i spremnosti za rad.
+- **Obuka**: preporučena putanja učenja, mentorstvo i praktično osposobljavanje.
+- **Praksa**: radni zadaci, projekti, simulacije i verifikacija performansi.
+- **Licenca**: izdavanje odgovarajuće licence po sektoru, nivou i tipu angažmana.
+- **Rad**: povezivanje sa poslodavcima, partnerima, platformama i programima.
+- **Obnova**: periodična provera kvaliteta, bezbednosti, etike i ažuriranosti znanja.
+
+### Globalni registar kompetencija i poslova
+- Svaka delatnost ima standard kompetencija, očekivane ishode rada, nivo licence i status aktivacije.
+- Sistem uključuje katalog poslova, projekata, zadataka, mentora, procenjivača, poslodavaca i centara za obuku.
+- Formalno i neformalno znanje, individualni, timski i institucionalni angažmani ulaze u jedinstven proverljiv registar.
+- Korisnički profil mora biti prenosiv između država, sektora, platformi i partnerskih institucija.
+
+### Delatnosti budućnosti
+- AI, robotika, podaci, sajber bezbednost, automatizacija i digitalna infrastruktura imaju prioritetne razvojne putanje.
+- Zelene tehnologije, klimatski poslovi i biotehnologija ulaze u stalno ažuriran katalog budućih profesija.
+- Program prekvalifikacije preusmerava radnike iz ugroženih profesija u rastuće sektore na osnovu dokazivih kompetencija.
 
 ## 5) LICENCE ZA CELU PLANETU ZA RAD
 
 ### Model univerzalnih licenci
-LICENCE ZA CELU PLANETU ZA RAD predstavljaju globalni sistem priznavanja kompetencija koji povezuje učenje, procenu, akreditaciju i zakonit pristup radu. Cilj sistema je da radna sposobnost bude dokaziva, prenosiva i razumljiva poslodavcima, institucijama i korisnicima širom sveta.
+LICENCE ZA CELU PLANETU ZA RAD predstavljaju **planetarni most između znanja i zakonitog rada**. To je globalni sistem priznavanja kompetencija koji povezuje učenje, procenu, akreditaciju, bezbednosne standarde i dokaziv pristup radu u gotovo svim sektorima i oblicima angažovanja.
 
 ### Kategorije licenci
 - Opšta radna licenca.
@@ -134,6 +165,17 @@ LICENCE ZA CELU PLANETU ZA RAD predstavljaju globalni sistem priznavanja kompete
 - Licence za rukovođenje, koordinaciju i upravljanje projektima.
 - Licence za bezbednosno osetljive poslove.
 - Licence za zelene, klimatske i cirkularne profesije.
+- Licence za fizički rad, terenski rad i sezonske angažmane.
+- Licence za intelektualni rad, ekspertne analize i savetodavne usluge.
+- Licence za mobilni, migrantski i prekogranični rad.
+- Licence za mikro-veštine, kratke angažmane i modularne zadatke.
+- Licence za projektni rad, startup timove i međunarodne konzorcijume.
+- Licence za platformski rad, digitalne usluge i verifikovane freelance angažmane.
+
+### Arhitektura licenci po širini i dubini
+- **Horizontalne licence** važe kroz više sektora za prenosive kompetencije kao što su bezbednost, komunikacija, digitalna pismenost i upravljanje radom.
+- **Vertikalne licence** potvrđuju usku ekspertizu u specifičnim zanimanjima, tehnologijama ili regulatornim oblastima.
+- **Sektorske matrice licenci** povezuju svaku licencu sa grupom delatnosti, nivoom složenosti i stepenom odgovornosti.
 
 ### Nivoi licenci
 - **Početni nivo** za osnovnu osposobljenost i ulazak u radni sistem.
@@ -144,11 +186,21 @@ LICENCE ZA CELU PLANETU ZA RAD predstavljaju globalni sistem priznavanja kompete
 - **Instruktorski nivo** za obuku drugih i razvoj novih kadrova.
 - **Revizorski nivo** za proveru usklađenosti, kvaliteta i etike sistema.
 
+### Tipovi licenci
+- **Privremena licenca** za ulazak u sistem uz pojačan nadzor i rok važenja.
+- **Probna licenca** za kontrolisane prve angažmane i evaluaciju spremnosti.
+- **Obnovljiva licenca** za kontinuirani rad uz periodične provere.
+- **Mentorska licenca** za obuku drugih i superviziju novih radnika.
+- **Revizorska licenca** za proveru usklađenosti, kvaliteta i pravičnosti sistema.
+
 ### Ciklus licence
 - Jasna veza između nivoa licence, potrebne obuke i procene znanja.
 - Kombinovanje formalnog obrazovanja, praktičnih provera i radnog iskustva.
 - Periodična obnova licenci kroz proveru učinka, bezbednosti i ažuriranih standarda.
 - Mogućnost suspenzije, korektivne obuke i ponovnog sticanja licence.
+- Svaka licenca mora biti povezana sa konkretnom delatnošću, standardom kompetencija i dokazom rada.
+- Visoko osetljive licence zahtevaju strože etičke, bezbednosne i regulatorne kontrole.
+- Korisnik ima pravo žalbe na procenu, bodovanje, suspenziju ili odbijanje izdavanja licence.
 
 ## 6) Finansijski model otpornosti
 
@@ -163,6 +215,8 @@ LICENCE ZA CELU PLANETU ZA RAD predstavljaju globalni sistem priznavanja kompete
 - Korporativna partnerstva za zapošljavanje i razvoj talenata.
 - Fond za prekvalifikaciju zbog automatizacije i promena na tržištu rada.
 - Grantovi za razvoj globalnih standarda rada, interoperabilnosti i etike AI procene.
+- Su-finansiranje od država, univerziteta, škola, kompanija, platformi za rad, sindikata i razvojnih fondova.
+- Posebni fondovi za širenje deficitarnih delatnosti i priznanje licenci između jurisdikcija.
 
 ## 7) Tehnološka i operativna platforma
 
@@ -191,14 +245,22 @@ LICENCE ZA CELU PLANETU ZA RAD predstavljaju globalni sistem priznavanja kompete
 - Zaštita od zloupotrebe bodovanja, profilisanja i automatizovanog isključivanja.
 - Jasna pravila za privatnost, biometriju i obradu radnih podataka.
 - Mehanizam za suspenziju, obnovu i ponovno aktiviranje licenci.
+- Za delatnosti od javnog interesa, kao što su zdravstvo, obrazovanje, hrana, voda, energija, krizni odgovor i socijalna zaštita, važe stroži standardi etike, bezbednosti i nadzora.
+
+### Partnerstva i institucionalna mreža
+- Države, univerziteti, škole, kompanije, platforme za rad, sindikati, razvojni fondovi i lokalne zajednice čine zajedničku mrežu implementacije.
+- AI IQ WORLD BANK služi kao motor za mapiranje talenata, potreba tržišta i puteva razvoja radne snage.
+- LICENCE ZA CELU PLANETU ZA RAD služe kao zajednički standard priznavanja sposobnosti, kompetencija i zakonitog pristupa radu.
+- Partneri mogu biti akreditovani kao centri za procenu, obuku, mentorstvo, zapošljavanje, verifikaciju učinka i obnovu licenci.
 
 ## 9) Plan širenja u talasima
 
-- **T1 (pilot):** pokretanje u nekoliko sektora i nekoliko zemalja radi testiranja AI procena, licencnih tokova i KPI sistema.
-- **T2 (regionalno širenje):** širenje preko partnerskih institucija, akreditovanih centara i poslodavaca.
-- **T3 (institucionalno usvajanje):** prihvatanje standarda od strane univerziteta, kompanija, regulatora i razvojnih fondova.
-- **T4 (mobilna i digitalna radna snaga):** širenje na digitalne nomade, freelance tržišta, migrante i prekogranične radnike.
-- **T5 (globalna mreža):** uspostavljanje globalno prepoznatljivog i interoperabilnog licencnog sistema.
+- **T1 (pilot):** pokretanje najtraženijih i najuniverzalnijih delatnosti radi testiranja AI procena, licencnih tokova i KPI sistema.
+- **T2 (regionalno širenje):** uključivanje sektora sa velikim nedostatkom radne snage preko partnerskih institucija, akreditovanih centara i poslodavaca.
+- **T3 (institucionalno usvajanje):** prihvatanje standarda od strane država, univerziteta, škola, kompanija, regulatora i razvojnih fondova.
+- **T4 (mobilna i digitalna radna snaga):** širenje na digitalne nomade, freelance tržišta, platformsku ekonomiju, migrante i prekogranične radnike.
+- **T5 (regulisane i visoko-odgovorne profesije):** postepeno širenje na licence sa strožim lokalnim regulatornim usklađivanjima.
+- **T6 (globalna mreža):** uspostavljanje globalno prepoznatljivog i interoperabilnog sistema delatnosti, kompetencija i licenci.
 
 ## 10) Sistem merenja uspeha
 
@@ -218,12 +280,19 @@ LICENCE ZA CELU PLANETU ZA RAD predstavljaju globalni sistem priznavanja kompete
 - Procenat uspešnog povezivanja korisnika sa poslovima i projektima.
 - Poverenje korisnika u AI procenu i procenat potvrđenih odluka.
 - Broj žalbi, vreme rešavanja i procenat uspešno zaključenih slučajeva.
+- Broj delatnosti, podsektora i standarda kompetencija unetih u sistem.
+- Broj horizontalnih i vertikalnih licenci aktivnih po regionima i sektorima.
+- Vreme od procene do zaposlenja ili aktivacije u projektu.
+- Stopa mobilnosti radne snage između sektora, država i digitalnih platformi.
+- Metrike pravičnosti AI procene, uključujući razlike po regionima i grupama korisnika.
+- Udeo uspešno obnovljenih licenci i smanjenje regulatornih barijera za zakonit rad.
 
 ### Ciklus upravljanja učinkom
 - Kvartalna evaluacija rezultata i rizika.
 - Korektivne mere sa jasno dodeljenim odgovornostima.
 - Javno objavljene lekcije i unapređenja procesa.
 - Poseban monitoring pravednosti AI procene, kvaliteta licenci i efekata na zapošljavanje.
+- Godišnje proširenje i revizija kataloga delatnosti u skladu sa promenama tržišta rada i tehnologije.
 
 ## 11) Komunikacija i poverenje
 
