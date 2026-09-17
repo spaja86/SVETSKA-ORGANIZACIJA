@@ -1,4 +1,4 @@
-# Developer guide
+# Vodič za developere
 
 ## Svrha developer sloja
 

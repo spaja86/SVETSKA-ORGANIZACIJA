@@ -1,4 +1,4 @@
-# Roadmap
+# Putokaz razvoja
 
 ## Faza 1 — dokumentaciona konsolidacija
 - stabilizacija strukture repozitorijuma

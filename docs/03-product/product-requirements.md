@@ -1,4 +1,4 @@
-# Product requirements
+# Produktni zahtevi
 
 ## MVP opseg
 

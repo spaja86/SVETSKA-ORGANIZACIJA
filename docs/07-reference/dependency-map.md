@@ -1,4 +1,4 @@
-# Dependency map
+# Mapa zavisnosti
 
 ## Ključne zavisnosti
 

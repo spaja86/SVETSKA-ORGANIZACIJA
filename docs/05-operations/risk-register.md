@@ -1,4 +1,4 @@
-# Risk register
+# Registar rizika
 
 ## Operativni rizici
 

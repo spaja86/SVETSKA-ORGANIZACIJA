@@ -19,7 +19,7 @@ Doprinosi ovom repozitorijumu moraju da jačaju jednu od tri celine:
 
 - Dokumenti koriste `kebab-case` nazive.
 - Direktorijumi su grupisani numerički po oblasti radi stabilnog redosleda.
-- Sadržaj se piše na srpskom jeziku latiničnim pismom, osim kada spoljne specifikacije traže drugačije.
+- Sadržaj se primarno piše na srpskom jeziku latiničnim pismom; engleski tehnički termini, nazivi standarda i spoljne specifikacije mogu ostati na engleskom kada to povećava jasnoću ili interoperabilnost.
 
 ## Tok promene
 

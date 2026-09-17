@@ -1,4 +1,4 @@
-# Glossary
+# Rečnik pojmova
 
 - **kompetencija** — dokaziva sposobnost obavljanja zadataka prema standardu
 - **procena** — proces evaluacije znanja, sposobnosti i spremnosti

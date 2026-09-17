@@ -1,4 +1,4 @@
-# Definition of done
+# Kriterijum završetka
 
 Promena je završena kada:
 - pripada odgovarajućem sloju repozitorijuma

@@ -9,7 +9,7 @@ Repozitorijum je organizovan tako da razdvoji:
 
 ## Kako koristiti repozitorijum
 
-1. Počnite od `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/docs/README.md`
+1. Počnite od `docs/README.md`
 2. Pročitajte osnovu u `docs/01-foundation/`
 3. Nastavite na platformu i domen u `docs/02-platform/`
 4. Pregledajte produktne prioritete u `docs/03-product/`
@@ -37,19 +37,19 @@ Repozitorijum je organizovan tako da razdvoji:
 
 ## Glavni dokumenti
 
-- Osnova repozitorijuma: `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/docs/01-foundation/repository-purpose.md`
-- Misija i principi: `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/docs/01-foundation/mission-and-principles.md`
-- Upravljanje i uloge: `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/docs/01-foundation/governance-and-roles.md`
-- Programi: `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/docs/01-foundation/global-programs.md`
-- AI IQ WORLD BANK: `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/docs/02-platform/ai-iq-world-bank.md`
-- Licence za rad: `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/docs/02-platform/global-work-licenses.md`
-- Ciljna arhitektura: `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/docs/02-platform/target-architecture.md`
-- Domenski model: `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/docs/02-platform/domain-model.md`
-- Product osnova: `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/docs/03-product/`
-- Politike i usklađenost: `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/docs/04-policies/`
-- Operacije: `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/docs/05-operations/`
-- Developer vodič: `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/docs/06-developer/developer-guide.md`
-- Pravila doprinosa: `/home/runner/work/SVETSKA-ORGANIZACIJA/SVETSKA-ORGANIZACIJA/CONTRIBUTING.md`
+- Osnova repozitorijuma: `docs/01-foundation/repository-purpose.md`
+- Misija i principi: `docs/01-foundation/mission-and-principles.md`
+- Upravljanje i uloge: `docs/01-foundation/governance-and-roles.md`
+- Programi: `docs/01-foundation/global-programs.md`
+- AI IQ WORLD BANK: `docs/02-platform/ai-iq-world-bank.md`
+- Licence za rad: `docs/02-platform/global-work-licenses.md`
+- Ciljna arhitektura: `docs/02-platform/target-architecture.md`
+- Domenski model: `docs/02-platform/domain-model.md`
+- Produktna osnova: `docs/03-product/`
+- Politike i usklađenost: `docs/04-policies/`
+- Operacije: `docs/05-operations/`
+- Vodič za developere: `docs/06-developer/developer-guide.md`
+- Pravila doprinosa: `CONTRIBUTING.md`
 
 ## Sledeći korak
 

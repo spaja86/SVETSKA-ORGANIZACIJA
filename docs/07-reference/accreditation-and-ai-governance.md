@@ -1,4 +1,4 @@
-# Akreditacija i AI governance
+# Akreditacija i upravljanje AI sistemima
 
 ## Akreditacija
 

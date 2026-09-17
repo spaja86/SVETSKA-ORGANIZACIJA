@@ -1,4 +1,4 @@
-# Use cases i user journeys
+# Slučajevi upotrebe i korisničke putanje
 
 ## Glavni use cases
 

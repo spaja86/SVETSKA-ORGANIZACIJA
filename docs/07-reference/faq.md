@@ -1,4 +1,4 @@
-# FAQ
+# Česta pitanja
 
 ## Da li je ovo gotov softverski proizvod?
 Ne. Ovo je strukturisana osnova za budući razvoj i upravljanje projektom.
