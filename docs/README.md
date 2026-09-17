@@ -11,7 +11,7 @@ Ovaj direktorijum je centralni ulaz za čitanje i održavanje dokumentacije.
 5. `05-operations/` — operativni model, partnerstva, finansiranje, KPI i rizici
 6. `06-developer/` — razvojne smernice, struktura repozitorijuma, upravljanje promenama i ADR
 7. `07-reference/` — rečnik pojmova, česta pitanja, mapa zainteresovanih strana i pomoćni okviri
-8. `CONTRIBUTING.md` — pravila doprinosa i kriterijumi prihvatanja promena na nivou repozitorijuma
+8. `../CONTRIBUTING.md` — pravila doprinosa i kriterijumi prihvatanja promena na nivou repozitorijuma
 
 ## Pravilo navigacije
 
