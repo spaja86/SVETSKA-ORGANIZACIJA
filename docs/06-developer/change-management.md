@@ -8,11 +8,28 @@
 4. procena uticaja na arhitekturu, podatke i usklađenost
 5. odluka kroz odgovarajući upravljački dokument ili ADR zapis
 
+## Razvojni lifecycle
+
+1. predlog
+2. analiza uticaja
+3. ADR ili upravljačka odluka
+4. specifikacija domena i interfejsa
+5. validacija spremnosti
+6. implementacija
+7. verifikacija i release odluka
+
 ## Ko odobrava promene
 
 - strateške promene: globalni upravljački sloj
 - operativne promene: odgovorni operativni vlasnici
 - tehničke promene: tehnički vlasnici uz proveru uticaja na arhitekturu i politike
+
+## Obavezne tačke pregleda
+
+- bezbednost i privatnost kada promena utiče na identitet, procenu, licence ili integracije
+- audit kada promena uvodi novu odluku, status ili osetljiv događaj
+- regulatorna usklađenost kada promena zavisi od jurisdikcije, sektora ili lokalnih pravila
+- produktna potvrda kada promena širi MVP opseg ili menja korisnički tok
 
 ## Istorija odluka
 
