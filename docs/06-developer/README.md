@@ -11,7 +11,7 @@ Ovaj direktorijum je centralna ulazna tačka za tehničku pripremu repozitorijum
 5. `ownership-and-release-model.md` — vlasništvo, release vrata i tipovi promena
 6. `developer-create-implementation-plan.md` — objedinjeni plan za developer + create MVP tok
 7. `traceability-matrix.md` — veza između dokumentacije, domena, API-ja, testova i audita
-8. `adrs/` — arhitekturne odluke koje zaključavaju smer implementacije
+8. `adrs/README.md` — arhitekturne odluke koje zaključavaju smer implementacije
 
 ## Pravilo dokumentovanja
 

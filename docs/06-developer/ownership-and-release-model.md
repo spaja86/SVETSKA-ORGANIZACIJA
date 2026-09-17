@@ -26,7 +26,7 @@ Svaki novi artefakt mora imati:
 
 Pre ulaska u implementacioni talas promena mora:
 
-- biti spremna prema `definition-of-ready.md`
+- biti spremna prema `./definition-of-ready.md`
 - imati validnu vezu sa politikama i zahtevima iz domena
 - imati definisane API i test posledice kada utiče na interfejse ili tokove
 - imati potvrđen audit i pristupni model za osetljive podatke i odluke

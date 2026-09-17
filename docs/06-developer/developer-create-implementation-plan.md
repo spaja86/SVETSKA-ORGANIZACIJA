@@ -1,4 +1,4 @@
-# Developer + create implementacioni plan
+# Developer + create plan implementacije
 
 ## Cilj
 
