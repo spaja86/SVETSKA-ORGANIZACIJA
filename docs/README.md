@@ -13,6 +13,12 @@ Ovaj direktorijum je centralni ulaz za čitanje i održavanje dokumentacije.
 7. `07-reference/` — rečnik pojmova, česta pitanja, mapa zainteresovanih strana i pomoćni okviri
 8. `../CONTRIBUTING.md` — pravila doprinosa i kriterijumi prihvatanja promena na nivou repozitorijuma
 
+## Prioritetne tehničke ulazne tačke
+
+- `06-developer/README.md` — centralni indeks za tehničko planiranje
+- `06-developer/developer-create-implementation-plan.md` — objedinjeni plan za MVP create tok
+- `06-developer/traceability-matrix.md` — veza između zahteva, domena, API-ja, testova i audita
+
 ## Pravilo navigacije
 
 - Strategija odgovara na pitanje **zašto**.

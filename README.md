@@ -49,6 +49,8 @@ Repozitorijum je organizovan tako da razdvoji:
 - Politike i usklađenost: `docs/04-policies/`
 - Operacije: `docs/05-operations/`
 - Vodič za developere: `docs/06-developer/developer-guide.md`
+- Developer indeks: `docs/06-developer/README.md`
+- Developer + create plan: `docs/06-developer/developer-create-implementation-plan.md`
 - Pravila doprinosa: `CONTRIBUTING.md`
 
 ## Sledeći korak
