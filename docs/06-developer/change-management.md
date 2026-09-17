@@ -17,5 +17,5 @@
 ## Istorija odluka
 
 - velike tehničke odluke ulaze u ADR
-- promene pravila ostaju u odgovarajućim policy dokumentima
-- promene vizije i prioriteta ostaju u foundation i product dokumentima
+- promene pravila ostaju u odgovarajućim dokumentima iz sloja `docs/04-policies/`
+- promene vizije i prioriteta ostaju u dokumentima iz slojeva `docs/01-foundation/` i `docs/03-product/`

@@ -25,7 +25,7 @@ Repozitorijum je organizovan tako da razdvoji:
 - `services/` — budući backend servisi i integracije
 - `packages/` — deljeni modeli, biblioteke i standardi
 - `specs/api/` — buduće API specifikacije i ugovori
-- `tests/` — buduća test strategija i test sredstva
+- `tests/` — test strategija, scenariji validacije, integracioni testovi i buduća automatizovana provera ključnih tokova
 
 ## Prioriteti trenutne faze
 
