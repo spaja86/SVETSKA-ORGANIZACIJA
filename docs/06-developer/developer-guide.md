@@ -26,7 +26,7 @@ Policy sloj ostaje izvan koda dok ne zahteva model, pravilo ili interfejs.
 ## Operativni fokus razvojnog sloja
 
 - `README.md` u ovom direktorijumu je tehnički ulaz za čitanje i sprovođenje razvoja
-- `developer-create-implementation-plan.md` povezuje strategiju, produkt, arhitekturu i buduću implementaciju
+- `mvp-create-implementation-plan.md` povezuje strategiju, produkt, arhitekturu i buduću implementaciju
 - `definition-of-ready.md` definiše kada zahtev može preći u specifikaciju ili kod
 - `traceability-matrix.md` čuva vezu između zahteva, domena, API-ja, testova i audita
 - `ownership-and-release-model.md` definiše vlasništvo, release vrata i klasifikaciju promena

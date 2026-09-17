@@ -9,7 +9,7 @@ Ovaj direktorijum je centralna ulazna tačka za tehničku pripremu repozitorijum
 3. `change-management.md` — lifecycle promene od predloga do validacije
 4. `definition-of-ready.md` — uslovi da zahtev može ući u specifikaciju ili implementaciju
 5. `ownership-and-release-model.md` — vlasništvo, release vrata i tipovi promena
-6. `developer-create-implementation-plan.md` — objedinjeni plan za developer + create MVP tok
+6. `mvp-create-implementation-plan.md` — objedinjeni plan za MVP create tok
 7. `traceability-matrix.md` — veza između dokumentacije, domena, API-ja, testova i audita
 8. `adrs/README.md` — arhitekturne odluke koje zaključavaju smer implementacije
 

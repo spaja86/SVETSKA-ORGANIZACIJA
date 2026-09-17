@@ -50,7 +50,7 @@ Repozitorijum je organizovan tako da razdvoji:
 - Operacije: `docs/05-operations/`
 - Vodič za developere: `docs/06-developer/developer-guide.md`
 - Developer indeks: `docs/06-developer/README.md`
-- Developer + create plan: `docs/06-developer/developer-create-implementation-plan.md`
+- MVP create plan: `docs/06-developer/mvp-create-implementation-plan.md`
 - Pravila doprinosa: `CONTRIBUTING.md`
 
 ## Sledeći korak

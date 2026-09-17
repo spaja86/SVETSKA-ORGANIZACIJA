@@ -1,4 +1,4 @@
-# ADR-0002: Developer-create MVP plan kao obavezni most između dokumentacije i implementacije
+# ADR-0002: MVP create plan kao obavezni most između dokumentacije i implementacije
 
 ## Status
 
@@ -10,7 +10,7 @@ Repozitorijum ima stabilnu dokumentacionu osnovu, ali je za prelazak u MVP imple
 
 ## Odluka
 
-Usvajamo developer-create plan, traceability matricu, definition of ready i release model kao obavezne tehničke mehanizme pre otvaranja većih implementacionih radova.
+Usvajamo MVP create plan, traceability matricu, definition of ready i release model kao obavezne tehničke mehanizme pre otvaranja većih implementacionih radova.
 
 Minimalni create tok postaje prioritetna implementaciona nit kroz profile, dokaze, procenu, licencu, pregled statusa i audit zapis.
 

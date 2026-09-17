@@ -1,4 +1,4 @@
-# Developer + create plan implementacije
+# MVP create plan implementacije
 
 ## Cilj
 
