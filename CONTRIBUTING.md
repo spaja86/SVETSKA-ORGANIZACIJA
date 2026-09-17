@@ -21,6 +21,7 @@ Doprinosi ovom repozitorijumu moraju da jačaju jednu od tri celine:
 - Direktorijumi su grupisani numerički po oblasti radi stabilnog redosleda.
 - Sadržaj se primarno piše na srpskom jeziku latiničnim pismom.
 - Engleski tehnički termini, nazivi standarda, spoljne specifikacije, ustaljeni nazivi direktorijuma i kanonski nazivi platformi mogu ostati na engleskom kada to povećava jasnoću ili interoperabilnost.
+- Kanonski naslovi dokumenata i platformi, kao što su `CONTRIBUTING`, `AI IQ WORLD BANK` i `LICENCE ZA CELU PLANETU ZA RAD`, mogu zadržati originalni oblik kada predstavljaju prepoznatljive standarde ili identitete.
 - Naslovi i osnovna navigacija treba da koriste srpske ekvivalente kad god postoje i kada ne umanjuju preciznost značenja.
 
 ## Tok promene
