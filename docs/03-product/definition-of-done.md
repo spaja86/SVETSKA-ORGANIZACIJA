@@ -5,7 +5,7 @@ Promena je završena kada:
 - ima jasno definisan cilj i opseg
 - uzima u obzir uticaj na podatke, bezbednost i regulatorna pravila
 - ne narušava postojeću strukturu dokumentacije i odgovornosti
-- ima evidentiranu odluku kada menja arhitekturu ili governance
+- ima evidentiranu odluku kada menja arhitekturu ili upravljačka pravila
 - podržava MVP prioritete ili jasno obrazlaže zašto proširuje opseg
 
 ## Pravila objave

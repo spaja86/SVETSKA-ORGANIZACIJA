@@ -28,7 +28,7 @@ Doprinosi ovom repozitorijumu moraju da jačaju jednu od tri celine:
 1. Identifikacija potrebe
 2. Ažuriranje odgovarajuće dokumentacije
 3. Revizija uticaja na arhitekturu, podatke i usklađenost
-4. Evidentiranje odluke kroz ADR ili governance dokument
+4. Evidentiranje odluke kroz ADR ili upravljački dokument
 5. Tek zatim implementacija koda
 
 ## Kriterijumi prihvatanja
