@@ -6,7 +6,7 @@
 - `apps/` će sadržati korisničke i administrativne interfejse
 - `services/` će sadržati servisne granice i integracije
 - `packages/` će sadržati deljene modele, pravila i biblioteke
-- `specs/api/` će sadržati ugovore prema spoljnim i internim potrošačima
+- `specs/api/` će sadržati API specifikacije, ugovore razmene podataka, verzioniranje interfejsa i pravila interoperabilnosti
 - `tests/` će sadržati test strategiju i buduće scenarije validacije
 
 ## Pravilo širenja

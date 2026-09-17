@@ -53,4 +53,4 @@ Repozitorijum je organizovan tako da razdvoji:
 
 ## Sledeći korak
 
-Sledeća implementaciona faza je definisanje MVP granica i pretvaranje prioritetnih domena u konkretne specifikacije i issue tok.
+Sledeća implementaciona faza je definisanje MVP granica i pretvaranje prioritetnih domena u konkretne specifikacije i tok upravljanja zadacima.
