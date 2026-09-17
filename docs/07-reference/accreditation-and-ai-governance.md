@@ -9,7 +9,7 @@ Standardi za centre, mentore i evaluatore moraju pokriti:
 - bezbednost podataka
 - sposobnost evidencije i revizije
 
-## AI governance
+## Upravljanje AI sistemima
 
 - jasna podela između preporuke i odluke
 - obavezna ljudska supervizija za osetljive tokove

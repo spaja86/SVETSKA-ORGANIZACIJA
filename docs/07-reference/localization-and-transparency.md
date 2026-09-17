@@ -2,7 +2,7 @@
 
 ## Lokalizacija
 
-- dokumentacija i interfejsi moraju podržati više jezika kroz kontrolisan glossary
+- dokumentacija i interfejsi moraju podržati više jezika kroz kontrolisan rečnik pojmova
 - lokalni kontekst ne sme menjati značenje globalnih standarda bez evidentirane odluke
 
 ## Transparentnost

@@ -6,11 +6,11 @@
 2. procena sloja na koji utiče
 3. definisanje opsega i ograničenja
 4. procena uticaja na arhitekturu, podatke i usklađenost
-5. odluka kroz odgovarajući governance ili ADR zapis
+5. odluka kroz odgovarajući upravljački dokument ili ADR zapis
 
 ## Ko odobrava promene
 
-- strateške promene: globalni governance sloj
+- strateške promene: globalni upravljački sloj
 - operativne promene: odgovorni operativni vlasnici
 - tehničke promene: tehnički vlasnici uz proveru uticaja na arhitekturu i politike
 

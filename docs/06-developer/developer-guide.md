@@ -1,8 +1,8 @@
 # Vodič za developere
 
-## Svrha developer sloja
+## Svrha razvojnog sloja
 
-Developer dokumentacija prevodi strateški i operativni okvir u buduće module, interfejse i pravila implementacije.
+Razvojna dokumentacija prevodi strateški i operativni okvir u buduće module, interfejse i pravila implementacije.
 
 ## Granice sistema
 

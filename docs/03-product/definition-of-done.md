@@ -8,7 +8,7 @@ Promena je završena kada:
 - ima evidentiranu odluku kada menja arhitekturu ili governance
 - podržava MVP prioritete ili jasno obrazlaže zašto proširuje opseg
 
-## Release pravila
+## Pravila objave
 
 - dokumentacione promene moraju biti konzistentne kroz povezane dokumente
 - arhitekturne promene moraju imati ažuriran ADR kada menjaju smer sistema

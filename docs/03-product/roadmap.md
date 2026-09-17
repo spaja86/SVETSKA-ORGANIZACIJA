@@ -12,7 +12,7 @@
 
 ## Faza 3 — definicija proizvoda i domena
 - zaključavanje MVP opsega
-- detaljni use cases i prioritetni tokovi
+- detaljni slučajevi upotrebe i prioritetni tokovi
 - regulatorne i bezbednosne zavisnosti
 
 ## Faza 4 — tehnička osnova

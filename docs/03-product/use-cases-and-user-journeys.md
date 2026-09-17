@@ -1,6 +1,6 @@
 # Slučajevi upotrebe i korisničke putanje
 
-## Glavni use cases
+## Glavni slučajevi upotrebe
 
 - osoba otvara profil i unosi dokaze o znanju
 - evaluator sprovodi procenu i potvrđuje rezultat
