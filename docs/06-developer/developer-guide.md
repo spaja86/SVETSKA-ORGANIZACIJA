@@ -1,4 +1,4 @@
-# Vodič za developere
+# Vodič za razvoj
 
 ## Svrha razvojnog sloja
 
