@@ -14,3 +14,4 @@ Ovde se nalaze planirani portali i korisničke aplikacije za create tok i naredn
 - aplikacije orkestriraju korisničke tokove, ali ne dupliraju domenska pravila iz paketa i servisa
 - osetljivi tokovi moraju jasno razlikovati korisnički, partnerski i interni pristup
 - svaki novi interfejs mora navesti izvorni dokument, ciljnu ulogu i zavisne API ugovore
+- create ownership, statusi i release kontrole vode se centralno kroz `docs/06-developer/README.md`

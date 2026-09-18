@@ -17,6 +17,7 @@ Ovaj direktorijum je centralni ulaz za čitanje i održavanje dokumentacije.
 
 - `06-developer/README.md` — centralni indeks za tehničko planiranje i create framework
 - `06-developer/mvp-create-implementation-plan.md` — objedinjeni plan za MVP create tok
+- `06-developer/source-of-truth-map.md` — pregled šta zaključava koju oblast
 - `06-developer/definition-of-ready.md` — uslovi za ulazak u specifikaciju ili implementaciju
 - `06-developer/definition-of-done.md` — uslovi za završetak artefakta ili implementacije
 - `06-developer/traceability-matrix.md` — veza između zahteva, domena, API-ja, testova i audita
@@ -26,3 +27,4 @@ Ovaj direktorijum je centralni ulaz za čitanje i održavanje dokumentacije.
 - Strategija odgovara na pitanje **zašto**.
 - Operacije odgovaraju na pitanje **kako se sprovodi**.
 - Tehnika odgovara na pitanje **kako će sistem biti izgrađen i kontrolisan**.
+- Create reference iz drugih slojeva vraćaju se na `06-developer/README.md` kada traže ownership, ugovor, status, test ili release kontrolu.

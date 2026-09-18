@@ -51,13 +51,11 @@ Repozitorijum je organizovan tako da razdvoji:
 - Operacije: `docs/05-operations/`
 - Developer indeks: `docs/06-developer/README.md`
 - Vodič za developere: `docs/06-developer/developer-guide.md`
-- Definition of Ready: `docs/06-developer/definition-of-ready.md`
-- Definition of Done: `docs/06-developer/definition-of-done.md`
 - MVP create plan: `docs/06-developer/mvp-create-implementation-plan.md`
-- Release vrata: `docs/06-developer/release-gates.md`
+- Source-of-truth mapa: `docs/06-developer/source-of-truth-map.md`
 - Traceability matrica: `docs/06-developer/traceability-matrix.md`
 - Pravila doprinosa: `CONTRIBUTING.md`
 
 ## Sledeći korak
 
-Sledeća implementaciona faza je pretvaranje prioritetnih domena i otvorenog skeleta u konkretne ugovore, test pakete i prve implementacione module.
+Sledeća implementaciona faza je pretvaranje prioritetnih domena i otvorenog skeleta u konkretne ugovore, test pakete i prve implementacione module kroz centralni developer/create okvir u `docs/06-developer/README.md`.

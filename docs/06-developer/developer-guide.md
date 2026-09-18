@@ -4,6 +4,12 @@
 
 Razvojna dokumentacija prevodi strateški i operativni okvir u buduće module, interfejse, kontrole kvaliteta i pravila implementacije.
 
+## Glavni cilj aktuelne faze
+
+- pretvoriti repozitorijum iz dokumentacione osnove u kontrolisan product-engineering sistem za prvi MVP create tok
+- zadržati tehnologiju otvorenom dok se ne potvrde ključne arhitekturne odluke
+- obezbediti da svaki create korak ima ownership, domen, API ugovor, test posledice, audit trag, bezbednosna pravila i release kriterijum
+
 ## Granice sistema
 
 Softverski deo projekta obuhvata:
@@ -49,6 +55,38 @@ Bez potvrde prethodnog koraka ne otvara se naredni korak osim kada je reč o či
 - `traceability-matrix.md` čuva vezu između zahteva, domena, API-ja, testova i audita
 - `create-domain-ownership-map.md` dodeljuje odgovornost po domenima i artefaktima
 - `release-gates.md` definiše kontrolne tačke za svaku klasu promene
+- `source-of-truth-map.md` određuje koji dokument zaključava koju oblast
+- `decision-backlog.md` drži otvorene odluke van implementacionog šuma
+
+## Slojevi koje zaključavamo pre koda
+
+### `docs/`
+- centralna pravila, odluke i sledljivost
+- pregled šta je zaključano, otvoreno i šta čeka ADR
+
+### `specs/api/`
+- minimalni v1 ugovori, greške, statusi, audit metadata i verzionisanje
+
+### `packages/`
+- jedinstveni jezik domena, validacije, statusi i prelazi
+
+### `services/`
+- servisne granice, ulazi, izlazi, događaji i zabrane preklapanja odgovornosti
+
+### `apps/`
+- minimalni ekrani, uloge, događaji i očekivani poslovni izlazi
+
+### `tests/`
+- dokumentaciona, ugovorna, domenska, integraciona i audit validacija
+
+## Obavezni kontrolni stubovi
+
+- bezbednost i privatnost od početka
+- role-based pristup po portalu i servisu
+- audit za svaku odluku, promenu statusa i izuzetak
+- regulatorna usklađenost po jurisdikciji
+- mogućnost žalbe i korektivnog toka
+- traceability od izvornog dokumenta do testa i release odluke
 
 ## Standardi kvaliteta
 
@@ -57,3 +95,4 @@ Bez potvrde prethodnog koraka ne otvara se naredni korak osim kada je reč o či
 - bezbednosni, audit i regulatorni zahtevi moraju biti ugrađeni od početka
 - ne uvoditi tehnologije pre potvrde arhitektonskog smera
 - svaki otvoreni create korak mora imati jasan poslovni ishod i završni kriterijum
+- otvorena pitanja se vode kroz `decision-backlog.md`, ne kroz neoznačene TODO sekcije

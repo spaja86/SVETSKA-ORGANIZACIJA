@@ -2,6 +2,28 @@
 
 Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP create planiranje i pripremu repozitorijuma za kontrolisanu implementaciju.
 
+## Šta je zaključano
+
+- jedinstveni lifecycle od zahteva do release odluke
+- MVP create tok od profila do licence i audita
+- početne servisne granice, deljeni paketi i test slojevi
+- obavezne bezbednosne, audit i regulatorne kontrole
+- centralni developer indeks kao ulaz za sve create tehničke artefakte
+
+## Šta ostaje otvoreno
+
+- izbor programskih jezika, framework-a i infrastrukturnih proizvoda
+- finalna granularnost modula kada stvarni ugovori pokažu potrebu za podelom
+- dubina lokalnih regulatornih integracija po jurisdikcijama
+- tempo uvođenja AI preporuka van ručno revidiranih odluka
+
+## Šta čeka ADR
+
+- tehnološki stack za aplikacije, servise i pakete
+- mehanizam verzionisanja ugovora i migracija kada uvedemo izvršni kod
+- način orkestracije između create koraka i audit korelacije
+- minimalna observability arhitektura za prvi operativni talas
+
 ## Redosled čitanja
 
 1. `developer-guide.md` — svrha razvojnog sloja, prioriteti i jedinstveni lifecycle
@@ -24,7 +46,17 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 18. `create-data-governance-plan.md` — upravljanje podacima za create tok
 19. `ai-governance-plan.md` — granice i kontrole AI preporuka i odluka
 20. `reference-test-packages.md` — referentni test paketi za dugoročnu validaciju
-21. `adrs/README.md` — arhitekturne odluke koje zaključavaju smer implementacije
+21. `source-of-truth-map.md` — pregled koji dokument zaključava koju oblast
+22. `decision-backlog.md` — otvorena pitanja i odluke koje traže ADR ili governance potvrdu
+23. `module-readiness-overview.md` — spremnost slojeva `apps/`, `services/`, `packages/`, `specs/api/` i `tests/`
+24. `cross-domain-dependency-map.md` — zavisnosti između create domena i kontrolnih slojeva
+25. `event-naming-standard.md` — standard za imenovanje audit i domain događaja
+26. `error-taxonomy.md` — standard za greške, kodove i posledice po ugovore
+27. `data-classification-and-handling.md` — klasifikacija podataka i pravila rukovanja
+28. `manual-review-checkpoints.md` — ručna revizija za high-risk odluke i izuzetke
+29. `create-glossary.md` — jedinstven rečnik pojmova create domena
+30. `release-tier-model.md` — tipovi promena i potrebni nivoi kontrole
+31. `adrs/README.md` — arhitekturne odluke koje zaključavaju smer implementacije
 
 ## Operativni redosled rada
 
@@ -36,6 +68,15 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 6. proverava se spremnost prema `definition-of-ready.md`
 7. implementacija ili proširenje skeleta počinje tek nakon potvrde spremnosti
 8. završetak se potvrđuje prema `definition-of-done.md` i `release-gates.md`
+
+## Obavezni deliverables pre punog build talasa
+
+- ažuran developer indeks i povezani governance dokumenti
+- potvrđena ownership mapa i source-of-truth raspodela
+- zaključan MVP create plan i traceability matrica
+- v1 ugovori za profil, dokaze, procenu, licencu, partnera i audit
+- README skeleti za aplikacije, servise, pakete i test slojeve
+- katalog statusa, događaja, grešaka i ručnih revizija
 
 ## Pravilo dokumentovanja
 

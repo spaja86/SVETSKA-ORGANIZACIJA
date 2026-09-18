@@ -17,3 +17,9 @@ Ovde se nalaze test strategija, scenariji validacije, integracioni tokovi i refe
 - domenska validacija za pravila profila, procene i licenci
 - integraciona validacija za create tok između aplikacija i servisa
 - audit validacija za događaje, trag odluke i KPI ulaze
+
+## Pravilo pokrivenosti
+
+- svaki novi ugovor, status ili događaj mora imati test posledicu u odgovarajućem sloju
+- negativni scenariji, autorizacija i regulatorne blokade imaju prioritet u ranim talasima
+- centralna pravila sledljivosti i release kontrole vode se kroz `docs/06-developer/README.md`

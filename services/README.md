@@ -16,3 +16,4 @@ Ovde se nalaze planirane servisne granice, integracioni slojevi i kontrolni serv
 - servisi nose izvršavanje domena i integracija, ali ne redefinišu deljene modele van `packages/`
 - svaki servis mora imati eksplicitne ulaze, izlaze, statuse i audit događaje
 - regulatorna pravila i kontrole pristupa moraju biti ugrađeni u dizajn servisa od početka
+- ownership granice, source-of-truth i release kontrole vode se kroz `docs/06-developer/README.md`

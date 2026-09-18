@@ -35,9 +35,25 @@
 - produktna potvrda kada promena širi MVP opseg ili menja korisnički tok
 - test posledice kada promena utiče na ugovor, deljeni model ili granicu servisa
 
+## Tipovi promena
+
+- dokumentaciona promena — menja objašnjenje, navigaciju ili zaključavanje značenja
+- contract promena — menja interfejse, validacije, greške ili statusne tranzicije
+- domain promena — menja modele, pravila, ownership ili servisne granice
+- implementation promena — uvodi ili menja izvršni skelet i budući kod
+
+`release-tier-model.md` određuje minimalne kontrole za svaki tip promene.
+
+## Pravilo otvorenih odluka
+
+- otvorena pitanja se evidentiraju u `decision-backlog.md`
+- odluka prelazi u ADR kada menja arhitekturu, modulsku granicu, ugovor ili trajno pravilo
+- nijedna implementacija ne zatvara otvorenu odluku implicitno
+
 ## Istorija odluka
 
 - velike tehničke odluke ulaze u ADR
 - promene pravila ostaju u odgovarajućim dokumentima iz sloja `docs/04-policies/`
 - promene vizije i prioriteta ostaju u dokumentima iz slojeva `docs/01-foundation/` i `docs/03-product/`
 - release odluke i kontrolne tačke se proveravaju kroz `release-gates.md`
+- source-of-truth za svaku oblast proverava se kroz `source-of-truth-map.md`
