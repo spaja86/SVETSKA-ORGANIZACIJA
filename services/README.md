@@ -1,15 +1,15 @@
 # Servisi
 
-Ovde će se nalaziti budući backend servisi, integracioni sloj, obrada događaja, audit funkcije i regulatorni servisi.
+Ovde se nalaze planirane servisne granice, integracioni slojevi i kontrolni servisi.
 
-## Prioritetni prvi artefakti
+## Aktivni skelet
 
-- servis profila i identiteta
-- servis procene i validacije
-- servis licenci i obnova
-- servis partnera i angažmana
-- audit servis i reporting servis
-- regulatorni servis za lokalna pravila i ograničenja
+- `profile-identity-service/` — profil, identitet i dokazi
+- `assessment-validation-service/` — procena, rezultat i ljudska revizija
+- `license-service/` — izdavanje, status i obnova licence
+- `partner-engagement-service/` — partneri, angažmani i potvrde
+- `audit-reporting-service/` — audit događaji, korelacija i KPI ulazi
+- `regulatory-rules-service/` — lokalna pravila, blokade i izuzeci
 
 ## Pravilo granica
 

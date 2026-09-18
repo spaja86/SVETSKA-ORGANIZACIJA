@@ -1,13 +1,13 @@
 # Aplikacije
 
-Ovde će se nalaziti budući portali i korisničke aplikacije, uključujući javni portal, portal korisnika, portal partnera i administrativni portal.
+Ovde se nalaze planirani portali i korisničke aplikacije za create tok i naredne faze.
 
-## Prioritetni prvi artefakti
+## Aktivni skelet
 
-- javni portal za predstavljanje programa i javnih izveštaja
-- portal korisnika za profil, dokaze, status licence i pregled puta razvoja
-- portal partnera za procenu, potvrdu učinka i upravljanje angažmanima
-- administrativni portal za audit, KPI i regulatorni nadzor
+- `public-portal/` — javni portal za programe, javne informacije i izveštaje
+- `user-portal/` — korisnički tokovi za profil, dokaze i status licence
+- `partner-portal/` — partnerski tokovi za procenu, potvrdu učinka i angažmane
+- `admin-portal/` — administrativni tokovi za audit, KPI i regulatorni nadzor
 
 ## Pravilo granica
 

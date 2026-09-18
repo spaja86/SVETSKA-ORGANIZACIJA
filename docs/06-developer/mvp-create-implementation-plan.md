@@ -2,7 +2,7 @@
 
 ## Cilj
 
-Pretvoriti postojeću dokumentacionu osnovu u operativan put ka MVP implementaciji početnog create toka uz jasne domenske granice, ugovore, validaciju i kontrole usklađenosti.
+Pretvoriti postojeću dokumentacionu osnovu u operativan put ka MVP implementaciji početnog create toka uz jasne domenske granice, ugovore, validaciju, ownership i kontrole usklađenosti.
 
 ## Šta zaključavamo odmah
 
@@ -11,6 +11,7 @@ Pretvoriti postojeću dokumentacionu osnovu u operativan put ka MVP implementaci
 - minimalni create tok i njegove izlaze
 - mapiranje dokumentacije na buduće aplikacije, servise, pakete, API ugovore i testove
 - obavezne bezbednosne, audit i regulatorne kontrole
+- početni ownership i release model za create tok
 
 ## Šta ostaje otvoreno do potvrde MVP-a
 
@@ -18,6 +19,27 @@ Pretvoriti postojeću dokumentacionu osnovu u operativan put ka MVP implementaci
 - finalna granularnost servisa i infrastrukturnih komponenti
 - dubina lokalnih regulatornih integracija po jurisdikcijama
 - sekundarni i kasniji korisnički tokovi izvan početnog create opsega
+- finalna automatizacija build i deploy sloja
+
+## Prvi MVP create opseg
+
+U prvi MVP ulaze samo sledeći poslovni koraci:
+
+1. kreiranje profila
+2. unos dokaza
+3. osnovna procena
+4. potvrda rezultata i odluke
+5. izdavanje ili odbijanje licence
+6. pregled statusa i istorije
+7. kompletan audit zapis
+
+## Van opsega prvog MVP-a
+
+- napredna orkestracija više jurisdikcija po istom korisničkom toku
+- sekundarni onboarding tokovi koji ne utiču na licencu
+- duboke partnerske integracije bez potvrđenih ugovora
+- napredna analitika iznad osnovnih KPI ulaza
+- potpuno automatizovane AI odluke bez ljudske revizije
 
 ## Prioritetna implementaciona mapa po domenima
 
@@ -37,9 +59,17 @@ Pretvoriti postojeću dokumentacionu osnovu u operativan put ka MVP implementaci
 | Kreiranje profila | aplikacija korisnika + servis profila | osoba, kompetencija | osnovni identitet, profilni podaci | aktivan profil u početnom statusu | obavezna polja, pristup, audit otvaranja |
 | Unos dokaza | aplikacija korisnika + servis profila | dokaz, kompetencija | dokumenti i izjave korisnika | evidentirani dokazi za procenu | format, vlasništvo nad podacima, retencija |
 | Osnovna procena | portal partnera/admin + servis procene | procena, rezultat, evaluator | profil, dokazi, kriterijumi procene | preliminarni rezultat | ljudska supervizija, trag odluke, pravičnost |
+| Odluka i potvrda rezultata | portal partnera/admin + servis procene | odluka, rezultat, žalba | preliminarni rezultat, pravila odluke | potvrđen rezultat ili potreba za korekcijom | ručna revizija, žalbeni put, audit odluke |
 | Izdavanje licence | portal partnera/admin + servis licenci | licenca, status licence | potvrđen rezultat, pravilo licence | aktivna ili odbijena licenca | regulatorna pravila, ovlašćenja, audit |
 | Pregled statusa | portal korisnika + servis licenci | licenca, obnova licence | identitet korisnika | trenutni status i istorija | kontrola pristupa, konzistentnost statusa |
 | Audit zapis | audit servis + admin portal | audit događaj | događaji iz svih prethodnih koraka | pregled traga i KPI ulazi | neizmenjivost, korelacija događaja |
+
+## Kriterijumi uspešno završenog create ciklusa
+
+- korisnik može da otvori profil, doda dokaze i vidi status svog zahteva ili licence
+- partner ili evaluator može da sprovede procenu, potvrdi rezultat i ostavi revizioni trag
+- administrator može da vidi audit događaje, ključne KPI ulaze i regulatorne blokade
+- svaka ključna odluka ostavlja proverljiv status i audit zapis
 
 ## Redosled rada
 
@@ -48,6 +78,7 @@ Pretvoriti postojeću dokumentacionu osnovu u operativan put ka MVP implementaci
 3. API ugovor i deljeni modeli se definišu pre implementacije
 4. test i audit posledice se evidentiraju pre početka rada
 5. implementacija se otvara tek kada je promena spremna prema `definition-of-ready.md`
+6. završetak se potvrđuje prema `definition-of-done.md` i `release-gates.md`
 
 ## Obavezne kontrolne tačke
 
@@ -56,13 +87,14 @@ Pretvoriti postojeću dokumentacionu osnovu u operativan put ka MVP implementaci
 - ljudska revizija za visoko-rizične AI odluke
 - mogućnost žalbe i korektivne putanje
 - lokalna regulatorna ograničenja kada utiču na izdavanje ili važenje licence
+- veza između ugovora, statusa, testova i ownership-a
 
 ## Faze stvarne izgradnje
 
 ### Faza A — formalizacija developera
 
 - završiti razvojni indeks, governance dokumente i ADR registar
-- stabilizovati pravila za tok promene, ready kriterijume i release vrata
+- stabilizovati pravila za tok promene, ready/done kriterijume i release vrata
 
 ### Faza B — zaključavanje MVP create toka
 
@@ -72,7 +104,7 @@ Pretvoriti postojeću dokumentacionu osnovu u operativan put ka MVP implementaci
 ### Faza C — API i deljeni domen
 
 - pripremiti osnovne ugovore za profil, procenu, licencu, partnera i audit
-- definisati zajedničke domenske modele i statuse
+- definisati zajedničke domenske modele, statuse i događaje
 - definisati test okvire i negativne scenarije
 
 ### Faza D — početni skelet implementacije
@@ -84,3 +116,8 @@ Pretvoriti postojeću dokumentacionu osnovu u operativan put ka MVP implementaci
 
 - realizovati create tok od profila do licence i audit zapisa
 - omogućiti osnovnu KPI vidljivost i administrativni pregled
+
+### Faza F — kontrolisano proširenje
+
+- proširiti regulatorne izuzetke, sekundarne tokove i spoljne integracije
+- uvesti dodatne kontrole za lokalizaciju, observability i AI governance

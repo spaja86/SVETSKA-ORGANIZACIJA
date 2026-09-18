@@ -5,7 +5,7 @@ SVETSKA ORGANIZACIJA je repozitorijum za **stratešku viziju, operativna pravila
 Repozitorijum je organizovan tako da razdvoji:
 - **strateški sloj** — misija, principi, programi i upravljanje
 - **operativni sloj** — partnerstva, finansiranje, KPI, rizici i širenje
-- **tehnički sloj** — arhitektura, domen, razvojna pravila i budući softverski skelet
+- **tehnički sloj** — arhitektura, domen, razvojna pravila, create upravljanje i budući softverski skelet
 
 ## Kako koristiti repozitorijum
 
@@ -15,25 +15,26 @@ Repozitorijum je organizovan tako da razdvoji:
 4. Pregledajte produktne prioritete u `docs/03-product/`
 5. Za pravila i usklađenost koristite `docs/04-policies/`
 6. Za operativno sprovođenje koristite `docs/05-operations/`
-7. Za razvoj i doprinose koristite `docs/06-developer/`
+7. Za razvoj, create upravljanje i skelet implementacije koristite `docs/06-developer/`
 8. Za pomoćne materijale koristite `docs/07-reference/`
 
 ## Struktura repozitorijuma
 
 - `docs/` — glavna dokumentacija projekta
-- `apps/` — buduće korisničke aplikacije i portali
-- `services/` — budući backend servisi i integracije
-- `packages/` — deljeni modeli, biblioteke i standardi
-- `specs/api/` — buduće API specifikacije i ugovori
-- `tests/` — test strategija, scenariji validacije, integracioni testovi i buduća automatizovana provera ključnih tokova
+- `apps/` — skelet budućih korisničkih aplikacija i portala
+- `services/` — skelet budućih backend servisa i integracija
+- `packages/` — skelet deljenih modela, biblioteka i standarda
+- `specs/api/` — verzionisane API specifikacije i ugovori
+- `tests/` — test strategija, scenariji validacije, integracioni testovi i referentni paketi za buduću proveru ključnih tokova
 
 ## Prioriteti trenutne faze
 
 1. Stabilna dokumentaciona osnova
 2. Jasna arhitektura domena i proizvoda
 3. Pravila upravljanja promenama
-4. Developer smernice i standardi doprinosa
+4. Developer/create smernice i standardi doprinosa
 5. Priprema za MVP bez zaključavanja tehnologije prerano
+6. Otvoren i proverljiv skelet za naredni implementacioni talas
 
 ## Glavni dokumenti
 
@@ -48,11 +49,15 @@ Repozitorijum je organizovan tako da razdvoji:
 - Produktna osnova: `docs/03-product/`
 - Politike i usklađenost: `docs/04-policies/`
 - Operacije: `docs/05-operations/`
-- Vodič za developere: `docs/06-developer/developer-guide.md`
 - Developer indeks: `docs/06-developer/README.md`
+- Vodič za developere: `docs/06-developer/developer-guide.md`
+- Definition of Ready: `docs/06-developer/definition-of-ready.md`
+- Definition of Done: `docs/06-developer/definition-of-done.md`
 - MVP create plan: `docs/06-developer/mvp-create-implementation-plan.md`
+- Release vrata: `docs/06-developer/release-gates.md`
+- Traceability matrica: `docs/06-developer/traceability-matrix.md`
 - Pravila doprinosa: `CONTRIBUTING.md`
 
 ## Sledeći korak
 
-Sledeća implementaciona faza je definisanje MVP granica i pretvaranje prioritetnih domena u konkretne specifikacije i tok upravljanja zadacima.
+Sledeća implementaciona faza je pretvaranje prioritetnih domena i otvorenog skeleta u konkretne ugovore, test pakete i prve implementacione module.
