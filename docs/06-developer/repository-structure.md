@@ -11,11 +11,11 @@
 
 ## Aktivni skelet po direktorijumima
 
-- `apps/` — `public-portal/`, `user-portal/`, `partner-portal/`, `admin-portal/`
-- `services/` — `profile-identity-service/`, `assessment-validation-service/`, `license-service/`, `partner-engagement-service/`, `audit-reporting-service/`, `regulatory-rules-service/`
-- `packages/` — `domain-profile/`, `domain-assessment/`, `domain-license/`, `domain-partner/`, `domain-audit/`, `domain-regulatory/`, `shared-statuses/`, `shared-validation/`
-- `specs/api/` — `v1/`, `mvp-create-flow-contracts.md`
-- `tests/` — `documentation/`, `contract/`, `domain/`, `integration/`, `audit/`
+- `apps/` — `apps/public-portal/`, `apps/user-portal/`, `apps/partner-portal/`, `apps/admin-portal/`
+- `services/` — `services/profile-identity-service/`, `services/assessment-validation-service/`, `services/license-service/`, `services/partner-engagement-service/`, `services/audit-reporting-service/`, `services/regulatory-rules-service/`
+- `packages/` — `packages/domain-profile/`, `packages/domain-assessment/`, `packages/domain-license/`, `packages/domain-partner/`, `packages/domain-audit/`, `packages/domain-regulatory/`, `packages/shared-statuses/`, `packages/shared-validation/`
+- `specs/api/` — `specs/api/v1/`, `specs/api/mvp-create-flow-contracts.md`
+- `tests/` — `tests/documentation/`, `tests/contract/`, `tests/domain/`, `tests/integration/`, `tests/audit/`
 
 ## Pravilo širenja
 
