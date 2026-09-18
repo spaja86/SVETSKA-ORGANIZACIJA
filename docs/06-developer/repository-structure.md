@@ -31,3 +31,18 @@ Svaki novi artefakt mora da navede:
 - granice odgovornosti
 - referencu na izvorni dokument
 - očekivanu vezu sa API-jem, testovima i auditom kada je relevantno
+
+## Pravilo readiness-a po sloju
+
+- `docs/` zaključava značenje, source-of-truth i otvorene odluke
+- `apps/` dokumentuju minimalne ekrane, uloge, događaje i izlaze
+- `services/` dokumentuju ulaze, izlaze, zabrane preklapanja i audit posledice
+- `packages/` dokumentuju entitete, statuse, validacije i zavisne ugovore
+- `specs/api/` dokumentuju resurse, operacije, greške, paginaciju i audit metadata
+- `tests/` dokumentuju šta proveravaju, kada se proširuju i na koje ugovore ili događaje se oslanjaju
+
+## Pravilo centralnog povezivanja
+
+- svaka create referenca iz skeleta vodi ka `docs/06-developer/README.md`
+- svaka servisna ili aplikaciona referenca mora pokazati povezani paket, ugovor i test sloj
+- svaka promena statusa ili događaja mora ostati usklađena sa `domain-status-and-events-catalog.md`

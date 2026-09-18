@@ -64,12 +64,28 @@ U prvi MVP ulaze samo sledeći poslovni koraci:
 | Pregled statusa | portal korisnika + servis licenci | licenca, obnova licence | identitet korisnika | trenutni status i istorija | kontrola pristupa, konzistentnost statusa |
 | Audit zapis | audit servis + admin portal | audit događaj | događaji iz svih prethodnih koraka | pregled traga i KPI ulazi | neizmenjivost, korelacija događaja |
 
-## Kriterijumi uspešno završenog create ciklusa
+## Minimalni deliverables
 
-- korisnik može da otvori profil, doda dokaze i vidi status svog zahteva ili licence
-- partner ili evaluator može da sprovede procenu, potvrdi rezultat i ostavi revizioni trag
-- administrator može da vidi audit događaje, ključne KPI ulaze i regulatorne blokade
-- svaka ključna odluka ostavlja proverljiv status i audit zapis
+- zaključan developer indeks
+- zaključan MVP create implementation plan
+- ownership mapa po domenima i artefaktima
+- status and events katalog
+- traceability matrica
+- API contract set za v1 create tok
+- referentni test paketi
+- release gate checklista za dokumentaciju, ugovore i implementaciju
+- ADR skup za ključne tehničke odluke
+
+## Prioritetni redosled izgradnje
+
+1. profil i identitet
+2. dokazi i validacija unosa
+3. procena i odluka
+4. licence i statusi
+5. audit i KPI
+6. regulatorna pravila
+7. partneri i angažmani
+8. šire integracije i dodatni tokovi tek nakon stabilizacije jezgra
 
 ## Redosled rada
 
@@ -91,33 +107,46 @@ U prvi MVP ulaze samo sledeći poslovni koraci:
 
 ## Faze stvarne izgradnje
 
-### Faza A — formalizacija developera
+### Faza 1 — formalizacija developer upravljanja
+- zaključati lifecycle, change-management, ready/done i release gates
+- potvrditi ownership mapu
+- očistiti preklapanja između dokumenata
 
-- završiti razvojni indeks, governance dokumente i ADR registar
-- stabilizovati pravila za tok promene, ready/done kriterijume i release vrata
+### Faza 2 — zaključavanje MVP create opsega
+- potvrditi jedinstveni create tok, granice prvog izdanja i source-of-truth mapu
+- jasno razdvojiti in-scope i out-of-scope funkcionalnosti
+- uskladiti domain model sa create planom
 
-### Faza B — zaključavanje MVP create toka
+### Faza 3 — domain i status standardizacija
+- zaključati entitete, statuse, događaje i prelaze
+- standardizovati nazivlje kroz dokumente i buduće module
+- uskladiti audit događaje sa poslovnim odlukama
 
-- potvrditi minimalni create tok, granice opsega i traceability matricu
-- definisati vlasnike po domenima i početnim artefaktima
-
-### Faza C — API i deljeni domen
-
+### Faza 4 — API i shared package sloj
 - pripremiti osnovne ugovore za profil, procenu, licencu, partnera i audit
-- definisati zajedničke domenske modele, statuse i događaje
-- definisati test okvire i negativne scenarije
+- definisati zajedničke domenske modele, statuse, validacije i greške
+- uvesti traceability između zahteva, modela i interfejsa
 
-### Faza D — početni skelet implementacije
-
+### Faza 5 — skelet modula
 - otvoriti prve module u `apps/`, `services/`, `packages/`, `specs/api/` i `tests/`
-- zadržati tehnologiju neutralnom dok se ne potvrdi arhitektonski smer
+- za svaki modul definisati svrhu, owner-a, granice i test fokus
+- ne širiti broj modula bez jasnog domenskog razloga
 
-### Faza E — prvi krajnji tok
-
+### Faza 6 — prvi krajnji tok
 - realizovati create tok od profila do licence i audit zapisa
-- omogućiti osnovnu KPI vidljivost i administrativni pregled
+- omogućiti ručnu reviziju visoko-rizičnih odluka
+- obezbediti potpuni audit trag i osnovne KPI signale
 
-### Faza F — kontrolisano proširenje
-
+### Faza 7 — kontrolisano proširenje
 - proširiti regulatorne izuzetke, sekundarne tokove i spoljne integracije
 - uvesti dodatne kontrole za lokalizaciju, observability i AI governance
+
+## Najvažniji rizici
+
+- preuranjeno zaključavanje tehnologije
+- preklapanje odgovornosti između servisa
+- slab audit trag za odluke
+- neusklađenost statusa između domena i API-ja
+- širenje MVP opsega bez governance odluke
+- AI odluke bez ljudske revizije
+- regulatorna pravila koja ostanu samo u dokumentima, bez modela i testova

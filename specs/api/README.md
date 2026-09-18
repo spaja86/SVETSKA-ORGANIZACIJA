@@ -16,6 +16,15 @@ Ovde se nalaze verzionisane API specifikacije, ugovori razmene podataka i pravil
 - partner pristup i potvrda angažmana
 - audit događaj i KPI ulazi
 
+## Obavezni standardi za svaki ugovor
+
+- izvorni dokument i povezani domen
+- vlasnik odluke i vlasnik isporuke
+- identifikatori resursa i pravilo statusa
+- validacije, greške i regulatorne blokade
+- audit metadata, korelacija i ručna revizija kada je potrebna
+- test posledice i povezani slojevi u `tests/`
+
 ## Pravila verzionisanja
 
 - ugovori se uvode tek kada imaju jasnu vezu sa domenom i izvorom zahteva

@@ -18,3 +18,4 @@ Ovde se nalaze deljeni modeli domena, validaciona pravila, statusi i pomoćne bi
 - domenska pravila se definišu jednom i koriste kroz aplikacije i servise
 - paketi čuvaju jedinstveni jezik domena i sprečavaju dupliranje značenja
 - svaki deljeni model mora imati jasnu vezu sa izvorom zahteva, ugovorom i testovima
+- referentni statusi, događaji i greške usklađuju se sa `docs/06-developer/README.md`

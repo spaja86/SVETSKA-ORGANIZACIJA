@@ -4,6 +4,12 @@
 
 Ovaj katalog uvodi zajednički jezik za statuse, događaje i prelaze stanja kroz create tok.
 
+## Pravilo standarda
+
+- statusi predstavljaju poslovno stanje resursa, ne tehničko stanje procesa
+- događaji koriste standard iz `event-naming-standard.md`
+- svaki novi status ili događaj mora navesti dozvoljene prelaze, audit posledicu i test fokus
+
 ## Identitet i profil
 
 ### Statusi
@@ -19,6 +25,13 @@ Ovaj katalog uvodi zajednički jezik za statuse, događaje i prelaze stanja kroz
 - evidence.submitted
 - evidence.rejected
 - profile.status.changed
+
+### Dozvoljeni prelazi
+- `draft -> active`
+- `active -> pending-review`
+- `active -> suspended`
+- `suspended -> active`
+- `active -> archived`
 
 ## Procena i validacija
 
@@ -38,6 +51,16 @@ Ovaj katalog uvodi zajednički jezik za statuse, događaje i prelaze stanja kroz
 - assessment.decision.confirmed
 - assessment.appeal.opened
 
+### Dozvoljeni prelazi
+- `requested -> in-review`
+- `in-review -> awaiting-human-review`
+- `in-review -> approved`
+- `in-review -> rejected`
+- `awaiting-human-review -> approved`
+- `awaiting-human-review -> rejected`
+- `approved -> appealed`
+- `rejected -> appealed`
+
 ## Licence
 
 ### Statusi
@@ -56,6 +79,15 @@ Ovaj katalog uvodi zajednički jezik za statuse, događaje i prelaze stanja kroz
 - license.renewal.requested
 - license.status.changed
 
+### Dozvoljeni prelazi
+- `pending-issuance -> active`
+- `pending-issuance -> rejected`
+- `active -> renewal-pending`
+- `active -> suspended`
+- `active -> expired`
+- `renewal-pending -> active`
+- `suspended -> active`
+
 ## Partneri i angažmani
 
 ### Statusi
@@ -69,6 +101,12 @@ Ovaj katalog uvodi zajednički jezik za statuse, događaje i prelaze stanja kroz
 - partner.assigned
 - engagement.confirmed
 - engagement.disputed
+
+### Dozvoljeni prelazi
+- `invited -> active`
+- `active -> restricted`
+- `restricted -> active`
+- `active -> inactive`
 
 ## Audit i KPI
 
@@ -84,6 +122,12 @@ Ovaj katalog uvodi zajednički jezik za statuse, događaje i prelaze stanja kroz
 - kpi.metric.emitted
 - audit.exception.flagged
 
+### Dozvoljeni prelazi
+- `recorded -> correlated`
+- `recorded -> flagged`
+- `correlated -> exported`
+- `flagged -> correlated`
+
 ## Regulatorna pravila
 
 ### Statusi
@@ -98,7 +142,14 @@ Ovaj katalog uvodi zajednički jezik za statuse, događaje i prelaze stanja kroz
 - rule.exception.applied
 - jurisdiction.blocked
 
+### Dozvoljeni prelazi
+- `draft -> active`
+- `active -> superseded`
+- `active -> blocked`
+- `blocked -> active`
+
 ## Pravilo održavanja
 
 - novi status ili događaj mora imati domensku referencu i test posledicu
 - promena kataloga proverava se zajedno sa ugovorima, audit zahtevima i traceability matricom
+- visoko-rizični događaji moraju imati ručnu reviziju definisanu u `manual-review-checkpoints.md`
