@@ -1,6 +1,14 @@
 # Testovi
 
-Ovde će se nalaziti test strategija, scenariji validacije, integracioni testovi i buduća automatizovana provera ključnih tokova.
+Ovde se nalaze test strategija, scenariji validacije, integracioni tokovi i referentni paketi za create tok.
+
+## Aktivni skelet
+
+- `documentation/` — validacija dokumentacije, navigacije i traceability-ja
+- `contract/` — ugovorna validacija i kompatibilnost statusa
+- `domain/` — domenska pravila i negativni scenariji
+- `integration/` — krajnji create tok između aplikacija i servisa
+- `audit/` — audit korelacija, KPI signali i regulatorne blokade
 
 ## Nivoi validacije
 
@@ -9,12 +17,3 @@ Ovde će se nalaziti test strategija, scenariji validacije, integracioni testovi
 - domenska validacija za pravila profila, procene i licenci
 - integraciona validacija za create tok između aplikacija i servisa
 - audit validacija za događaje, trag odluke i KPI ulaze
-
-## Prioritetni scenariji
-
-- uspešno kreiranje profila i unos dokaza
-- odbijanje nekompletnog ili nevažećeg unosa
-- procena sa ljudskom supervizijom i žalbom
-- izdavanje, odbijanje i suspenzija licence
-- pregled statusa uz ispravnu kontrolu pristupa
-- kompletan audit trag kroz create tok

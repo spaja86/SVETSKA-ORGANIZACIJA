@@ -2,7 +2,7 @@
 
 ## Svrha
 
-Definisati minimalne ugovore koje prvi implementacioni talas mora pokriti da bi create tok bio celovit.
+Definisati minimalne ugovore koje prvi implementacioni talas mora pokriti da bi create tok bio celovit, proverljiv i povezan sa audit zahtevima.
 
 ## Prioritetni ugovori
 
@@ -24,6 +24,7 @@ Definisati minimalne ugovore koje prvi implementacioni talas mora pokriti da bi 
 - otvaranje zahteva za procenu
 - evidentiranje rezultata
 - beleženje ljudske revizije i žalbe
+- potvrda konačne odluke
 
 ### 4. Licenca i status
 
@@ -44,6 +45,6 @@ Definisati minimalne ugovore koje prvi implementacioni talas mora pokriti da bi 
 ## Minimalna pravila ugovora
 
 - svaki ugovor mora imati jasan identitet resursa i životni ciklus statusa
-- svaki ugovor mora definisati obavezna polja, validaciona pravila i audit posledice
+- svaki ugovor mora definisati obavezna polja, validaciona pravila, greške i audit posledice
 - osetljivi tokovi moraju navesti potrebu za ljudskom revizijom i kontrolom pristupa
 - ugovori se pišu tako da ostanu interoperabilni između aplikacija, servisa i jurisdikcija

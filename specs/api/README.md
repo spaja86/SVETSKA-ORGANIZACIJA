@@ -1,6 +1,11 @@
 # API specifikacije
 
-Ovde će se nalaziti buduće API specifikacije, ugovori razmene podataka, verzioniranje interfejsa i pravila interoperabilnosti.
+Ovde se nalaze verzionisane API specifikacije, ugovori razmene podataka i pravila interoperabilnosti.
+
+## Aktivni skelet
+
+- `v1/` — početni verzionisani ugovori za MVP create tok
+- `mvp-create-flow-contracts.md` — pregled minimalnih ugovora i njihovih veza
 
 ## Prioritetni ugovori za MVP
 
@@ -17,11 +22,3 @@ Ovde će se nalaziti buduće API specifikacije, ugovori razmene podataka, verzio
 - svaka promena ugovora mora navesti posledice za aplikacije, servise, pakete i testove
 - nekompatibilne promene zahtevaju novu verziju ugovora i plan prelaza
 - regulatorna lokalizacija ne menja globalni osnovni ugovor bez eksplicitne odluke
-
-## Redosled rada
-
-1. potvrda domena i opsega
-2. definisanje minimalnog ugovora
-3. mapiranje validacija i statusa
-4. povezivanje sa testovima i audit događajima
-5. tek zatim implementacija servisa ili klijenata

@@ -1,14 +1,17 @@
 # Paketi
 
-Ovde će se nalaziti deljeni modeli domena, biblioteke, validaciona pravila, klijenti i pomoćni paketi.
+Ovde se nalaze deljeni modeli domena, validaciona pravila, statusi i pomoćne biblioteke.
 
-## Prioritetni prvi artefakti
+## Aktivni skelet
 
-- domenski modeli za profil, kompetenciju, procenu, rezultat, licencu i partnera
-- statusi i pravila prelaza stanja
-- validaciona pravila za profile, dokaze, procene i licence
-- tipovi audit događaja i zajednički identifikatori
-- zajednički API klijenti i ugovorni tipovi kada budu potvrđeni
+- `domain-profile/` — modeli profila, dokaza i identiteta
+- `domain-assessment/` — modeli procene, rezultata i žalbi
+- `domain-license/` — modeli licenci, statusa i obnove
+- `domain-partner/` — modeli partnera, angažmana i potvrda
+- `domain-audit/` — audit događaji, korelacija i KPI signali
+- `domain-regulatory/` — pravila jurisdikcija, ograničenja i izuzeci
+- `shared-statuses/` — zajednički statusi i pravila prelaza
+- `shared-validation/` — deljene validacije i kontrolna pravila
 
 ## Pravilo deljenog domena
 
