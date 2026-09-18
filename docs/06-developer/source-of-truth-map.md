@@ -14,8 +14,8 @@ Ovaj dokument određuje koji artefakt zaključava koju oblast kako bi se izbeglo
 | Statusi i događaji | `docs/06-developer/domain-status-and-events-catalog.md` | `event-naming-standard.md`, v1 ugovori, `tests/domain/README.md` |
 | Release kontrole | `docs/06-developer/release-gates.md` | `definition-of-ready.md`, `definition-of-done.md`, `release-tier-model.md` |
 | API standardi | `docs/06-developer/error-taxonomy.md` + `specs/api/README.md` | `specs/api/v1/*.md`, `tests/contract/README.md` |
-| Ručna revizija | `docs/06-developer/manual-review-checkpoints.md` | `ai-governance-plan.md`, `assessment-contract.md`, `admin-portal/README.md` |
-| Klasifikacija podataka | `docs/06-developer/data-classification-and-handling.md` | `create-data-governance-plan.md`, `evidence-contract.md`, `profile-contract.md` |
+| Ručna revizija | `docs/06-developer/manual-review-checkpoints.md` | `ai-governance-plan.md`, `specs/api/v1/assessment-contract.md`, `apps/admin-portal/README.md` |
+| Klasifikacija podataka | `docs/06-developer/data-classification-and-handling.md` | `create-data-governance-plan.md`, `specs/api/v1/evidence-contract.md`, `specs/api/v1/profile-contract.md` |
 
 ## Pravilo izmene
 
