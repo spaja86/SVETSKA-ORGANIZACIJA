@@ -28,7 +28,7 @@ Deljeni skelet za validaciona pravila, greške i kontrolne klase koje koristi vi
 - vlasnik odluke: vlasnici odluke svih pogođenih domena
 - vlasnik isporuke: tehnički vlasnik implementacije shared sloja
 - vlasnik kontrole: najstroži relevantni vlasnik kontrole iz pogođenih domena
-- traceability signal: paket pokriva višedomenski red Deljeni statusi i validacije i mora ostati usklađen sa centralnom taksonomijom grešaka
+- traceability signal: paket pokriva validation/error deo višedomenskog reda Deljeni statusi i validacije i mora ostati usklađen sa centralnom taksonomijom grešaka
 
 ## Readiness i release
 

@@ -29,7 +29,7 @@ Deljeni skelet za zajedničke statuse, razloge promene i pravila prelaza između
 - vlasnik odluke: vlasnici odluke svih pogođenih domena
 - vlasnik isporuke: tehnički vlasnik implementacije shared sloja
 - vlasnik kontrole: najstroži relevantni vlasnik kontrole iz pogođenih domena
-- traceability signal: paket pokriva višedomenski red Deljeni statusi i validacije i ne sme postati lokalni izvor istine
+- traceability signal: paket pokriva statusni i event-alignment deo višedomenskog reda Deljeni statusi i validacije i ne sme postati lokalni izvor istine za validacije ili greške
 
 ## Readiness i release
 

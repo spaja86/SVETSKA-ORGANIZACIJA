@@ -120,3 +120,30 @@ U prvi MVP ulaze samo sledeći poslovni koraci:
 - mogućnost žalbe i korektivne putanje
 - lokalna regulatorna ograničenja kada utiču na izdavanje ili važenje licence
 - veza između ugovora, statusa, testova i ownership-a
+
+## Faze stvarne izgradnje
+
+### Faza 1 — formalizacija developer upravljanja
+- zaključati lifecycle, change-management, ready/done i release gates
+- potvrditi ownership mapu i source-of-truth raspodelu
+- uskladiti tehničke README skelete sa centralnim governance pravilima
+
+### Faza 2 — zaključavanje MVP create opsega
+- potvrditi jedinstveni create tok i granice prvog izdanja
+- jasno razdvojiti in-scope i out-of-scope funkcionalnosti
+- uskladiti traceability i readiness dokaze za prioritete jezgra
+
+### Faza 3 — domain i status standardizacija
+- zaključati entitete, statuse, događaje i prelaze
+- standardizovati nazivlje kroz dokumente i buduće module
+- uskladiti audit događaje, greške i manual-review signale sa poslovnim odlukama
+
+### Faza 4 — API i shared package sloj
+- pripremiti osnovne ugovore za profil, procenu, licencu, partnera i audit
+- definisati zajedničke domenske modele, statuse, validacije i greške
+- uvesti traceability između zahteva, modela, interfejsa i test slojeva
+
+### Faza 5 — skelet modula
+- otvoriti module u `apps/`, `services/`, `packages/`, `specs/api/` i `tests/` u faznom redosledu
+- dokazati ownership, source-of-truth i release vezu za svaki sloj
+- zadržati fokus na create jezgru pre širenja na sporedne tokove

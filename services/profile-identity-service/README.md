@@ -20,6 +20,7 @@ Servis za profil, identitet i dokaze kao ulazni sloj create toka.
 - `specs/api/v1/profile-contract.md`
 - `specs/api/v1/evidence-contract.md`
 - `packages/domain-profile/`
+- `packages/shared-validation/`
 - `tests/domain/README.md`
 
 ## Centralna governance veza
