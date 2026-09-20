@@ -15,6 +15,7 @@ Početni skelet za modele partnera, angažmana i potvrda.
 - `specs/api/v1/partner-contract.md`
 - `services/partner-engagement-service/`
 - `docs/06-developer/role-permission-model.md`
+- `tests/contract/README.md`
 - `tests/integration/README.md`
 
 ## Centralna governance veza

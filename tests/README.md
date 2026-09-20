@@ -13,7 +13,7 @@ Ovde se nalaze test strategija, scenariji validacije, integracioni tokovi i refe
 ## Centralna governance veza
 
 - centralni ulaz: `docs/06-developer/README.md`
-- source-of-truth: `docs/06-developer/source-of-truth-map.md`, `docs/06-developer/release-gates.md`, `docs/06-developer/reference-test-packages.md`
+- source-of-truth: `docs/06-developer/source-of-truth-map.md`, `docs/06-developer/release-gates.md`, `docs/06-developer/module-readiness-overview.md`
 - ownership: `docs/06-developer/create-domain-ownership-map.md`
 - traceability: `docs/06-developer/traceability-matrix.md`
 
