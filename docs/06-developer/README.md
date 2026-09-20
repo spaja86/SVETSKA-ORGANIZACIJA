@@ -79,11 +79,10 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 ## Pravilo otvaranja slojeva
 
 1. `docs/06-developer/` zaključava governance, ownership, source-of-truth, statusni jezik, release kontrole i otvorene odluke
-2. `specs/api/` se otvara tek kada su potvrđeni domen, ownership, statusi, greške, audit posledice i test fokus
-3. `packages/` se otvaraju tek kada ugovori i deljeni pojmovi pokažu stabilan domenski jezik
-4. `services/` se otvaraju tek kada su granice odgovornosti, zabrane preklapanja i regulatorne kontrole dokumentovane
-5. `apps/` se otvaraju tek kada su potvrđene uloge, ključni tokovi i zavisni ugovori
-6. `tests/` se proširuju zajedno sa ugovorima, statusima, događajima i audit signalima, ne naknadno
+2. `specs/api/` i `packages/` otvaraju se tek kada su potvrđeni domen, ownership, statusi, greške, audit posledice i stabilan deljeni jezik
+3. `services/` se otvaraju tek kada su granice odgovornosti, zabrane preklapanja i regulatorne kontrole dokumentovane
+4. `apps/` se otvaraju tek kada su potvrđene uloge, ključni tokovi i zavisni ugovori
+5. `tests/` se proširuju zajedno sa ugovorima, statusima, događajima i audit signalima, ne naknadno
 
 ## Prioritet zaključavanja pre implementacionog talasa
 
