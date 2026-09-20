@@ -17,4 +17,4 @@ Ova matrica povezuje izvorne dokumente sa domenima, odlukama, interfejsima, test
 - nijedan API ugovor ne ulazi u finalizaciju bez reference na izvorni dokument, kontrolni dokument i test posledice
 - osetljivi tokovi moraju imati eksplicitno naveden audit fokus i model dozvola kada je relevantno
 - kada dokument postane source-of-truth za oblast, mora biti dodat i u `source-of-truth-map.md`
-- svaki red mora ostati usklađen sa ownership mapom, release nivoom i readiness dokazom relevantnog sloja
+- svaki red mora ostati usklađen sa ownership, release i readiness dokumentima navedenim u koloni za kontrolne dokumente i release odluku

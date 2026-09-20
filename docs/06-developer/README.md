@@ -71,6 +71,7 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 - `cross-domain-dependency-map.md` — obavezna kontrola promena koje seku više domena
 - `localization-and-jurisdiction-plan.md` — obavezni okvir za širenje na više regulatornih okruženja
 - `observability-plan.md` — obavezni audit, KPI i operativni signal za MVP jezgro
+- stavka ostaje u `decision-backlog.md` dok ne dobije odluku; kada odluka zaključa smer implementacije ili tehnologije, prenosi se u odgovarajući ADR
 
 ## Operativni redosled rada
 

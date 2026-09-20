@@ -11,9 +11,9 @@ Ovaj dokument određuje koji artefakt zaključava koju oblast kako bi se izbeglo
 | Razvojni lifecycle | `docs/06-developer/developer-guide.md` | `change-management.md`, `definition-of-ready.md`, `definition-of-done.md` |
 | Create opseg i faze | `docs/06-developer/mvp-create-implementation-plan.md` | `traceability-matrix.md`, `module-readiness-overview.md`, `specs/api/mvp-create-flow-contracts.md` |
 | Ownership i granice | `docs/06-developer/create-domain-ownership-map.md` | `repository-structure.md`, README skeleti modula |
-| Release nivo promene | `docs/06-developer/release-tier-model.md` | `release-gates.md`, `definition-of-ready.md`, `definition-of-done.md` |
+| Klasifikacija release nivoa promene | `docs/06-developer/release-tier-model.md` | `release-gates.md`, `definition-of-ready.md`, `definition-of-done.md` |
 | Statusi i događaji | `docs/06-developer/domain-status-and-events-catalog.md` | `event-naming-standard.md`, v1 ugovori, `tests/domain/README.md` |
-| Release kontrole | `docs/06-developer/release-gates.md` | `definition-of-ready.md`, `definition-of-done.md`, `release-tier-model.md` |
+| Release gate kontrole po fazi | `docs/06-developer/release-gates.md` | `definition-of-ready.md`, `definition-of-done.md`, `release-tier-model.md` |
 | API greške i klase odgovora | `docs/06-developer/error-taxonomy.md` | error sekcije u `specs/api/v1/*.md`, `tests/contract/README.md` |
 | API resursi, operacije i interoperabilnost | `specs/api/README.md` | `specs/api/v1/*.md`, `tests/contract/README.md` |
 | Ručna revizija | `docs/06-developer/manual-review-checkpoints.md` | `ai-governance-plan.md`, `specs/api/v1/assessment-contract.md`, `apps/admin-portal/README.md` |

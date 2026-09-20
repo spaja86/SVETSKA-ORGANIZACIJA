@@ -6,14 +6,14 @@ Ovaj pregled pokazuje šta svaki sloj mora imati pre prelaska iz dokumentacionog
 
 ## Readiness po slojevima
 
-| Sloj | Trenutno stanje | Obavezno pre implementacije | Dokaz spremnosti |
-| --- | --- | --- | --- |
-| `docs/` | aktivan i centralizovan | source-of-truth, ownership, faze, release nivo i otvorene odluke | developer indeks + povezani governance dokumenti |
-| `apps/` | skelet README portala | minimalni ekrani, uloge, događaji, zavisni ugovori i kontrolne tačke pristupa | README po portalu |
-| `services/` | skelet README servisa | ulazi, izlazi, statusi, događaji, zabrane preklapanja i regulatorne blokade | README po servisu |
-| `packages/` | skelet README paketa | entiteti, validacije, statusi, ugovorne veze i zajednički jezik domena | README po paketu |
-| `specs/api/` | v1 minimalni ugovori | standard grešaka, metadata, traceability, ownership i audit posledice | `specs/api/README.md` + `specs/api/v1/*.md` |
-| `tests/` | skelet test slojeva | negativni scenariji, autorizacija, regulatorne blokade, audit verifikacija i fazni dokaz pokrivenosti | README po test sloju |
+| Sloj | Trenutno stanje | Obavezno pre implementacije | Otvaranje zavisi od | Dokaz spremnosti |
+| --- | --- | --- | --- | --- |
+| `docs/` | aktivan i centralizovan | source-of-truth, ownership, faze, release nivo i otvorene odluke | nema prethodnog sloja; ovo je ulazni kontrolni sloj | developer indeks + povezani governance dokumenti |
+| `apps/` | skelet README portala | minimalni ekrani, uloge, događaji, zavisni ugovori i kontrolne tačke pristupa | potvrđeni `services/`, `specs/api/` i `packages/` artefakti za tok koji aplikacija koristi | README po portalu |
+| `services/` | skelet README servisa | ulazi, izlazi, statusi, događaji, zabrane preklapanja i regulatorne blokade | potvrđeni `specs/api/` i `packages/` artefakti, plus zaključan `docs/` governance | README po servisu |
+| `packages/` | skelet README paketa | entiteti, validacije, statusi, ugovorne veze i zajednički jezik domena | zaključan `docs/` governance i potvrđen create opseg | README po paketu |
+| `specs/api/` | v1 minimalni ugovori | standard grešaka, metadata, traceability, ownership i audit posledice | zaključan `docs/` governance i potvrđen create opseg | `specs/api/README.md` + `specs/api/v1/*.md` |
+| `tests/` | skelet test slojeva | negativni scenariji, autorizacija, regulatorne blokade, audit verifikacija i fazni dokaz pokrivenosti | odgovarajući ugovori, statusi, događaji i sloj koji test potvrđuje | README po test sloju |
 
 ## Redosled otvaranja slojeva
 
