@@ -147,3 +147,26 @@ U prvi MVP ulaze samo sledeći poslovni koraci:
 - otvoriti module u `apps/`, `services/`, `packages/`, `specs/api/` i `tests/` u faznom redosledu
 - dokazati ownership, source-of-truth i release vezu za svaki sloj
 - zadržati fokus na create jezgru pre širenja na sporedne tokove
+
+### Faza 6 — prvi end-to-end create flow
+- povezati profil, dokaze, procenu, odluku, licencu i audit u jedan proverljiv tok
+- potvrditi role-based pristup, ručnu reviziju i regulatorne blokade kroz jezgro
+- zatvoriti kritične praznine između ugovora, shared paketa, servisa i testova
+
+### Faza 7 — stabilizacija i release readiness
+- proširiti referentne test pakete, audit korelaciju i readiness dokaze za svaki sloj
+- proveriti definition-of-done i release gate uslove za dokumentaciju, ugovore i skelet
+- održati centralnu traceability vezu između izvora zahteva, ownership-a i kontrola
+
+### Faza 8 — kontrolisano širenje
+- širiti partner tokove, dodatne integracije i lokalizaciju tek nakon stabilizacije jezgra
+- uvoditi nove module samo kada su ownership, source-of-truth i release posledice dokumentovani
+- svako širenje vodi se kroz `decision-backlog.md`, `cross-domain-dependency-map.md` i relevantne ADR odluke
+
+## Ključni rizici faznog širenja
+
+- preuranjeno otvaranje `services/` ili `apps/` sloja pre zaključanih ugovora i shared jezika
+- lokalno redefinisanje statusa, grešaka ili ownership-a van `docs/06-developer/`
+- nedovoljno dokumentovane audit, data-handling ili manual-review posledice za osetljive tokove
+- širenje partner i regulatornih scenarija pre stabilizacije jezgra profila, procene, licence i audita
+- gubitak traceability veze između izvornog zahteva, ugovora, testova i release kontrole
