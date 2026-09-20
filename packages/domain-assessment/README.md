@@ -14,6 +14,7 @@ Početni skelet za modele procene, rezultata, žalbe i ručne revizije.
 
 - `specs/api/v1/assessment-contract.md`
 - `services/assessment-validation-service/`
+- `docs/06-developer/manual-review-checkpoints.md`
 - `tests/domain/README.md`
 
 ## Centralna governance veza

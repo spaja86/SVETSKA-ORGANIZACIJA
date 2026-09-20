@@ -19,6 +19,7 @@ Servis za audit događaje, korelaciju, KPI agregaciju i incidentne operativne si
 
 - `specs/api/v1/audit-event-contract.md`
 - `packages/domain-audit/`
+- `docs/06-developer/event-naming-standard.md`
 - `tests/audit/README.md`
 
 ## Centralna governance veza

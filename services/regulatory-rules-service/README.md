@@ -18,6 +18,8 @@ Servis za lokalna pravila, blokade, izuzetke i mapiranje jurisdikcija.
 ## Povezani artefakti
 
 - `packages/domain-regulatory/`
+- `docs/06-developer/localization-and-jurisdiction-plan.md`
+- `docs/06-developer/data-classification-and-handling.md`
 - `tests/audit/README.md`
 - `tests/integration/README.md`
 
