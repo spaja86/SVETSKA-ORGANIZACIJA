@@ -101,6 +101,7 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 - v1 ugovori za profil, dokaze, procenu, licencu, partnera i audit
 - README skeleti za aplikacije, servise, pakete i test slojeve
 - katalog statusa, događaja, grešaka i ručnih revizija
+- ažuran `decision-backlog.md` za sva otvorena governance i ADR pitanja
 - potvrđena klasifikacija release nivoa za svaku veću promenu
 - ažurna mapa međudomenskih zavisnosti, lokalizacije i observability posledica
 
