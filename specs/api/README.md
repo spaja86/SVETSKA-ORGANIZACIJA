@@ -1,6 +1,6 @@
 # API specifikacije
 
-Ovde se nalaze verzionisane API specifikacije, ugovori razmene podataka i pravila interoperabilnosti.
+Ovde se nalaze verzionisane API specifikacije i ugovori razmene podataka. Repo-wide API governance ostaje u `docs/06-developer/`, a ovaj direktorijum služi kao downstream indeks i verzionisani skup ugovora.
 
 ## Aktivni skelet
 
@@ -23,8 +23,9 @@ Ovde se nalaze verzionisane API specifikacije, ugovori razmene podataka i pravil
 - ownership: `docs/06-developer/create-domain-ownership-map.md`
 - traceability: `docs/06-developer/traceability-matrix.md`
 
-## Obavezni standardi za svaki ugovor
+## Izvedeni standardi za svaki ugovor
 
+- pravila u ovom odeljku preuzimaju se iz `docs/06-developer/api-contract-governance.md` i prateće governance dokumentacije
 - izvorni dokument i povezani domen
 - vlasnik odluke, vlasnik isporuke i vlasnik kontrole ili dokaz nasleđenog ownership-a
 - identifikatori resursa i pravilo statusa

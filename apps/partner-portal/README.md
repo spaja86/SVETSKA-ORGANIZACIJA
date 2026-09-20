@@ -38,6 +38,6 @@ Partnerski portal za procenu, potvrdu rezultata, upravljanje angažmanima i preg
 
 ## Readiness i release
 
-- zavisni moduli: `services/assessment-validation-service/`, `services/partner-engagement-service/`, `services/license-service/`, `packages/domain-assessment/`, `packages/domain-partner/`, `specs/api/v1/assessment-contract.md`, `specs/api/v1/partner-contract.md`, `specs/api/v1/license-contract.md`
+- zavisni moduli: `services/assessment-validation-service/`, `services/partner-engagement-service/`, `services/license-service/`, `packages/domain-assessment/`, `packages/domain-partner/`, `packages/domain-license/`, `specs/api/v1/assessment-contract.md`, `specs/api/v1/partner-contract.md`, `specs/api/v1/license-contract.md`
 - portal se otvara tek nakon potvrđenih ugovora, shared paketa i zavisnih servisa
 - završna spremnost proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`
