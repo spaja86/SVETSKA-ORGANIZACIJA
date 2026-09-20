@@ -24,6 +24,14 @@ Ovaj dokument povezuje domene, glavne artefakte i buduće servisne granice sa vl
 | Audit i KPI | operativni + policy + tehnički vlasnik | tehnički vlasnik implementacije | observability vlasnik domena | audit, policy, tehnički vlasnik kontrole | `apps/admin-portal/`, `services/audit-reporting-service/`, `packages/domain-audit/`, `specs/api/v1/audit-event-contract.md` | događaji, trag, KPI, incident signali |
 | Regulatorna pravila | policy + operativni + tehnički vlasnik | tehnički vlasnik implementacije | regulatorni vlasnik domena | privatnost, audit, tehnički vlasnik kontrole | `apps/admin-portal/`, `services/regulatory-rules-service/`, `packages/domain-regulatory/` | jurisdikcije, ograničenja, izuzeci |
 
+## Pravilo za deljene i višedomenske artefakte
+
+- deljeni artefakt preuzima vlasnike odluke iz svih domena čije statuse, događaje, greške ili pravila prikazuje
+- deljeni artefakt preuzima jednog vlasnika isporuke za sloj u kome živi, ali ne sme da spusti zahteve drugih pogođenih domena
+- vlasnik kontrole za višedomenski artefakt je najstroži relevantni vlasnik kontrole iz pogođenih domena
+- javni, navigacioni i informativni slojevi ne uvode samostalna pravila već nasleđuju ownership iz create domena koje izlažu
+- kada deljeni artefakt više nije jasan kroz ovu mapu, promena se zaustavlja dok se ownership ne dopuni ovde i u traceability matrici
+
 ## Pravilo za nove artefakte
 
 Svaki novi artefakt mora navesti:
@@ -39,3 +47,4 @@ Svaki novi artefakt mora navesti:
 - aplikacija ne redefiniše domenski model koji pripada `packages/`
 - servis ne redefiniše status ili događaj bez promene u centralnom katalogu
 - ugovor ne menja ownership granice bez ažuriranja ove mape i traceability matrice
+- deljeni paket ne uvodi nova pravila ako ista nisu zaključana kroz source-of-truth i ownership dokumente
