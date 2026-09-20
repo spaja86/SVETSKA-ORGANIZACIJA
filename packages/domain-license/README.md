@@ -19,7 +19,7 @@ Početni skelet za modele licenci, statusa, obnove i suspenzije.
 ## Centralna governance veza
 
 - centralni ulaz: `docs/06-developer/README.md`
-- source-of-truth: `docs/06-developer/error-taxonomy.md`, `docs/06-developer/create-domain-ownership-map.md`, `docs/06-developer/traceability-matrix.md`
+- source-of-truth: `docs/06-developer/domain-status-and-events-catalog.md`, `docs/06-developer/error-taxonomy.md`, `docs/06-developer/create-domain-ownership-map.md`, `docs/06-developer/traceability-matrix.md`
 - ownership: `docs/06-developer/create-domain-ownership-map.md`
 - traceability: `docs/06-developer/traceability-matrix.md`
 
