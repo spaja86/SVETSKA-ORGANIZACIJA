@@ -12,6 +12,7 @@ Svaki novi artefakt mora imati:
 
 - vlasnika odluke
 - vlasnika isporuke
+- vlasnika kontrole
 - svrhu
 - granice odgovornosti
 - povezane izvorne dokumente
@@ -31,6 +32,7 @@ Detaljna mapa domena i budućih servisnih granica održava se u `create-domain-o
 Pre ulaska u implementacioni talas promena mora:
 
 - biti spremna prema `./definition-of-ready.md`
+- imati potvrđen dominantni release nivo prema `./release-tier-model.md`
 - imati validnu vezu sa politikama i zahtevima iz domena
 - imati definisane API i test posledice kada utiče na interfejse ili tokove
 - imati potvrđen audit i pristupni model za osetljive podatke i odluke
