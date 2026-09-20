@@ -96,6 +96,14 @@ U prvi MVP ulaze samo sledeći poslovni koraci:
 5. implementacija se otvara tek kada je promena spremna prema `definition-of-ready.md`
 6. završetak se potvrđuje prema `definition-of-done.md` i `release-gates.md`
 
+## Pravilo faznog otvaranja implementacije
+
+- prvi se zaključava developer/create governance sloj u `docs/06-developer/`
+- zatim se potvrđuju v1 ugovori i deljeni domenski jezik u `specs/api/` i `packages/`
+- tek potom se otvaraju servisne granice i aplikativni skelet koji zavise od tih ugovora
+- test slojevi se šire zajedno sa ugovorima i statusima, ne nakon završetka izvršnog rada
+- partneri, dodatne integracije i širi tokovi ostaju zatvoreni dok jezgro profila, procene, licence i audita ne postane stabilno
+
 ## Obavezne kontrolne tačke
 
 - minimizacija podataka i role-based pristup

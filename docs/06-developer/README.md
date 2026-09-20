@@ -24,6 +24,13 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 - način orkestracije između create koraka i audit korelacije
 - minimalna observability arhitektura za prvi operativni talas
 
+## Centralni komandni sloj
+
+- `docs/06-developer/` je jedino mesto iz kog se otvaraju create governance, ownership, ugovori, kontrole i implementacioni talasi
+- `apps/`, `services/`, `packages/`, `specs/api/` i `tests/` ne uvode novo značenje bez prethodnog zaključavanja u ovom direktorijumu
+- svaka promena prvo proverava source-of-truth, ownership, release nivo i međudomenske zavisnosti pre nego što dodirne skelet ili izvršni kod
+- otvorena pitanja se vode kroz `decision-backlog.md`, a ne kroz rasute TODO napomene
+
 ## Redosled čitanja
 
 1. `developer-guide.md` — svrha razvojnog sloja, prioriteti i jedinstveni lifecycle
@@ -69,6 +76,24 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 7. implementacija ili proširenje skeleta počinje tek nakon potvrde spremnosti
 8. završetak se potvrđuje prema `definition-of-done.md` i `release-gates.md`
 
+## Pravilo otvaranja slojeva
+
+1. `docs/06-developer/` zaključava governance, ownership, source-of-truth, statusni jezik, release kontrole i otvorene odluke
+2. `specs/api/` se otvara tek kada su potvrđeni domen, ownership, statusi, greške, audit posledice i test fokus
+3. `packages/` se otvaraju tek kada ugovori i deljeni pojmovi pokažu stabilan domenski jezik
+4. `services/` se otvaraju tek kada su granice odgovornosti, zabrane preklapanja i regulatorne kontrole dokumentovane
+5. `apps/` se otvaraju tek kada su potvrđene uloge, ključni tokovi i zavisni ugovori
+6. `tests/` se proširuju zajedno sa ugovorima, statusima, događajima i audit signalima, ne naknadno
+
+## Prioritet zaključavanja pre implementacionog talasa
+
+1. lifecycle, readiness, done i release gates
+2. source-of-truth raspodela i ownership po domenima
+3. MVP create opseg i fazni redosled otvaranja
+4. statusi, događaji, greške i ručne revizije
+5. v1 API ugovori i traceability veza
+6. readiness dokaz za svaki sloj repozitorijuma
+
 ## Obavezni deliverables pre punog build talasa
 
 - ažuran developer indeks i povezani governance dokumenti
@@ -77,11 +102,14 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 - v1 ugovori za profil, dokaze, procenu, licencu, partnera i audit
 - README skeleti za aplikacije, servise, pakete i test slojeve
 - katalog statusa, događaja, grešaka i ručnih revizija
+- potvrđena release tier klasifikacija za svaku veću promenu
+- ažurna mapa međudomenskih zavisnosti, lokalizacije i observability posledica
 
 ## Pravilo dokumentovanja
 
 - svaki tehnički artefakt mora imati referencu na izvorni strateški, produktni ili policy dokument
-- svaki domen mora imati definisane vlasnike odluke i isporuke
+- svaki domen mora imati definisane vlasnike odluke, isporuke i kontrole
 - svaki interfejs mora imati vezu sa testovima, auditom i statusima kada je relevantno
 - bezbednost, privatnost, audit i regulatorna usklađenost ulaze u dizajn od početka
 - izbor tehnologije ostaje otvoren dok ADR ne potvrdi arhitektonski smer
+- promena ne otvara izvršni sloj ako `source-of-truth-map.md`, `traceability-matrix.md` i `module-readiness-overview.md` nisu usklađeni
