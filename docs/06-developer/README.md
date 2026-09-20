@@ -26,7 +26,7 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 
 ## Centralni komandni sloj
 
-- `docs/06-developer/` je jedino mesto iz kog se otvaraju create governance, ownership, ugovori, kontrole i implementacioni talasi
+- `docs/06-developer/` je jedino mesto iz kog se otvaraju create governance, ownership, kontrole i odluka da ugovorni ili implementacioni rad može da počne
 - `apps/`, `services/`, `packages/`, `specs/api/` i `tests/` ne uvode novo značenje bez prethodnog zaključavanja u ovom direktorijumu
 - svaka promena prvo proverava source-of-truth, ownership, release nivo i međudomenske zavisnosti pre nego što dodirne skelet ili izvršni kod
 - otvorena pitanja se vode kroz `decision-backlog.md`, a ne kroz rasute TODO napomene
