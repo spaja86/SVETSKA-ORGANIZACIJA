@@ -21,6 +21,7 @@ Servis za izdavanje, status, obnovu, suspenziju i istoriju licence.
 - `packages/domain-license/`
 - `packages/shared-statuses/`
 - `tests/domain/README.md`
+- `tests/audit/README.md`
 
 ## Centralna governance veza
 

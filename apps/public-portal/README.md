@@ -38,10 +38,13 @@ Javni ulazni portal za programe, javne informacije, osnovni onboarding i transpa
 - vlasnik kontrole: najstroži relevantni vlasnik kontrole iz povezanih create domena
 - traceability signal: portal ne uvodi samostalni domen; nasleđuje ownership i kontrolne zahteve iz create domena koje javno prikazuje
 
-## Readiness i release
+## Granice
 
 - ne obrađuje osetljive lične podatke
 - ne sadrži internu procenu niti administrativne kontrole
 - ne redefiniše domenska pravila iz `packages/` i `services/`
+
+## Readiness i release
+
 - portal se otvara tek nakon potvrđenih ugovora, shared paketa i zavisnih servisa
 - završna spremnost proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`

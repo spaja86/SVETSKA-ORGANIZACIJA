@@ -15,6 +15,7 @@ Početni skelet za modele licenci, statusa, obnove i suspenzije.
 - `specs/api/v1/license-contract.md`
 - `services/license-service/`
 - `tests/domain/README.md`
+- `tests/audit/README.md`
 
 ## Centralna governance veza
 

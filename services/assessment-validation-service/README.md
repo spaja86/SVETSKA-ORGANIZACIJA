@@ -22,6 +22,7 @@ Servis za procenu, rezultat, ljudsku reviziju i korektivni tok odluke.
 - `packages/shared-statuses/`
 - `docs/06-developer/manual-review-checkpoints.md`
 - `tests/domain/README.md`
+- `tests/integration/README.md`
 
 ## Centralna governance veza
 
