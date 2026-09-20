@@ -15,16 +15,16 @@ Ovaj direktorijum je centralni ulaz za čitanje i održavanje dokumentacije.
 
 ## Prioritetne tehničke ulazne tačke
 
-- `docs/06-developer/README.md` — centralni indeks za tehničko planiranje i create framework
-- `docs/06-developer/mvp-create-implementation-plan.md` — objedinjeni plan za MVP create tok
-- `docs/06-developer/source-of-truth-map.md` — pregled šta zaključava koju oblast
-- `docs/06-developer/definition-of-ready.md` — uslovi za ulazak u specifikaciju ili implementaciju
-- `docs/06-developer/definition-of-done.md` — uslovi za završetak artefakta ili implementacije
-- `docs/06-developer/traceability-matrix.md` — veza između zahteva, domena, API-ja, testova i audita
+- `06-developer/README.md` — centralni indeks za tehničko planiranje i create framework
+- `06-developer/mvp-create-implementation-plan.md` — objedinjeni plan za MVP create tok
+- `06-developer/source-of-truth-map.md` — pregled šta zaključava koju oblast
+- `06-developer/definition-of-ready.md` — uslovi za ulazak u specifikaciju ili implementaciju
+- `06-developer/definition-of-done.md` — uslovi za završetak artefakta ili implementacije
+- `06-developer/traceability-matrix.md` — veza između zahteva, domena, API-ja, testova i audita
 
 ## Repo-wide tehnička navigacija
 
-- svaka tehnička promena se vraća na `docs/06-developer/README.md` pre izmene `apps/`, `services/`, `packages/`, `specs/api/` ili `tests/`
+- svaka tehnička promena se vraća na `06-developer/README.md` pre izmene `apps/`, `services/`, `packages/`, `specs/api/` ili `tests/`
 - source-of-truth se menja pre zavisnih README, contract i test artefakata
 - ownership, statusi, greške, audit i manual-review pravila ne zaključavaju se lokalno već kroz `06-developer/`
 - readiness pregled modula određuje redosled otvaranja slojeva kroz ceo repozitorijum
@@ -34,4 +34,4 @@ Ovaj direktorijum je centralni ulaz za čitanje i održavanje dokumentacije.
 - Strategija odgovara na pitanje **zašto**.
 - Operacije odgovaraju na pitanje **kako se sprovodi**.
 - Tehnika odgovara na pitanje **kako će sistem biti izgrađen i kontrolisan**.
-- Create reference iz drugih slojeva vraćaju se na `docs/06-developer/README.md` kada traže ownership, ugovor, status, test ili release kontrolu.
+- Create reference iz drugih slojeva vraćaju se na `06-developer/README.md` kada traže ownership, ugovor, status, test ili release kontrolu.
