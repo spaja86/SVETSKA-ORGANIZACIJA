@@ -13,6 +13,7 @@ Početni skelet za modele jurisdikcije, pravila, ograničenja i izuzetaka.
 ## Povezani artefakti
 
 - `services/regulatory-rules-service/`
+- `docs/06-developer/localization-and-jurisdiction-plan.md`
 - `tests/audit/README.md`
 - `tests/integration/README.md`
 

@@ -20,6 +20,7 @@ Servis za procenu, rezultat, ljudsku reviziju i korektivni tok odluke.
 - `specs/api/v1/assessment-contract.md`
 - `packages/domain-assessment/`
 - `packages/shared-statuses/`
+- `docs/06-developer/manual-review-checkpoints.md`
 - `tests/domain/README.md`
 
 ## Centralna governance veza

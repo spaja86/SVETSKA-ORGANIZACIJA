@@ -14,6 +14,7 @@ Početni skelet za audit događaje, korelaciju i KPI modele.
 
 - `specs/api/v1/audit-event-contract.md`
 - `services/audit-reporting-service/`
+- `docs/06-developer/event-naming-standard.md`
 - `tests/audit/README.md`
 
 ## Centralna governance veza
