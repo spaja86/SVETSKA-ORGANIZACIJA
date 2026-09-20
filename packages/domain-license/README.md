@@ -7,7 +7,7 @@ Početni skelet za modele licenci, statusa, obnove i suspenzije.
 ## Sadržaj paketa
 
 - entiteti: licenca, obnova, suspenzija, istorija statusa
-- statusi: `pending`, `active`, `renewal-due`, `suspended`, `revoked`
+- statusi: `pending`, `active`, `renewal-due`, `expired`, `suspended`, `revoked`
 - validacije: uslovi izdavanja, obnova, zabrana nevažećih prelaza
 
 ## Povezani artefakti

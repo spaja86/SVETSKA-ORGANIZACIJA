@@ -14,7 +14,7 @@ Početna verzija MVP create ugovora ostaje minimalna, stabilna i povezana sa tra
 ## Centralna governance veza
 
 - centralni ulaz: `docs/06-developer/README.md`
-- source-of-truth: `docs/06-developer/source-of-truth-map.md`, `docs/06-developer/error-taxonomy.md`, `docs/06-developer/event-naming-standard.md`
+- source-of-truth: `docs/06-developer/source-of-truth-map.md`, `docs/06-developer/api-contract-governance.md`, `docs/06-developer/error-taxonomy.md`, `docs/06-developer/event-naming-standard.md`
 - ownership: `docs/06-developer/create-domain-ownership-map.md`
 - traceability: `docs/06-developer/traceability-matrix.md`
 

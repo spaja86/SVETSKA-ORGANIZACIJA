@@ -78,11 +78,12 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 24. `cross-domain-dependency-map.md` — zavisnosti između create domena i kontrolnih slojeva
 25. `event-naming-standard.md` — standard za imenovanje audit i domain događaja
 26. `error-taxonomy.md` — standard za greške, kodove i posledice po ugovore
-27. `data-classification-and-handling.md` — klasifikacija podataka i pravila rukovanja
-28. `manual-review-checkpoints.md` — ručna revizija za high-risk odluke i izuzetke
-29. `create-glossary.md` — jedinstven rečnik pojmova create domena
-30. `release-tier-model.md` — tipovi promena i potrebni nivoi kontrole
-31. `adrs/README.md` — arhitekturne odluke koje zaključavaju smer implementacije
+27. `api-contract-governance.md` — repo-wide pravila za API resurse, operacije i interoperabilnost
+28. `data-classification-and-handling.md` — klasifikacija podataka i pravila rukovanja
+29. `manual-review-checkpoints.md` — ručna revizija za high-risk odluke i izuzetke
+30. `create-glossary.md` — jedinstven rečnik pojmova create domena
+31. `release-tier-model.md` — tipovi promena i potrebni nivoi kontrole
+32. `adrs/README.md` — arhitekturne odluke koje zaključavaju smer implementacije
 
 ## Obavezni deliverables po slojevima
 

@@ -7,7 +7,7 @@ Početni skelet za modele procene, rezultata, žalbe i ručne revizije.
 ## Sadržaj paketa
 
 - entiteti: procena, rezultat, odluka, žalba
-- statusi: `requested`, `in-review`, `manual-review`, `approved`, `rejected`
+- statusi: `requested`, `in-review`, `manual-review`, `appealed`, `approved`, `rejected`
 - validacije: kriterijumi procene, override pravila, signal za žalbu
 
 ## Povezani artefakti

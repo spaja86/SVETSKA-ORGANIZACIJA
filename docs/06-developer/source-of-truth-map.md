@@ -16,7 +16,7 @@ Ovaj dokument određuje koji artefakt zaključava koju oblast kako bi se izbeglo
 | Statusi i događaji | `docs/06-developer/domain-status-and-events-catalog.md` | `event-naming-standard.md`, v1 ugovori, `tests/domain/README.md`, `packages/shared-statuses/README.md` |
 | Release gate kontrole po fazi | `docs/06-developer/release-gates.md` | `definition-of-ready.md`, `definition-of-done.md`, `release-tier-model.md`, svi tehnički README |
 | API greške i klase odgovora | `docs/06-developer/error-taxonomy.md` | error sekcije u `specs/api/v1/*.md`, `tests/contract/README.md`, `packages/shared-validation/README.md` |
-| API resursi, operacije i interoperabilnost | `specs/api/README.md` | `specs/api/v1/*.md`, `tests/contract/README.md` |
+| API resursi, operacije i interoperabilnost | `docs/06-developer/api-contract-governance.md` | `specs/api/README.md`, `specs/api/v1/*.md`, `tests/contract/README.md` |
 | Ručna revizija | `docs/06-developer/manual-review-checkpoints.md` | `ai-governance-plan.md`, `specs/api/v1/assessment-contract.md`, `apps/admin-portal/README.md` |
 | Klasifikacija podataka | `docs/06-developer/data-classification-and-handling.md` | `create-data-governance-plan.md`, `specs/api/v1/evidence-contract.md`, `specs/api/v1/profile-contract.md` |
 | Međudomenske zavisnosti | `docs/06-developer/cross-domain-dependency-map.md` | `traceability-matrix.md`, `mvp-create-implementation-plan.md`, `specs/api/mvp-create-flow-contracts.md` |
