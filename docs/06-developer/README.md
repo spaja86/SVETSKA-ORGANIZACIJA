@@ -88,7 +88,7 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 ## Obavezni deliverables po slojevima
 
 - svaki README u `apps/`, `services/`, `packages/`, `specs/api/` i `tests/` mora imati vidljivu vezu ka ovom indeksu, source-of-truth-u, ownership-u i traceability-ju
-- svaki ugovor mora navesti izvorni zahtev, statusni jezik, greške, audit posledice i test slojeve
+- svaki ugovor mora navesti izvorni zahtev, statusni jezik, greške, audit posledice i test slojeve uz repo-wide API governance iz `api-contract-governance.md`
 - svaki deljeni paket mora navesti domen, ownership i zavisne ugovore pre nego što postane osnova za servis ili aplikaciju
 - svaki servis mora navesti granice odgovornosti, regulatorne blokade, audit događaje i zabranu redefinisanja zajedničkog jezika
 - svaka aplikacija mora navesti uloge, zavisne ugovore, ownership i kontrolne tačke pristupa
@@ -116,7 +116,7 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 2. source-of-truth raspodela i ownership po domenima
 3. MVP create opseg i fazni redosled otvaranja
 4. statusi, događaji, greške i ručne revizije
-5. v1 API ugovori i traceability veza
+5. API governance u `api-contract-governance.md`, zatim v1 API ugovori i traceability veza
 6. readiness dokaz za svaki sloj repozitorijuma
 
 ## Pravilo dokumentovanja
