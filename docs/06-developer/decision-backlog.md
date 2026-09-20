@@ -4,6 +4,8 @@
 
 Ovde se čuvaju otvorena pitanja koja zahtevaju upravljačku potvrdu ili ADR pre punog implementacionog zaključavanja.
 
+`decision-backlog.md` je obavezni pre-build artefakt kada postoje otvorena governance ili ADR pitanja koja mogu blokirati create tok.
+
 ## Otvorene odluke visokog prioriteta
 
 | Tema | Zašto je otvorena | Potreban izlaz | Blokira |

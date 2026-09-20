@@ -110,7 +110,9 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 - katalog statusa, događaja, grešaka i ručnih revizija
 - ažuran `decision-backlog.md` za sva otvorena governance i ADR pitanja
 - potvrđena klasifikacija release nivoa za svaku veću promenu
-- ažurna mapa međudomenskih zavisnosti, lokalizacije i observability posledica
+- ažuran `cross-domain-dependency-map.md`
+- ažuran `localization-and-jurisdiction-plan.md`
+- ažuran `observability-plan.md`
 
 ## Pravilo dokumentovanja
 
