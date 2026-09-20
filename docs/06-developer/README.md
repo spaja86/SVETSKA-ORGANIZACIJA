@@ -65,6 +65,13 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 30. `release-tier-model.md` — tipovi promena i potrebni nivoi kontrole
 31. `adrs/README.md` — arhitekturne odluke koje zaključavaju smer implementacije
 
+## Ključni kontrolni artefakti pre punog build talasa
+
+- `decision-backlog.md` — obavezno mesto za otvorena governance i ADR pitanja
+- `cross-domain-dependency-map.md` — obavezna kontrola promena koje seku više domena
+- `localization-and-jurisdiction-plan.md` — obavezni okvir za širenje na više regulatornih okruženja
+- `observability-plan.md` — obavezni audit, KPI i operativni signal za MVP jezgro
+
 ## Operativni redosled rada
 
 1. zahtev dobija referencu na izvorni dokument
