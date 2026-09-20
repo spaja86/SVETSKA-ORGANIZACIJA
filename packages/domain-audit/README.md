@@ -12,17 +12,17 @@ Početni skelet za audit događaje, korelaciju i KPI modele.
 
 ## Povezani artefakti
 
-- `specs/api/v1/audit-event-contract.md`
-- `services/audit-reporting-service/`
-- `docs/06-developer/event-naming-standard.md`
-- `tests/audit/README.md`
+- `../../specs/api/v1/audit-event-contract.md`
+- `../../services/audit-reporting-service/`
+- `../../docs/06-developer/event-naming-standard.md`
+- `../../tests/audit/README.md`
 
 ## Centralna governance veza
 
-- centralni ulaz: `docs/06-developer/README.md`
-- source-of-truth: `docs/06-developer/observability-plan.md`, `docs/06-developer/event-naming-standard.md`, `docs/06-developer/traceability-matrix.md`
-- ownership: `docs/06-developer/create-domain-ownership-map.md`
-- traceability: `docs/06-developer/traceability-matrix.md`
+- centralni ulaz: `../../docs/06-developer/README.md`
+- source-of-truth: `../../docs/06-developer/observability-plan.md`, `../../docs/06-developer/event-naming-standard.md`, `../../docs/06-developer/traceability-matrix.md`
+- ownership: `../../docs/06-developer/create-domain-ownership-map.md`
+- traceability: `../../docs/06-developer/traceability-matrix.md`
 
 ## Ownership i kontrola
 
@@ -35,4 +35,4 @@ Početni skelet za audit događaje, korelaciju i KPI modele.
 
 - paket se otvara zajedno sa ugovornim slojem pre izvršnih servisa i aplikacija
 - paket ne uvodi lokalna pravila bez dopune source-of-truth i ownership dokumenata
-- završna spremnost proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`
+- završna spremnost proverava se kroz `../../docs/06-developer/definition-of-ready.md`, `../../docs/06-developer/definition-of-done.md` i `../../docs/06-developer/release-gates.md`

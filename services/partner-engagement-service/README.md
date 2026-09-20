@@ -17,18 +17,18 @@ Servis za partnere, angažmane, potvrde i operativnu koordinaciju partner toka.
 
 ## Povezani artefakti
 
-- `specs/api/v1/partner-contract.md`
-- `packages/domain-partner/`
-- `docs/06-developer/role-permission-model.md`
-- `tests/contract/README.md`
-- `tests/integration/README.md`
+- `../../specs/api/v1/partner-contract.md`
+- `../../packages/domain-partner/`
+- `../../docs/06-developer/role-permission-model.md`
+- `../../tests/contract/README.md`
+- `../../tests/integration/README.md`
 
 ## Centralna governance veza
 
-- centralni ulaz: `docs/06-developer/README.md`
-- source-of-truth: `docs/06-developer/external-integration-map.md`, `docs/06-developer/role-permission-model.md`, `docs/06-developer/create-domain-ownership-map.md`, `docs/06-developer/traceability-matrix.md`
-- ownership: `docs/06-developer/create-domain-ownership-map.md`
-- traceability: `docs/06-developer/traceability-matrix.md`
+- centralni ulaz: `../../docs/06-developer/README.md`
+- source-of-truth: `../../docs/06-developer/external-integration-map.md`, `../../docs/06-developer/role-permission-model.md`, `../../docs/06-developer/create-domain-ownership-map.md`, `../../docs/06-developer/traceability-matrix.md`
+- ownership: `../../docs/06-developer/create-domain-ownership-map.md`
+- traceability: `../../docs/06-developer/traceability-matrix.md`
 
 ## Ownership i kontrola
 
@@ -41,4 +41,4 @@ Servis za partnere, angažmane, potvrde i operativnu koordinaciju partner toka.
 
 - servis se otvara tek nakon potvrđenih ugovora i shared paketa
 - servis mora dokumentovati audit, data-handling i manual-review posledice kada su relevantne
-- završna spremnost proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`
+- završna spremnost proverava se kroz `../../docs/06-developer/definition-of-ready.md`, `../../docs/06-developer/definition-of-done.md` i `../../docs/06-developer/release-gates.md`

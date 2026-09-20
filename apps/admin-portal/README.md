@@ -6,9 +6,9 @@ Administrativni portal za audit, KPI, regulatorne blokade, override odluke i ope
 
 ## Izvorni dokumenti
 
-- `docs/04-policies/legal-and-regulatory-framework.md`
-- `docs/05-operations/kpi-framework.md`
-- `docs/06-developer/observability-plan.md`
+- `../../docs/04-policies/legal-and-regulatory-framework.md`
+- `../../docs/05-operations/kpi-framework.md`
+- `../../docs/06-developer/observability-plan.md`
 
 ## Minimalni ekrani
 
@@ -24,10 +24,10 @@ Administrativni portal za audit, KPI, regulatorne blokade, override odluke i ope
 
 ## Centralna governance veza
 
-- centralni ulaz: `docs/06-developer/README.md`
-- source-of-truth: `docs/06-developer/observability-plan.md`, `docs/06-developer/manual-review-checkpoints.md`, `docs/06-developer/create-domain-ownership-map.md`
-- ownership: `docs/06-developer/create-domain-ownership-map.md`
-- traceability: `docs/06-developer/traceability-matrix.md`
+- centralni ulaz: `../../docs/06-developer/README.md`
+- source-of-truth: `../../docs/06-developer/observability-plan.md`, `../../docs/06-developer/manual-review-checkpoints.md`, `../../docs/06-developer/create-domain-ownership-map.md`
+- ownership: `../../docs/06-developer/create-domain-ownership-map.md`
+- traceability: `../../docs/06-developer/traceability-matrix.md`
 
 ## Ownership i kontrola
 
@@ -38,6 +38,6 @@ Administrativni portal za audit, KPI, regulatorne blokade, override odluke i ope
 
 ## Readiness i release
 
-- zavisni moduli: `services/audit-reporting-service/`, `services/regulatory-rules-service/`, `services/assessment-validation-service/`, `packages/domain-audit/`, `packages/domain-regulatory/`, `specs/api/v1/audit-event-contract.md`, `specs/api/v1/assessment-contract.md`
+- zavisni moduli: `../../services/audit-reporting-service/`, `../../services/regulatory-rules-service/`, `../../services/assessment-validation-service/`, `../../packages/domain-audit/`, `../../packages/domain-regulatory/`, `../../specs/api/v1/audit-event-contract.md`, `../../specs/api/v1/assessment-contract.md`
 - portal se otvara tek nakon potvrđenih ugovora, shared paketa i zavisnih servisa
-- završna spremnost proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`
+- završna spremnost proverava se kroz `../../docs/06-developer/definition-of-ready.md`, `../../docs/06-developer/definition-of-done.md` i `../../docs/06-developer/release-gates.md`

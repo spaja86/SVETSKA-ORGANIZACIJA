@@ -11,27 +11,27 @@ Ovde se nalaze planirani portali i korisničke aplikacije za create tok i naredn
 
 ## Centralna governance veza
 
-- centralni ulaz: `docs/06-developer/README.md`
-- source-of-truth: `docs/06-developer/source-of-truth-map.md`, `docs/06-developer/module-readiness-overview.md`, `docs/06-developer/mvp-create-implementation-plan.md`
-- ownership: `docs/06-developer/create-domain-ownership-map.md`
-- traceability: `docs/06-developer/traceability-matrix.md`
+- centralni ulaz: `../docs/06-developer/README.md`
+- source-of-truth: `../docs/06-developer/source-of-truth-map.md`, `../docs/06-developer/module-readiness-overview.md`, `../docs/06-developer/mvp-create-implementation-plan.md`
+- ownership: `../docs/06-developer/create-domain-ownership-map.md`
+- traceability: `../docs/06-developer/traceability-matrix.md`
 
 ## Pravilo granica
 
 - aplikacije orkestriraju korisničke tokove, ali ne dupliraju domenska pravila iz paketa i servisa
 - osetljivi tokovi moraju jasno razlikovati korisnički, partnerski i interni pristup
 - svaki novi interfejs mora navesti izvorni dokument, ciljnu ulogu, ownership i zavisne API ugovore
-- create ownership, statusi i release kontrole vode se centralno kroz `docs/06-developer/README.md`
+- create ownership, statusi i release kontrole vode se centralno kroz `../docs/06-developer/README.md`
 
 ## Ownership i kontrola
 
-- vlasnici odluke: odgovarajući domenski vlasnici iz `docs/06-developer/create-domain-ownership-map.md`
+- vlasnici odluke: odgovarajući domenski vlasnici iz `../docs/06-developer/create-domain-ownership-map.md`
 - vlasnik isporuke: tehnički vlasnik implementacije portala
 - vlasnik kontrole: najstroži relevantni vlasnik kontrole iz domena koje portal koristi
-- traceability signal: svaki portal mora odražavati relevantne redove iz `docs/06-developer/traceability-matrix.md`
+- traceability signal: svaki portal mora odražavati relevantne redove iz `../docs/06-developer/traceability-matrix.md`
 
 ## Readiness i release
 
-- `apps/` se otvara tek nakon potvrđenih `specs/api/`, `packages/` i `services/` zavisnosti
+- `../apps/` se otvara tek nakon potvrđenih `../specs/api/`, `../packages/` i `../services/` zavisnosti
 - svaki portal mora pokazati kontrolne tačke pristupa, audit posledice i manual-review signal kada je relevantno
-- završna spremnost portala proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`
+- završna spremnost portala proverava se kroz `../docs/06-developer/definition-of-ready.md`, `../docs/06-developer/definition-of-done.md` i `../docs/06-developer/release-gates.md`

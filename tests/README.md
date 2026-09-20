@@ -12,10 +12,10 @@ Ovde se nalaze test strategija, scenariji validacije, integracioni tokovi i refe
 
 ## Centralna governance veza
 
-- centralni ulaz: `docs/06-developer/README.md`
-- source-of-truth: `docs/06-developer/source-of-truth-map.md`, `docs/06-developer/release-gates.md`, `docs/06-developer/module-readiness-overview.md`
-- ownership: `docs/06-developer/create-domain-ownership-map.md`
-- traceability: `docs/06-developer/traceability-matrix.md`
+- centralni ulaz: `../docs/06-developer/README.md`
+- source-of-truth: `../docs/06-developer/source-of-truth-map.md`, `../docs/06-developer/release-gates.md`, `../docs/06-developer/module-readiness-overview.md`
+- ownership: `../docs/06-developer/create-domain-ownership-map.md`
+- traceability: `../docs/06-developer/traceability-matrix.md`
 
 ## Nivoi validacije
 
@@ -29,7 +29,7 @@ Ovde se nalaze test strategija, scenariji validacije, integracioni tokovi i refe
 
 - svaki novi ugovor, status ili događaj mora imati test posledicu u odgovarajućem sloju
 - negativni scenariji, autorizacija i regulatorne blokade imaju prioritet u ranim talasima
-- centralna pravila sledljivosti i release kontrole vode se kroz `docs/06-developer/README.md`
+- centralna pravila sledljivosti i release kontrole vode se kroz `../docs/06-developer/README.md`
 - test sloj pokazuje ownership i audit posledice kroz povezane domene i ugovore
 
 ## Ownership i kontrola
@@ -37,10 +37,10 @@ Ovde se nalaze test strategija, scenariji validacije, integracioni tokovi i refe
 - vlasnici odluke: vlasnici domena i ugovora koje test sloj proverava
 - vlasnik isporuke: tehnički vlasnik isporuke test sloja
 - vlasnik kontrole: najstroži relevantni vlasnik kontrole iz pogođenih domena
-- traceability signal: svaki test sloj mora odražavati relevantne redove iz `docs/06-developer/traceability-matrix.md`
+- traceability signal: svaki test sloj mora odražavati relevantne redove iz `../docs/06-developer/traceability-matrix.md`
 
 ## Readiness i release
 
-- `tests/` se šire paralelno sa svakim novim ugovorom, statusom, događajem i kontrolom
+- `../tests/` se šire paralelno sa svakim novim ugovorom, statusom, događajem i kontrolom
 - nijedan test README ne uvodi lokalna pravila mimo source-of-truth i traceability dokumentacije
-- završna spremnost test sloja proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`
+- završna spremnost test sloja proverava se kroz `../docs/06-developer/definition-of-ready.md`, `../docs/06-developer/definition-of-done.md` i `../docs/06-developer/release-gates.md`

@@ -12,18 +12,18 @@ Početni skelet za modele partnera, angažmana i potvrda.
 
 ## Povezani artefakti
 
-- `specs/api/v1/partner-contract.md`
-- `services/partner-engagement-service/`
-- `docs/06-developer/role-permission-model.md`
-- `tests/contract/README.md`
-- `tests/integration/README.md`
+- `../../specs/api/v1/partner-contract.md`
+- `../../services/partner-engagement-service/`
+- `../../docs/06-developer/role-permission-model.md`
+- `../../tests/contract/README.md`
+- `../../tests/integration/README.md`
 
 ## Centralna governance veza
 
-- centralni ulaz: `docs/06-developer/README.md`
-- source-of-truth: `docs/06-developer/external-integration-map.md`, `docs/06-developer/create-domain-ownership-map.md`, `docs/06-developer/traceability-matrix.md`
-- ownership: `docs/06-developer/create-domain-ownership-map.md`
-- traceability: `docs/06-developer/traceability-matrix.md`
+- centralni ulaz: `../../docs/06-developer/README.md`
+- source-of-truth: `../../docs/06-developer/external-integration-map.md`, `../../docs/06-developer/create-domain-ownership-map.md`, `../../docs/06-developer/traceability-matrix.md`
+- ownership: `../../docs/06-developer/create-domain-ownership-map.md`
+- traceability: `../../docs/06-developer/traceability-matrix.md`
 
 ## Ownership i kontrola
 
@@ -36,4 +36,4 @@ Početni skelet za modele partnera, angažmana i potvrda.
 
 - paket se otvara zajedno sa ugovornim slojem pre izvršnih servisa i aplikacija
 - paket ne uvodi lokalna pravila bez dopune source-of-truth i ownership dokumenata
-- završna spremnost proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`
+- završna spremnost proverava se kroz `../../docs/06-developer/definition-of-ready.md`, `../../docs/06-developer/definition-of-done.md` i `../../docs/06-developer/release-gates.md`

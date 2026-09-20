@@ -12,17 +12,17 @@ Validacija domenskih pravila, negativnih scenarija i dozvoljenih prelaza statusa
 
 ## Povezani artefakti
 
-- `packages/domain-profile/`
-- `packages/domain-assessment/`
-- `packages/domain-license/`
-- `docs/06-developer/domain-status-and-events-catalog.md`
+- `../../packages/domain-profile/`
+- `../../packages/domain-assessment/`
+- `../../packages/domain-license/`
+- `../../docs/06-developer/domain-status-and-events-catalog.md`
 
 ## Centralna governance veza
 
-- centralni ulaz: `docs/06-developer/README.md`
-- source-of-truth: `docs/06-developer/source-of-truth-map.md`, `docs/06-developer/release-gates.md`, `docs/06-developer/traceability-matrix.md`
-- ownership: `docs/06-developer/create-domain-ownership-map.md`
-- traceability: `docs/06-developer/traceability-matrix.md`
+- centralni ulaz: `../../docs/06-developer/README.md`
+- source-of-truth: `../../docs/06-developer/source-of-truth-map.md`, `../../docs/06-developer/release-gates.md`, `../../docs/06-developer/traceability-matrix.md`
+- ownership: `../../docs/06-developer/create-domain-ownership-map.md`
+- traceability: `../../docs/06-developer/traceability-matrix.md`
 
 ## Ownership i kontrola
 
@@ -35,4 +35,4 @@ Validacija domenskih pravila, negativnih scenarija i dozvoljenih prelaza statusa
 
 - test sloj se širi paralelno sa svakim novim ugovorom, statusom, događajem i kontrolom
 - ovaj README ne uvodi lokalna pravila mimo source-of-truth i release dokumentacije
-- završna spremnost proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`
+- završna spremnost proverava se kroz `../../docs/06-developer/definition-of-ready.md`, `../../docs/06-developer/definition-of-done.md` i `../../docs/06-developer/release-gates.md`

@@ -12,16 +12,16 @@ Validacija krajnjeg create toka između aplikacija, servisa, shared paketa i ugo
 
 ## Povezani artefakti
 
-- `apps/user-portal/README.md`
-- `services/README.md`
-- `specs/api/v1/README.md`
+- `../../apps/user-portal/README.md`
+- `../../services/README.md`
+- `../../specs/api/v1/README.md`
 
 ## Centralna governance veza
 
-- centralni ulaz: `docs/06-developer/README.md`
-- source-of-truth: `docs/06-developer/source-of-truth-map.md`, `docs/06-developer/release-gates.md`, `docs/06-developer/traceability-matrix.md`
-- ownership: `docs/06-developer/create-domain-ownership-map.md`
-- traceability: `docs/06-developer/traceability-matrix.md`
+- centralni ulaz: `../../docs/06-developer/README.md`
+- source-of-truth: `../../docs/06-developer/source-of-truth-map.md`, `../../docs/06-developer/release-gates.md`, `../../docs/06-developer/traceability-matrix.md`
+- ownership: `../../docs/06-developer/create-domain-ownership-map.md`
+- traceability: `../../docs/06-developer/traceability-matrix.md`
 
 ## Ownership i kontrola
 
@@ -34,4 +34,4 @@ Validacija krajnjeg create toka između aplikacija, servisa, shared paketa i ugo
 
 - test sloj se širi paralelno sa svakim novim ugovorom, statusom, događajem i kontrolom
 - ovaj README ne uvodi lokalna pravila mimo source-of-truth i release dokumentacije
-- završna spremnost proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`
+- završna spremnost proverava se kroz `../../docs/06-developer/definition-of-ready.md`, `../../docs/06-developer/definition-of-done.md` i `../../docs/06-developer/release-gates.md`
