@@ -27,6 +27,13 @@ Ovde se nalaze deljeni modeli domena, validaciona pravila, statusi i pomoćne bi
 - svaki deljeni model mora imati jasnu vezu sa izvorom zahteva, ownership-om, ugovorom i testovima
 - referentni statusi, događaji i greške usklađuju se sa `docs/06-developer/README.md`
 
+## Ownership i kontrola
+
+- vlasnici odluke: odgovarajući domenski ili višedomenski vlasnici iz `docs/06-developer/create-domain-ownership-map.md`
+- vlasnik isporuke: tehnički vlasnik implementacije paketa
+- vlasnik kontrole: najstroži relevantni vlasnik kontrole za deljeni ili domenski sloj
+- traceability signal: svaki paket mora odražavati relevantne redove iz `docs/06-developer/traceability-matrix.md`
+
 ## Readiness i release
 
 - `packages/` se otvara zajedno sa `specs/api/` slojem pre izvršnih servisa i aplikacija

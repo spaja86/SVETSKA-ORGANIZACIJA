@@ -25,6 +25,13 @@ Ovde se nalaze planirane servisne granice, integracioni slojevi i kontrolni serv
 - regulatorna pravila i kontrole pristupa moraju biti ugrađeni u dizajn servisa od početka
 - ownership granice, source-of-truth i release kontrole vode se kroz `docs/06-developer/README.md`
 
+## Ownership i kontrola
+
+- vlasnici odluke: odgovarajući domenski vlasnici iz `docs/06-developer/create-domain-ownership-map.md`
+- vlasnik isporuke: tehnički vlasnik implementacije servisa
+- vlasnik kontrole: domenom određeni kontrolni vlasnik sa najstrožim relevantnim pravilima
+- traceability signal: svaki servis mora odražavati relevantne redove iz `docs/06-developer/traceability-matrix.md`
+
 ## Readiness i release
 
 - `services/` se otvara tek nakon potvrđenih `specs/api/` i `packages/` artefakata

@@ -23,6 +23,13 @@ Ovde se nalaze planirani portali i korisničke aplikacije za create tok i naredn
 - svaki novi interfejs mora navesti izvorni dokument, ciljnu ulogu, ownership i zavisne API ugovore
 - create ownership, statusi i release kontrole vode se centralno kroz `docs/06-developer/README.md`
 
+## Ownership i kontrola
+
+- vlasnici odluke: odgovarajući domenski vlasnici iz `docs/06-developer/create-domain-ownership-map.md`
+- vlasnik isporuke: tehnički vlasnik implementacije portala
+- vlasnik kontrole: najstroži relevantni vlasnik kontrole iz domena koje portal koristi
+- traceability signal: svaki portal mora odražavati relevantne redove iz `docs/06-developer/traceability-matrix.md`
+
 ## Readiness i release
 
 - `apps/` se otvara tek nakon potvrđenih `specs/api/`, `packages/` i `services/` zavisnosti

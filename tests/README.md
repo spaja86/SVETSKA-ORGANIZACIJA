@@ -32,6 +32,13 @@ Ovde se nalaze test strategija, scenariji validacije, integracioni tokovi i refe
 - centralna pravila sledljivosti i release kontrole vode se kroz `docs/06-developer/README.md`
 - test sloj pokazuje ownership i audit posledice kroz povezane domene i ugovore
 
+## Ownership i kontrola
+
+- vlasnici odluke: vlasnici domena i ugovora koje test sloj proverava
+- vlasnik isporuke: tehnički vlasnik isporuke test sloja
+- vlasnik kontrole: najstroži relevantni vlasnik kontrole iz pogođenih domena
+- traceability signal: svaki test sloj mora odražavati relevantne redove iz `docs/06-developer/traceability-matrix.md`
+
 ## Readiness i release
 
 - `tests/` se šire paralelno sa svakim novim ugovorom, statusom, događajem i kontrolom
