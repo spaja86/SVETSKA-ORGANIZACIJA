@@ -20,6 +20,7 @@ Servis za partnere, angažmane, potvrde i operativnu koordinaciju partner toka.
 - `specs/api/v1/partner-contract.md`
 - `packages/domain-partner/`
 - `docs/06-developer/role-permission-model.md`
+- `tests/contract/README.md`
 - `tests/integration/README.md`
 
 ## Centralna governance veza

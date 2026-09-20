@@ -32,6 +32,6 @@ Validacija dokumentacije, navigacije, source-of-truth veza i traceability konzis
 
 ## Readiness i release
 
-- test sloj se širi paralelno sa svakim novim ugovorom, statusom, događajem i kontrolom
+- test sloj se širi sa svakim novim governance dokumentom, README vezom, source-of-truth odnosom ili traceability pravilom koje menja dokumentacioni sloj
 - ovaj README ne uvodi lokalna pravila mimo source-of-truth i release dokumentacije
 - završna spremnost proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`
