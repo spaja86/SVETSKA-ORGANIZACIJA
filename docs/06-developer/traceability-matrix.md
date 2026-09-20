@@ -10,6 +10,7 @@ Ova matrica povezuje izvorne dokumente sa domenima, odlukama, interfejsima, test
 | Partneri i angažmani | `docs/02-platform/domain-model.md`, `docs/05-operations/operating-model.md` | partner, posao, projekat, angažman | `create-domain-ownership-map.md`, `external-integration-map.md` | dodela partnera, potvrda angažmana | partner pristup, potvrda učinka, sporni angažman | partner akcije, potvrde | `release-tier-model.md`: Tier 3; `release-gates.md`: Gate 1-5 |
 | Audit i KPI | `docs/05-operations/kpi-framework.md`, `docs/04-policies/data-governance.md` | audit, izveštavanje | `observability-plan.md`, `create-data-governance-plan.md`, `event-naming-standard.md`, `create-domain-ownership-map.md` | audit događaj, KPI agregat | kompletiranje događaja, integritet metrika, korelacija | neizmenjiv trag, praćenje učinka | `release-tier-model.md`: Tier 3; `release-gates.md`: Gate 1-6 |
 | Regulatorna pravila | `docs/04-policies/legal-and-regulatory-framework.md`, `docs/04-policies/data-governance.md` | regulator, jurisdikcija, region | `localization-and-jurisdiction-plan.md`, `release-gates.md`, `data-classification-and-handling.md`, `create-domain-ownership-map.md` | pravilo jurisdikcije, izuzetak, ograničenje | lokalna pravila, blokade tokova, override evidencija | osnov odluke, lokalno pravilo | `release-tier-model.md`: Tier 3; `release-gates.md`: Gate 1-6 |
+| Deljeni statusi i validacije | `docs/02-platform/domain-model.md`, `docs/03-product/product-requirements.md`, `docs/04-policies/data-governance.md` | višedomenski shared standardi | `create-domain-ownership-map.md`, `domain-status-and-events-catalog.md`, `error-taxonomy.md`, `source-of-truth-map.md` | svi v1 ugovori koji dele statuse i greške | contract, domain i integration testovi za kompatibilnost | korelacija statusa, odbijene validacije, blokade | `release-tier-model.md`: Tier 3; `release-gates.md`: Gate 1-6 |
 
 ## Pravilo održavanja
 
@@ -18,3 +19,4 @@ Ova matrica povezuje izvorne dokumente sa domenima, odlukama, interfejsima, test
 - osetljivi tokovi moraju imati eksplicitno naveden audit fokus i model dozvola kada je relevantno
 - kada dokument postane source-of-truth za oblast, mora biti dodat i u `source-of-truth-map.md`
 - svaki red mora ostati usklađen sa ownership, release i readiness dokumentima navedenim u koloni za kontrolne dokumente i release odluku
+- svaki tehnički README mora odražavati odgovarajući red iz ove matrice ili eksplicitno navesti da nasleđuje višedomensku kontrolu

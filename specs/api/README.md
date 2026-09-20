@@ -16,10 +16,17 @@ Ovde se nalaze verzionisane API specifikacije, ugovori razmene podataka i pravil
 - partner pristup i potvrda angažmana
 - audit događaj i KPI ulazi
 
+## Centralna governance veza
+
+- centralni ulaz: `docs/06-developer/README.md`
+- source-of-truth: `docs/06-developer/source-of-truth-map.md`, `docs/06-developer/error-taxonomy.md`, `docs/06-developer/domain-status-and-events-catalog.md`
+- ownership: `docs/06-developer/create-domain-ownership-map.md`
+- traceability: `docs/06-developer/traceability-matrix.md`
+
 ## Obavezni standardi za svaki ugovor
 
 - izvorni dokument i povezani domen
-- vlasnik odluke i vlasnik isporuke
+- vlasnik odluke, vlasnik isporuke i vlasnik kontrole ili dokaz nasleđenog ownership-a
 - identifikatori resursa i pravilo statusa
 - validacije, greške i regulatorne blokade
 - audit metadata, korelacija i ručna revizija kada je potrebna
@@ -31,3 +38,9 @@ Ovde se nalaze verzionisane API specifikacije, ugovori razmene podataka i pravil
 - svaka promena ugovora mora navesti posledice za aplikacije, servise, pakete i testove
 - nekompatibilne promene zahtevaju novu verziju ugovora i plan prelaza
 - regulatorna lokalizacija ne menja globalni osnovni ugovor bez eksplicitne odluke
+
+## Readiness i release
+
+- `specs/api/` se otvara pre `services/` i `apps/` sloja
+- ugovor ne prelazi dalje dok nije povezan sa source-of-truth, ownership i traceability dokumentima
+- završna spremnost ugovora proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`

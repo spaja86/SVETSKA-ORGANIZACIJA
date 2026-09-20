@@ -4,6 +4,13 @@
 
 Pretvoriti postojeću dokumentacionu osnovu u operativan put ka MVP implementaciji početnog create toka uz jasne domenske granice, ugovore, validaciju, ownership i kontrole usklađenosti.
 
+## Repo-wide prioritetna komanda
+
+- jezgro MVP create toka je profil, dokazi, procena, odluka, licenca i audit
+- svi tehnički slojevi moraju pokazati kako podržavaju ovo jezgro ili ostaju van opsega prvog talasa
+- nijedan sporedni modul ne dobija prioritet nad stabilizacijom create jezgra, source-of-truth-a i kontrolnih dokumenata
+- shared, service, app i test slojevi otvaraju se isključivo fazno prema `docs/06-developer/README.md` i `module-readiness-overview.md`
+
 ## Šta zaključavamo odmah
 
 - prioritetne domene za MVP
@@ -113,49 +120,3 @@ U prvi MVP ulaze samo sledeći poslovni koraci:
 - mogućnost žalbe i korektivne putanje
 - lokalna regulatorna ograničenja kada utiču na izdavanje ili važenje licence
 - veza između ugovora, statusa, testova i ownership-a
-
-## Faze stvarne izgradnje
-
-### Faza 1 — formalizacija developer upravljanja
-- zaključati lifecycle, change-management, ready/done i release gates
-- potvrditi ownership mapu
-- očistiti preklapanja između dokumenata
-
-### Faza 2 — zaključavanje MVP create opsega
-- potvrditi jedinstveni create tok, granice prvog izdanja i source-of-truth mapu
-- jasno razdvojiti in-scope i out-of-scope funkcionalnosti
-- uskladiti domain model sa create planom
-
-### Faza 3 — domain i status standardizacija
-- zaključati entitete, statuse, događaje i prelaze
-- standardizovati nazivlje kroz dokumente i buduće module
-- uskladiti audit događaje sa poslovnim odlukama
-
-### Faza 4 — API i shared package sloj
-- pripremiti osnovne ugovore za profil, procenu, licencu, partnera i audit
-- definisati zajedničke domenske modele, statuse, validacije i greške
-- uvesti traceability između zahteva, modela i interfejsa
-
-### Faza 5 — skelet modula
-- otvoriti prve module u `apps/`, `services/`, `packages/`, `specs/api/` i `tests/`
-- za svaki modul definisati svrhu, owner-a, granice i test fokus
-- ne širiti broj modula bez jasnog domenskog razloga
-
-### Faza 6 — prvi krajnji tok
-- realizovati create tok od profila do licence i audit zapisa
-- omogućiti ručnu reviziju visoko-rizičnih odluka
-- obezbediti potpuni audit trag i osnovne KPI signale
-
-### Faza 7 — kontrolisano proširenje
-- proširiti regulatorne izuzetke, sekundarne tokove i spoljne integracije
-- uvesti dodatne kontrole za lokalizaciju, observability i AI governance
-
-## Najvažniji rizici
-
-- preuranjeno zaključavanje tehnologije
-- preklapanje odgovornosti između servisa
-- slab audit trag za odluke
-- neusklađenost statusa između domena i API-ja
-- širenje MVP opsega bez governance odluke
-- AI odluke bez ljudske revizije
-- regulatorna pravila koja ostanu samo u dokumentima, bez modela i testova

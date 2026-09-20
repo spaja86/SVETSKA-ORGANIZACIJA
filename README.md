@@ -27,6 +27,13 @@ Repozitorijum je organizovan tako da razdvoji:
 - `specs/api/` — verzionisane API specifikacije i ugovori
 - `tests/` — test strategija, scenariji validacije, integracioni testovi i referentni paketi za buduću proveru ključnih tokova
 
+## Repo-wide tehničko pravilo
+
+- `docs/06-developer/README.md` je vrhovni developer/create ulaz za ceo repozitorijum
+- nijedan tehnički sloj u `apps/`, `services/`, `packages/`, `specs/api/` i `tests/` ne uvodi novo značenje bez pokrića u `docs/06-developer/source-of-truth-map.md`
+- ownership, readiness, traceability i release kontrole moraju biti vidljivi pre otvaranja bilo kog izvršnog ili ugovornog rada
+- zajednički statusi, događaji, greške i ručne revizije zaključavaju se centralno pre lokalnih README, contract ili test promena
+
 ## Prioriteti trenutne faze
 
 1. Stabilna dokumentaciona osnova

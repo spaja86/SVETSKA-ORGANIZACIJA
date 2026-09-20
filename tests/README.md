@@ -10,6 +10,13 @@ Ovde se nalaze test strategija, scenariji validacije, integracioni tokovi i refe
 - `integration/` — krajnji create tok između aplikacija i servisa
 - `audit/` — audit korelacija, KPI signali i regulatorne blokade
 
+## Centralna governance veza
+
+- centralni ulaz: `docs/06-developer/README.md`
+- source-of-truth: `docs/06-developer/source-of-truth-map.md`, `docs/06-developer/release-gates.md`, `docs/06-developer/reference-test-packages.md`
+- ownership: `docs/06-developer/create-domain-ownership-map.md`
+- traceability: `docs/06-developer/traceability-matrix.md`
+
 ## Nivoi validacije
 
 - dokumentaciona validacija za konzistentnost zahteva i navigacije
@@ -23,3 +30,10 @@ Ovde se nalaze test strategija, scenariji validacije, integracioni tokovi i refe
 - svaki novi ugovor, status ili događaj mora imati test posledicu u odgovarajućem sloju
 - negativni scenariji, autorizacija i regulatorne blokade imaju prioritet u ranim talasima
 - centralna pravila sledljivosti i release kontrole vode se kroz `docs/06-developer/README.md`
+- test sloj pokazuje ownership i audit posledice kroz povezane domene i ugovore
+
+## Readiness i release
+
+- `tests/` se šire paralelno sa svakim novim ugovorom, statusom, događajem i kontrolom
+- nijedan test README ne uvodi lokalna pravila mimo source-of-truth i traceability dokumentacije
+- završna spremnost test sloja proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`

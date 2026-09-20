@@ -2,6 +2,13 @@
 
 Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP create planiranje i pripremu repozitorijuma za kontrolisanu implementaciju.
 
+## Vrhovni developer/create sloj
+
+- `docs/06-developer/README.md` je jedini centralni komandni ulaz za create governance u celom repozitorijumu
+- svaka tehnička promena u `docs/`, `specs/api/`, `packages/`, `services/`, `apps/` i `tests/` mora da pokaže vezu ka ownership-u, source-of-truth-u, readiness-u, traceability-ju i release kontroli iz ovog direktorijuma
+- nijedan tehnički README, contract, package, service, app ili test opis ne uvodi novo značenje bez prethodnog zaključavanja u `docs/06-developer/`
+- deljeni i višedomenski artefakti nasleđuju ownership i strože kontrole iz svih pogođenih domena; lokalni sloj ne sme da spusti nivo kontrole
+
 ## Šta je zaključano
 
 - jedinstveni lifecycle od zahteva do release odluke
@@ -30,6 +37,18 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 - `apps/`, `services/`, `packages/`, `specs/api/` i `tests/` ne uvode novo značenje bez prethodnog zaključavanja u ovom direktorijumu
 - svaka promena prvo proverava source-of-truth, ownership, release nivo i međudomenske zavisnosti pre nego što dodirne skelet ili izvršni kod
 - otvorena pitanja se vode kroz `decision-backlog.md`, a ne kroz rasute TODO napomene
+
+## Obavezni redosled rada za svaki sloj
+
+1. zahtev dobija referencu na izvorni dokument
+2. potvrđuju se domen, opseg, ograničenja i ownership
+3. proverava se source-of-truth artefakt i po potrebi se menja prvo on
+4. donosi se upravljačka ili arhitekturna odluka kada je potrebna
+5. definišu se API ugovori, deljeni modeli, statusi, događaji i greške
+6. povezuju se test posledice, audit događaji, data-handling i manual-review kontrole
+7. proverava se spremnost prema `definition-of-ready.md`
+8. implementacija ili proširenje skeleta počinje tek nakon potvrde spremnosti
+9. završetak se potvrđuje prema `definition-of-done.md` i `release-gates.md`
 
 ## Redosled čitanja
 
@@ -65,6 +84,15 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 30. `release-tier-model.md` — tipovi promena i potrebni nivoi kontrole
 31. `adrs/README.md` — arhitekturne odluke koje zaključavaju smer implementacije
 
+## Obavezni deliverables po slojevima
+
+- svaki README u `apps/`, `services/`, `packages/`, `specs/api/` i `tests/` mora imati vidljivu vezu ka ovom indeksu, source-of-truth-u, ownership-u i traceability-ju
+- svaki ugovor mora navesti izvorni zahtev, statusni jezik, greške, audit posledice i test slojeve
+- svaki deljeni paket mora navesti domen, ownership i zavisne ugovore pre nego što postane osnova za servis ili aplikaciju
+- svaki servis mora navesti granice odgovornosti, regulatorne blokade, audit događaje i zabranu redefinisanja zajedničkog jezika
+- svaka aplikacija mora navesti uloge, zavisne ugovore, ownership i kontrolne tačke pristupa
+- svaki test sloj mora pokazati koje ugovore, statuse, događaje i release kontrole proverava
+
 ## Ključni kontrolni artefakti pre punog build talasa
 
 - `decision-backlog.md` — obavezno mesto za otvorena governance i ADR pitanja
@@ -72,17 +100,6 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 - `localization-and-jurisdiction-plan.md` — obavezni okvir za širenje na više regulatornih okruženja
 - `observability-plan.md` — obavezni audit, KPI i operativni signal za MVP jezgro
 - stavka ostaje u `decision-backlog.md` dok ne dobije odluku; kada odluka zaključa smer implementacije ili tehnologije, prenosi se u odgovarajući ADR
-
-## Operativni redosled rada
-
-1. zahtev dobija referencu na izvorni dokument
-2. potvrđuju se domen, opseg, ograničenja i vlasništvo
-3. donosi se upravljačka ili arhitekturna odluka kada je potrebna
-4. definišu se API ugovori, deljeni modeli i statusi
-5. povezuju se test posledice, audit događaji i kontrole usklađenosti
-6. proverava se spremnost prema `definition-of-ready.md`
-7. implementacija ili proširenje skeleta počinje tek nakon potvrde spremnosti
-8. završetak se potvrđuje prema `definition-of-done.md` i `release-gates.md`
 
 ## Pravilo otvaranja slojeva
 
@@ -100,20 +117,6 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 4. statusi, događaji, greške i ručne revizije
 5. v1 API ugovori i traceability veza
 6. readiness dokaz za svaki sloj repozitorijuma
-
-## Obavezni deliverables pre punog build talasa
-
-- ažuran developer indeks i povezani governance dokumenti
-- potvrđena ownership mapa i source-of-truth raspodela
-- zaključan MVP create plan i traceability matrica
-- v1 ugovori za profil, dokaze, procenu, licencu, partnera i audit
-- README skeleti za aplikacije, servise, pakete i test slojeve
-- katalog statusa, događaja, grešaka i ručnih revizija
-- ažuran `decision-backlog.md` za sva otvorena governance i ADR pitanja
-- potvrđena klasifikacija release nivoa za svaku veću promenu
-- ažuran `cross-domain-dependency-map.md`
-- ažuran `localization-and-jurisdiction-plan.md`
-- ažuran `observability-plan.md`
 
 ## Pravilo dokumentovanja
 

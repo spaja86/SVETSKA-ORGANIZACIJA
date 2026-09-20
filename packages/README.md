@@ -13,9 +13,22 @@ Ovde se nalaze deljeni modeli domena, validaciona pravila, statusi i pomoćne bi
 - `shared-statuses/` — zajednički statusi i pravila prelaza
 - `shared-validation/` — deljene validacije i kontrolna pravila
 
+## Centralna governance veza
+
+- centralni ulaz: `docs/06-developer/README.md`
+- source-of-truth: `docs/06-developer/source-of-truth-map.md`, `docs/06-developer/domain-status-and-events-catalog.md`, `docs/06-developer/error-taxonomy.md`
+- ownership: `docs/06-developer/create-domain-ownership-map.md`
+- traceability: `docs/06-developer/traceability-matrix.md`
+
 ## Pravilo deljenog domena
 
 - domenska pravila se definišu jednom i koriste kroz aplikacije i servise
 - paketi čuvaju jedinstveni jezik domena i sprečavaju dupliranje značenja
-- svaki deljeni model mora imati jasnu vezu sa izvorom zahteva, ugovorom i testovima
+- svaki deljeni model mora imati jasnu vezu sa izvorom zahteva, ownership-om, ugovorom i testovima
 - referentni statusi, događaji i greške usklađuju se sa `docs/06-developer/README.md`
+
+## Readiness i release
+
+- `packages/` se otvara zajedno sa `specs/api/` slojem pre izvršnih servisa i aplikacija
+- shared paketi ne uvode nova pravila bez centralne dopune source-of-truth i ownership dokumenata
+- završna spremnost paketa proverava se kroz `docs/06-developer/definition-of-ready.md`, `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`
