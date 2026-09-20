@@ -10,7 +10,7 @@ Ovaj dokument povezuje domene, glavne artefakte i buduće servisne granice sa vl
 - vlasnik isporuke potvrđuje da su artefakti potpuni, povezani i proverljivi
 - vlasnik kontrole je jedan primarni odgovorni nosilac kontrola za domen
 - vlasnik kontrole potvrđuje bezbednost, privatnost, audit, regulatorne blokade i release proveru
-- isti vlasnik može pokrivati obe uloge samo dok ne postoji potreba za odvajanjem odgovornosti
+- isti vlasnik može pokrivati više uloga samo dok ne postoji potreba za odvajanjem odgovornosti
 - isti vlasnik može privremeno pokrivati sve tri uloge samo dok sloj ostaje u dokumentacionoj fazi
 
 ## Domeni i odgovornosti
