@@ -27,6 +27,7 @@ Svaki novi artefakt mora da navede:
 
 - vlasnika odluke
 - vlasnika isporuke
+- vlasnika kontrole
 - svrhu
 - granice odgovornosti
 - referencu na izvorni dokument
@@ -40,6 +41,7 @@ Svaki novi artefakt mora da navede:
 - `packages/` dokumentuju entitete, statuse, validacije i zavisne ugovore
 - `specs/api/` dokumentuju resurse, operacije, greške, paginaciju i audit metadata
 - `tests/` dokumentuju šta proveravaju, kada se proširuju i na koje ugovore ili događaje se oslanjaju
+- nijedan sloj van `docs/` ne prelazi u dublju realizaciju bez prethodno potvrđenog readiness dokaza
 
 ## Pravilo centralnog povezivanja
 
