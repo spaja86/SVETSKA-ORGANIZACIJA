@@ -17,6 +17,7 @@ Ovaj direktorijum je centralni ulaz za čitanje i održavanje dokumentacije.
 
 - `06-developer/README.md` — centralni indeks za tehničko planiranje i create framework
 - `06-developer/mvp-create-implementation-plan.md` — objedinjeni plan za MVP create tok
+- `06-developer/program-equivalent-assembly-model.md` — centralni model montaže create governance sloja u izvršni programski ekvivalent
 - `06-developer/source-of-truth-map.md` — pregled šta zaključava koju oblast
 - `06-developer/definition-of-ready.md` — uslovi za ulazak u specifikaciju ili implementaciju
 - `06-developer/definition-of-done.md` — uslovi za završetak artefakta ili implementacije
@@ -25,6 +26,7 @@ Ovaj direktorijum je centralni ulaz za čitanje i održavanje dokumentacije.
 ## Repo-wide tehnička navigacija
 
 - svaka tehnička promena se vraća na `06-developer/README.md` pre izmene `apps/`, `services/`, `packages/`, `specs/api/` ili `tests/`
+- model sklapanja tehničkih slojeva vodi se kroz `06-developer/program-equivalent-assembly-model.md`
 - source-of-truth se menja pre zavisnih README, contract i test artefakata
 - ownership, statusi, greške, audit i manual-review pravila ne zaključavaju se lokalno već kroz `06-developer/`
 - readiness pregled modula određuje redosled otvaranja slojeva kroz ceo repozitorijum

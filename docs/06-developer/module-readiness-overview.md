@@ -19,6 +19,7 @@ Ovaj pregled pokazuje šta svaki sloj mora imati pre prelaska iz dokumentacionog
 
 - svaki sloj prati isti redosled: zahtev → domen → odluka → ugovor i deljeni modeli → test posledice → audit i usklađenost → implementacija → verifikacija i release odluka
 - sloj ne otvara lokalno novo značenje ako source-of-truth, ownership i traceability nisu prethodno potvrđeni u `docs/06-developer/`
+- fazno otvaranje slojeva prati `program-equivalent-assembly-model.md` kao centralni model montaže programskog ekvivalenta
 - sekundarni tokovi ne preskaču create jezgro `profil → dokazi → procena → odluka → licenca → audit` niti dobijaju prioritet pre njegove stabilizacije
 
 ## Kontrolni stubovi pre otvaranja sloja

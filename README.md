@@ -33,6 +33,7 @@ Repozitorijum je organizovan tako da razdvoji:
 - nijedan tehnički sloj u `apps/`, `services/`, `packages/`, `specs/api/` i `tests/` ne uvodi novo značenje bez pokrića u `docs/06-developer/source-of-truth-map.md`
 - ownership, readiness, traceability i release kontrole moraju biti vidljivi pre otvaranja bilo kog izvršnog ili ugovornog rada
 - zajednički statusi, događaji, greške i ručne revizije zaključavaju se centralno pre lokalnih README, contract ili test promena
+- montaža create governance sloja u izvršni programski ekvivalent vodi se kroz `docs/06-developer/program-equivalent-assembly-model.md`
 
 ## Obavezni repo-wide radni takt
 
@@ -71,6 +72,7 @@ Repozitorijum je organizovan tako da razdvoji:
 - Developer indeks: `docs/06-developer/README.md`
 - Vodič za developere: `docs/06-developer/developer-guide.md`
 - MVP create plan: `docs/06-developer/mvp-create-implementation-plan.md`
+- Model programskog ekvivalenta: `docs/06-developer/program-equivalent-assembly-model.md`
 - Source-of-truth mapa: `docs/06-developer/source-of-truth-map.md`
 - Traceability matrica: `docs/06-developer/traceability-matrix.md`
 - Pravila doprinosa: `CONTRIBUTING.md`

@@ -16,6 +16,7 @@ Pretvoriti postojeću dokumentacionu osnovu u operativan put ka MVP implementaci
 - prioritetne domene za MVP
 - razvojni lifecycle i pravila promene
 - minimalni create tok i njegove izlaze
+- model montaže programskog ekvivalenta za povezivanje ugovora, shared paketa, servisa, aplikacija i testova
 - mapiranje dokumentacije na buduće aplikacije, servise, pakete, API ugovore i testove
 - obavezne bezbednosne, audit i regulatorne kontrole
 - početni ownership i release model za create tok
@@ -106,6 +107,7 @@ U prvi MVP ulaze samo sledeći poslovni koraci:
 ## Pravilo faznog otvaranja implementacije
 
 - prvi se zaključava developer/create governance sloj u `docs/06-developer/`
+- centralni model sklapanja slojeva ostaje u `program-equivalent-assembly-model.md` i ne redefiniše se lokalno
 - zatim se potvrđuju v1 ugovori i deljeni domenski jezik u `specs/api/` i `packages/`
 - tek potom se otvaraju servisne granice koje zavise od tih ugovora
 - zatim se otvara aplikativni skelet koji koristi potvrđene servisne i ugovorne granice
