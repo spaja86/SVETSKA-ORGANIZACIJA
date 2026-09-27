@@ -14,6 +14,7 @@ Ovaj dokument određuje koji artefakt zaključava koju oblast kako bi se izbeglo
 | Create opseg i faze | `docs/06-developer/mvp-create-implementation-plan.md` | `traceability-matrix.md`, `module-readiness-overview.md`, `specs/api/mvp-create-flow-contracts.md` |
 | Repo-wide prioritet create jezgra | `docs/06-developer/mvp-create-implementation-plan.md` | svi tehnički README, `traceability-matrix.md`, `module-readiness-overview.md` |
 | Model montaže programskog ekvivalenta | `docs/06-developer/program-equivalent-assembly-model.md` | `module-readiness-overview.md`, svi tehnički README |
+| Meta-odobrenje za vrh programskog ekvivalenta | `docs/06-developer/montezacija-nad-montezacijama.md` | `program-equivalent-assembly-model.md`, `traceability-matrix.md`, `decision-backlog.md`, `module-readiness-overview.md` |
 | Ownership i granice | `docs/06-developer/create-domain-ownership-map.md` | `repository-structure.md`, README skeleti modula |
 | Klasifikacija release nivoa promene | `docs/06-developer/release-tier-model.md` | `release-gates.md`, `definition-of-ready.md`, `definition-of-done.md` |
 | Statusi i događaji | `docs/06-developer/domain-status-and-events-catalog.md` | `event-naming-standard.md`, v1 ugovori, `tests/domain/README.md`, `packages/shared-statuses/README.md` |

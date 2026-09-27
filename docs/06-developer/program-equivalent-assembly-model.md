@@ -9,6 +9,7 @@ Ovaj dokument formalizuje kako se postojeći developer/create governance okvir s
 - vrh programskog ekvivalenta je centralno zaključan tehnički lanac koji povezuje zahtev, domen, ownership, source-of-truth, ugovor, deljene modele, servisne granice, aplikativne tokove, testove, audit i release odluku
 - taj lanac počinje u `README.md`, `docs/README.md` i pre svega u `docs/06-developer/README.md`, ali jedino `docs/06-developer/` zaključava značenje koje sme da se spusti u ostale slojeve
 - nijedan izvršni, ugovorni ili test artefakt ne uvodi lokalno pravilo ako njegov red u ovom lancu nije prethodno zatvoren kroz centralni developer/create sloj
+- kada promena tvrdi da predstavlja objedinjeni vrh programskog ekvivalenta ili meta-nivo montaže, approval model mora biti dokazan kroz `montezacija-nad-montezacijama.md`
 
 ## Obavezni tehnički lanac
 
@@ -28,6 +29,7 @@ Ovaj dokument formalizuje kako se postojeći developer/create governance okvir s
 - svaki niži sloj nasleđuje centralne odluke i prikazuje ih kroz svoj README, ugovor ili test signal
 - ako sloj ne može da pokaže source-of-truth, ownership, traceability i kontrolne stubove, njegovo otvaranje se zaustavlja
 - deljeni i višedomenski artefakti primenjuju najstroži skup relevantnih kontrola
+- meta-artefakt koji objedinjeno povezuje inovacije i paterne mora dokazati approval-ready narativ, ownership i release posledice pre spuštanja u niže slojeve
 
 ## Repo-wide prioritet jezgra
 
