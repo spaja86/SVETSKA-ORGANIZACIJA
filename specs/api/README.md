@@ -19,7 +19,7 @@ Ovde se nalaze verzionisane API specifikacije i ugovori razmene podataka. Repo-w
 ## Centralna governance veza
 
 - centralni ulaz: `../../docs/06-developer/README.md`
-- source-of-truth: `../../docs/06-developer/source-of-truth-map.md`, `../../docs/06-developer/api-contract-governance.md`, `../../docs/06-developer/error-taxonomy.md`, `../../docs/06-developer/domain-status-and-events-catalog.md`
+- source-of-truth: `../../docs/06-developer/source-of-truth-map.md`, `../../docs/06-developer/api-contract-governance.md`, `../../docs/06-developer/error-taxonomy.md`, `../../docs/06-developer/domain-status-and-events-catalog.md`, `../../docs/06-developer/program-equivalent-assembly-model.md`
 - ownership: `../../docs/06-developer/create-domain-ownership-map.md`
 - traceability: `../../docs/06-developer/traceability-matrix.md`
 
@@ -35,6 +35,7 @@ Ovde se nalaze verzionisane API specifikacije i ugovori razmene podataka. Repo-w
 - audit trag, manual-review signal, regulatorna blokada i korektivni tok moraju biti vidljivi kada su relevantni
 - create jezgro `profil → dokazi → procena → odluka → licenca → audit` ima prioritet nad sekundarnim tokovima
 - traceability od izvornog zahteva do ugovora, testova i release odluke ostaje obavezna
+- ugovorni sloj je prvi izvršno-prenosivi korak montaže i mora ostati usklađen sa centralnim modelom sklapanja create jezgra
 
 ## Izvedeni standardi za svaki ugovor
 

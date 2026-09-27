@@ -83,29 +83,30 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 7. `create-domain-ownership-map.md` — vlasnici po domenima, artefaktima i servisnim granicama
 8. `release-gates.md` — kontrolne tačke za dokumentaciju, ugovore, kod i MVP izdanje
 9. `mvp-create-implementation-plan.md` — objedinjeni plan za prvi create tok
-10. `domain-status-and-events-catalog.md` — standardni statusi, događaji i prelazi stanja
-11. `traceability-matrix.md` — veza između dokumentacije, domena, API-ja, testova i audita
-12. `create-flow-risk-matrix.md` — ključni rizici create toka i kontrolne mere
-13. `role-permission-model.md` — minimalni model dozvola po ulozi
-14. `observability-plan.md` — audit, KPI, incident i operativni signal
-15. `repository-evolution-migration-plan.md` — prelaz iz dokumentacionog u product-engineering repozitorijum
-16. `external-integration-map.md` — buduće spoljne integracije i njihove granice
-17. `localization-and-jurisdiction-plan.md` — plan lokalizacije i jurisdikcijskih pravila
-18. `create-data-governance-plan.md` — upravljanje podacima za create tok
-19. `ai-governance-plan.md` — granice i kontrole AI preporuka i odluka
-20. `reference-test-packages.md` — referentni test paketi za dugoročnu validaciju
-21. `source-of-truth-map.md` — pregled koji dokument zaključava koju oblast
-22. `decision-backlog.md` — otvorena pitanja i odluke koje traže ADR ili governance potvrdu
-23. `module-readiness-overview.md` — spremnost slojeva `apps/`, `services/`, `packages/`, `specs/api/` i `tests/`
-24. `cross-domain-dependency-map.md` — zavisnosti između create domena i kontrolnih slojeva
-25. `event-naming-standard.md` — standard za imenovanje audit i domain događaja
-26. `error-taxonomy.md` — standard za greške, kodove i posledice po ugovore
-27. `api-contract-governance.md` — repo-wide pravila za API resurse, operacije i interoperabilnost
-28. `data-classification-and-handling.md` — klasifikacija podataka i pravila rukovanja
-29. `manual-review-checkpoints.md` — ručna revizija za high-risk odluke i izuzetke
-30. `create-glossary.md` — jedinstven rečnik pojmova create domena
-31. `release-tier-model.md` — tipovi promena i potrebni nivoi kontrole
-32. `adrs/README.md` — arhitekturne odluke koje zaključavaju smer implementacije
+10. `program-equivalent-assembly-model.md` — formalni model sklapanja create governance sloja u izvršni programski ekvivalent
+11. `domain-status-and-events-catalog.md` — standardni statusi, događaji i prelazi stanja
+12. `traceability-matrix.md` — veza između dokumentacije, domena, API-ja, testova i audita
+13. `create-flow-risk-matrix.md` — ključni rizici create toka i kontrolne mere
+14. `role-permission-model.md` — minimalni model dozvola po ulozi
+15. `observability-plan.md` — audit, KPI, incident i operativni signal
+16. `repository-evolution-migration-plan.md` — prelaz iz dokumentacionog u product-engineering repozitorijum
+17. `external-integration-map.md` — buduće spoljne integracije i njihove granice
+18. `localization-and-jurisdiction-plan.md` — plan lokalizacije i jurisdikcijskih pravila
+19. `create-data-governance-plan.md` — upravljanje podacima za create tok
+20. `ai-governance-plan.md` — granice i kontrole AI preporuka i odluka
+21. `reference-test-packages.md` — referentni test paketi za dugoročnu validaciju
+22. `source-of-truth-map.md` — pregled koji dokument zaključava koju oblast
+23. `decision-backlog.md` — otvorena pitanja i odluke koje traže ADR ili governance potvrdu
+24. `module-readiness-overview.md` — spremnost slojeva `apps/`, `services/`, `packages/`, `specs/api/` i `tests/`
+25. `cross-domain-dependency-map.md` — zavisnosti između create domena i kontrolnih slojeva
+26. `event-naming-standard.md` — standard za imenovanje audit i domain događaja
+27. `error-taxonomy.md` — standard za greške, kodove i posledice po ugovore
+28. `api-contract-governance.md` — repo-wide pravila za API resurse, operacije i interoperabilnost
+29. `data-classification-and-handling.md` — klasifikacija podataka i pravila rukovanja
+30. `manual-review-checkpoints.md` — ručna revizija za high-risk odluke i izuzetke
+31. `create-glossary.md` — jedinstven rečnik pojmova create domena
+32. `release-tier-model.md` — tipovi promena i potrebni nivoi kontrole
+33. `adrs/README.md` — arhitekturne odluke koje zaključavaju smer implementacije
 
 ## Obavezni deliverables po slojevima
 
@@ -122,6 +123,7 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 - `cross-domain-dependency-map.md` — obavezna kontrola promena koje seku više domena
 - `localization-and-jurisdiction-plan.md` — obavezni okvir za širenje na više regulatornih okruženja
 - `observability-plan.md` — obavezni audit, KPI i operativni signal za MVP jezgro
+- `program-equivalent-assembly-model.md` — obavezni model fazne montaže create jezgra u ugovorni, shared, servisni, aplikativni i test sloj
 - stavka ostaje u `decision-backlog.md` dok ne dobije odluku; kada odluka zaključa smer implementacije ili tehnologije, prenosi se u odgovarajući ADR
 
 ## Pravilo otvaranja slojeva
@@ -137,9 +139,10 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 1. lifecycle, readiness, done i release gates
 2. source-of-truth raspodela i ownership po domenima
 3. MVP create opseg i fazni redosled otvaranja
-4. statusi, događaji, greške i ručne revizije
-5. API governance u `api-contract-governance.md`, zatim v1 API ugovori i traceability veza
-6. readiness dokaz za svaki sloj repozitorijuma
+4. model montaže programskog ekvivalenta kroz `program-equivalent-assembly-model.md`
+5. statusi, događaji, greške i ručne revizije
+6. API governance u `api-contract-governance.md`, zatim v1 API ugovori i traceability veza
+7. readiness dokaz za svaki sloj repozitorijuma
 
 ## Pravilo dokumentovanja
 

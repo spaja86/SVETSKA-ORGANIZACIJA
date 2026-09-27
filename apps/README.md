@@ -12,7 +12,7 @@ Ovde se nalaze planirani portali i korisničke aplikacije za create tok i naredn
 ## Centralna governance veza
 
 - centralni ulaz: `../docs/06-developer/README.md`
-- source-of-truth: `../docs/06-developer/source-of-truth-map.md`, `../docs/06-developer/module-readiness-overview.md`, `../docs/06-developer/mvp-create-implementation-plan.md`
+- source-of-truth: `../docs/06-developer/source-of-truth-map.md`, `../docs/06-developer/module-readiness-overview.md`, `../docs/06-developer/mvp-create-implementation-plan.md`, `../docs/06-developer/program-equivalent-assembly-model.md`
 - ownership: `../docs/06-developer/create-domain-ownership-map.md`
 - traceability: `../docs/06-developer/traceability-matrix.md`
 
@@ -35,6 +35,7 @@ Ovde se nalaze planirani portali i korisničke aplikacije za create tok i naredn
 - audit trag, manual-review signal, regulatorna blokada i korektivni tok moraju biti vidljivi kada su relevantni
 - create jezgro `profil → dokazi → procena → odluka → licenca → audit` ima prioritet nad sekundarnim tokovima
 - traceability od izvornog zahteva do ugovora, testova i release odluke ostaje obavezna
+- aplikativni sloj učestvuje tek u završnim fazama montaže kada su ugovori, paketi i servisi za ciljni create korak već potvrđeni
 
 ## Ownership i kontrola
 

@@ -13,7 +13,7 @@ Ovde se nalaze test strategija, scenariji validacije, integracioni tokovi i refe
 ## Centralna governance veza
 
 - centralni ulaz: `../docs/06-developer/README.md`
-- source-of-truth: `../docs/06-developer/source-of-truth-map.md`, `../docs/06-developer/release-gates.md`, `../docs/06-developer/module-readiness-overview.md`
+- source-of-truth: `../docs/06-developer/source-of-truth-map.md`, `../docs/06-developer/release-gates.md`, `../docs/06-developer/module-readiness-overview.md`, `../docs/06-developer/program-equivalent-assembly-model.md`
 - ownership: `../docs/06-developer/create-domain-ownership-map.md`
 - traceability: `../docs/06-developer/traceability-matrix.md`
 
@@ -44,6 +44,7 @@ Ovde se nalaze test strategija, scenariji validacije, integracioni tokovi i refe
 - audit trag, manual-review signal, regulatorna blokada i korektivni tok moraju biti vidljivi kada su relevantni
 - create jezgro `profil → dokazi → procena → odluka → licenca → audit` ima prioritet nad sekundarnim tokovima
 - traceability od izvornog zahteva do ugovora, testova i release odluke ostaje obavezna
+- test sloj se montira paralelno sa svakim novim ugovorom, paketom, servisom i aplikativnim tokom iz create jezgra
 
 ## Ownership i kontrola
 

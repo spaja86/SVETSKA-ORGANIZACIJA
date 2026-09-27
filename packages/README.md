@@ -16,7 +16,7 @@ Ovde se nalaze deljeni modeli domena, validaciona pravila, statusi i pomoćne bi
 ## Centralna governance veza
 
 - centralni ulaz: `../docs/06-developer/README.md`
-- source-of-truth: `../docs/06-developer/source-of-truth-map.md`, `../docs/06-developer/domain-status-and-events-catalog.md`, `../docs/06-developer/error-taxonomy.md`
+- source-of-truth: `../docs/06-developer/source-of-truth-map.md`, `../docs/06-developer/domain-status-and-events-catalog.md`, `../docs/06-developer/error-taxonomy.md`, `../docs/06-developer/program-equivalent-assembly-model.md`
 - ownership: `../docs/06-developer/create-domain-ownership-map.md`
 - traceability: `../docs/06-developer/traceability-matrix.md`
 
@@ -39,6 +39,7 @@ Ovde se nalaze deljeni modeli domena, validaciona pravila, statusi i pomoćne bi
 - audit trag, manual-review signal, regulatorna blokada i korektivni tok moraju biti vidljivi kada su relevantni
 - create jezgro `profil → dokazi → procena → odluka → licenca → audit` ima prioritet nad sekundarnim tokovima
 - traceability od izvornog zahteva do ugovora, testova i release odluke ostaje obavezna
+- shared paket je rani montažni sloj i mora biti potvrđen pre servisnog i aplikativnog rada za isti create korak
 
 ## Ownership i kontrola
 
