@@ -34,6 +34,18 @@ Repozitorijum je organizovan tako da razdvoji:
 - ownership, readiness, traceability i release kontrole moraju biti vidljivi pre otvaranja bilo kog izvršnog ili ugovornog rada
 - zajednički statusi, događaji, greške i ručne revizije zaključavaju se centralno pre lokalnih README, contract ili test promena
 
+## Obavezni repo-wide radni takt
+
+- obavezni redosled za svaki tehnički artefakt je: zahtev → domen → odluka → ugovor i deljeni modeli → test posledice → audit i usklađenost → implementacija → verifikacija i release odluka
+- svaki sloj u `docs/`, `specs/api/`, `packages/`, `services/`, `apps/` i `tests/` prati isti takt i ne preskače readiness ili release kontrole
+- otvorena pitanja, izuzeci i tehnološke odluke vode se centralno kroz `docs/06-developer/decision-backlog.md` i `docs/06-developer/adrs/README.md`, ne kroz lokalne TODO beleške
+
+## Kontrolni stubovi i mera uspeha
+
+- bezbednost, privatnost, role-based pristup, audit trag, manual review i regulatorna usklađenost moraju biti vidljivi od početka
+- create jezgro `profil → dokazi → procena → odluka → licenca → audit` ima prioritet nad sekundarnim tokovima
+- uspeh znači da svaki prioritetni tok pokazuje source-of-truth, ownership, statusni jezik, ugovore, test posledice i release kontrolu bez lokalnih redefinicija
+
 ## Prioriteti trenutne faze
 
 1. Stabilna dokumentaciona osnova

@@ -15,6 +15,19 @@ Ovaj pregled pokazuje šta svaki sloj mora imati pre prelaska iz dokumentacionog
 | `specs/api/` | v1 minimalni ugovori | standard grešaka, metadata, traceability, ownership, audit posledice i manual-review signal | zaključan `docs/` governance i potvrđen create opseg | `specs/api/README.md` + `specs/api/v1/*.md` |
 | `tests/` | skelet test slojeva | negativni scenariji, autorizacija, regulatorne blokade, audit verifikacija, ownership signal i fazni dokaz pokrivenosti | odgovarajući ugovori, statusi, događaji i sloj koji test potvrđuje | README po test sloju + veza ka release kontroli |
 
+## Jedinstveni radni takt po slojevima
+
+- svaki sloj prati isti redosled: zahtev → domen → odluka → ugovor i deljeni modeli → test posledice → audit i usklađenost → implementacija → verifikacija i release odluka
+- sloj ne otvara lokalno novo značenje ako source-of-truth, ownership i traceability nisu prethodno potvrđeni u `docs/06-developer/`
+- sekundarni tokovi ne preskaču create jezgro `profil → dokazi → procena → odluka → licenca → audit` niti dobijaju prioritet pre njegove stabilizacije
+
+## Kontrolni stubovi pre otvaranja sloja
+
+- bezbednost, privatnost i role-based pristup
+- audit trag, manual-review signal i regulatorna blokada kada su relevantni
+- žalba i korektivni tok za odluke koje menjaju status ili ishod create toka
+- veza između izvornog zahteva, ugovora, testova i release kontrole
+
 ## Obavezni README minimum po sloju
 
 - veza ka `docs/06-developer/README.md`

@@ -9,8 +9,10 @@ Ovaj dokument određuje koji artefakt zaključava koju oblast kako bi se izbeglo
 | Oblast | Source-of-truth artefakt | Sekundarni artefakti koji se usklađuju |
 | --- | --- | --- |
 | Repo-wide create governance ulaz | `docs/06-developer/README.md` | svi tehnički README, `CONTRIBUTING.md`, `docs/README.md` |
+| Repo-wide radni takt i fazno otvaranje | `docs/06-developer/README.md` | `developer-guide.md`, `module-readiness-overview.md`, svi tehnički README, `CONTRIBUTING.md` |
 | Razvojni lifecycle | `docs/06-developer/developer-guide.md` | `change-management.md`, `definition-of-ready.md`, `definition-of-done.md` |
 | Create opseg i faze | `docs/06-developer/mvp-create-implementation-plan.md` | `traceability-matrix.md`, `module-readiness-overview.md`, `specs/api/mvp-create-flow-contracts.md` |
+| Repo-wide prioritet create jezgra | `docs/06-developer/mvp-create-implementation-plan.md` | svi tehnički README, `traceability-matrix.md`, `module-readiness-overview.md` |
 | Ownership i granice | `docs/06-developer/create-domain-ownership-map.md` | `repository-structure.md`, README skeleti modula |
 | Klasifikacija release nivoa promene | `docs/06-developer/release-tier-model.md` | `release-gates.md`, `definition-of-ready.md`, `definition-of-done.md` |
 | Statusi i događaji | `docs/06-developer/domain-status-and-events-catalog.md` | `event-naming-standard.md`, v1 ugovori, `tests/domain/README.md`, `packages/shared-statuses/README.md` |

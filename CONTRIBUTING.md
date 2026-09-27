@@ -26,6 +26,12 @@ Doprinosi ovom repozitorijumu moraju da jačaju jednu od tri celine:
 7. tek zatim otvaranje ugovora, skeleta ili izvršnog rada
 8. završna provera prema `docs/06-developer/definition-of-done.md` i `docs/06-developer/release-gates.md`
 
+## Repo-wide prioritet i kontrolni stubovi
+
+- create jezgro `profil → dokazi → procena → odluka → licenca → audit` ima prioritet nad sekundarnim tokovima, integracijama i lokalizacijom
+- bezbednost, privatnost, role-based pristup, audit trag, manual review, regulatorna usklađenost i korektivni tok procenjuju se pre implementacije
+- uspeh promene meri se time da artefakt jasno pokazuje source-of-truth, ownership, statusni jezik, test posledice i release kontrolu
+
 ## Repo-wide tehnička pravila
 
 - `docs/06-developer/README.md` je jedina centralna ulazna tačka za create governance

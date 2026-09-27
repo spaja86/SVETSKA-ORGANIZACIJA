@@ -38,6 +38,28 @@ Ovaj direktorijum je centralna ulazna tačka za tehničko upravljanje, MVP creat
 - svaka promena prvo proverava source-of-truth, ownership, release nivo i međudomenske zavisnosti pre nego što dodirne skelet ili izvršni kod
 - otvorena pitanja se vode kroz `decision-backlog.md`, a ne kroz rasute TODO napomene
 
+## Repo-wide prioritet jezgra
+
+- prvi talas zaključava i otvara create jezgro: `profil → dokazi → procena → odluka → licenca → audit`
+- svi tehnički slojevi moraju pokazati da direktno podržavaju jezgro ili da ostaju van opsega prvog talasa
+- sekundarni tokovi, dodatne integracije i lokalizacija ne dobijaju prioritet dok jezgro nema stabilne ugovore, statuse, ownership i kontrolne artefakte
+
+## Kontrolni stubovi za sve slojeve
+
+- bezbednost i privatnost ulaze u dizajn od početka
+- role-based pristup mora biti jasan po aplikaciji, servisu i ugovoru
+- audit trag je obavezan za svaku odluku, promenu statusa i izuzetak
+- manual review je obavezan za visokorizične odluke i regulatorno osetljive tokove
+- žalba, korektivni tok i regulatorna blokada moraju biti eksplicitni kada utiču na create odluku
+- traceability od izvornog dokumenta do testa i release odluke ostaje obavezna
+
+## Mera uspeha repo-wide režima
+
+- nijedna tehnička promena ne nastaje van centralnog developer/create okvira
+- svaki sloj koristi isti statusni jezik, ownership model i release pravila
+- svaki prioritetni create tok ima jasnu vezu između zahteva, ugovora, testova i audit traga
+- repozitorijum se ponaša kao jedinstven product-engineering sistem, a ne kao skup nepovezanih artefakata
+
 ## Obavezni redosled rada za svaki sloj
 
 1. zahtev dobija referencu na izvorni dokument
