@@ -35,7 +35,9 @@ Ovaj dokument formalizuje kako se postojeći developer/create governance okvir s
 - sekundarni tokovi, dodatne integracije i lokalizacija ne dobijaju prioritet dok jezgro nema stabilne ugovore, statuse, događaje, audit trag i release kontrolu
 - svaki novi artefakt mora dokazati da direktno podržava ovo jezgro ili ostaje van opsega trenutnog talasa
 
-## Minimalni izvršni programski ekvivalent
+## Referentni minimalni sklop u postojećem skeletu
+
+Sledeća mapa ne uvodi nove module; ona povezuje već postojeće skeletne artefakte koji trenutno predstavljaju minimalni referentni sklop create jezgra. Ako se naziv ili granica artefakta promeni, prvo se usklađuju ovaj dokument, `source-of-truth-map.md` i povezani README indeksi.
 
 | Create korak | Ugovorni sloj | Deljeni sloj | Servisni sloj | Aplikativni sloj | Test signal |
 | --- | --- | --- | --- | --- | --- |
