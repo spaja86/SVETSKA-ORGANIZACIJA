@@ -35,18 +35,18 @@ Ovaj dokument formalizuje kako se postojeći developer/create governance okvir s
 - sekundarni tokovi, dodatne integracije i lokalizacija ne dobijaju prioritet dok jezgro nema stabilne ugovore, statuse, događaje, audit trag i release kontrolu
 - svaki novi artefakt mora dokazati da direktno podržava ovo jezgro ili ostaje van opsega trenutnog talasa
 
-## Referentni minimalni sklop u postojećem skeletu
+## Minimalni slojni ekvivalent create jezgra
 
-Sledeća mapa ne uvodi nove module; ona povezuje već postojeće skeletne artefakte koji trenutno predstavljaju minimalni referentni sklop create jezgra. Ako se naziv ili granica artefakta promeni, prvo se usklađuju ovaj dokument, `source-of-truth-map.md` i povezani README indeksi.
+Sledeća mapa opisuje koje vrste slojeva moraju postojati za svaki prioritetni create korak. Konkretna imena artefakata i direktorijuma održavaju se kroz ownership mapu, ugovorne README indekse i module readiness dokumente.
 
 | Create korak | Ugovorni sloj | Deljeni sloj | Servisni sloj | Aplikativni sloj | Test signal |
 | --- | --- | --- | --- | --- | --- |
-| Profil | `specs/api/v1/profile-contract.md` | `packages/domain-profile/` | `services/profile-identity-service/` | `apps/user-portal/` | `tests/domain/`, `tests/integration/` |
-| Dokazi | `specs/api/v1/evidence-contract.md` | `packages/domain-profile/`, `packages/shared-validation/` | `services/profile-identity-service/` | `apps/user-portal/` | `tests/domain/`, `tests/contract/` |
-| Procena | `specs/api/v1/assessment-contract.md` | `packages/domain-assessment/` | `services/assessment-validation-service/` | `apps/partner-portal/`, `apps/admin-portal/` | `tests/domain/`, `tests/integration/` |
-| Odluka | `specs/api/v1/assessment-contract.md` | `packages/domain-assessment/`, `packages/shared-statuses/` | `services/assessment-validation-service/` | `apps/partner-portal/`, `apps/admin-portal/` | `tests/domain/`, `tests/audit/` |
-| Licenca | `specs/api/v1/license-contract.md` | `packages/domain-license/`, `packages/shared-statuses/` | `services/license-service/` | `apps/user-portal/`, `apps/partner-portal/` | `tests/contract/`, `tests/integration/` |
-| Audit | `specs/api/v1/audit-event-contract.md` | `packages/domain-audit/` | `services/audit-reporting-service/` | `apps/admin-portal/` | `tests/audit/`, `tests/integration/` |
+| Profil | ugovor za profil i status profila | modeli profila, identiteta i osnovnih validacija | servis koji upravlja profilom i identitetom | korisnički portal za unos i pregled | domenska i integraciona validacija |
+| Dokazi | ugovor za dokaz i istoriju dokaza | modeli dokaza i deljene validacije | servis za prihvat, proveru i evidenciju dokaza | korisnički portal za predaju i korekciju | domenska i ugovorna validacija |
+| Procena | ugovor za zahtev procene i rezultat | modeli procene, kriterijuma i rezultata | servis procene i validacije | partnerski ili administrativni portal za obradu | domenska i integraciona validacija |
+| Odluka | ugovor za potvrdu rezultata, žalbu i korekciju | modeli odluke, statusa i ručne revizije | servis koji zaključava ishod procene | partnerski ili administrativni portal za potvrdu | domenska i audit validacija |
+| Licenca | ugovor za izdavanje, status i obnovu licence | modeli licence, statusa i pravila prelaza | servis za izdavanje i upravljanje licencom | korisnički i partnerski portal za pregled i radnju | ugovorna i integraciona validacija |
+| Audit | ugovor za audit događaj i KPI ulaze | modeli audit događaja i korelacije | audit i reporting servis | administrativni portal za trag i nadzor | audit i integraciona validacija |
 
 ## Obavezni kontrolni stubovi
 
