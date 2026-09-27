@@ -37,13 +37,6 @@ Ovaj direktorijum je centralni ulaz za čitanje i održavanje dokumentacije.
 
 ## Pravilo navigacije
 
-- svaka tehnička promena se vraća na `06-developer/README.md` pre izmene `apps/`, `services/`, `packages/`, `specs/api/` ili `tests/`
-- source-of-truth se menja pre zavisnih README, contract i test artefakata
-- ownership, statusi, greške, audit i manual-review pravila ne zaključavaju se lokalno već kroz `06-developer/`
-- readiness pregled modula određuje redosled otvaranja slojeva kroz ceo repozitorijum
-
-## Pravilo navigacije
-
 - Strategija odgovara na pitanje **zašto**.
 - Operacije odgovaraju na pitanje **kako se sprovodi**.
 - Tehnika odgovara na pitanje **kako će sistem biti izgrađen i kontrolisan**.
