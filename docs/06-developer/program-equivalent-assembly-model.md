@@ -24,7 +24,7 @@ Ovaj dokument formalizuje kako se postojeći developer/create governance okvir s
 
 ## Pravilo montaže slojeva
 
-- montažacija je fazno sklapanje `docs/`, `specs/api/`, `packages/`, `services/`, `apps/` i `tests/` oko create jezgra, ne paralelno nasumično otvaranje modula
+- montaža je fazno sklapanje `docs/`, `specs/api/`, `packages/`, `services/`, `apps/` i `tests/` oko create jezgra, ne paralelno nasumično otvaranje modula
 - svaki niži sloj nasleđuje centralne odluke i prikazuje ih kroz svoj README, ugovor ili test signal
 - ako sloj ne može da pokaže source-of-truth, ownership, traceability i kontrolne stubove, njegovo otvaranje se zaustavlja
 - deljeni i višedomenski artefakti primenjuju najstroži skup relevantnih kontrola
