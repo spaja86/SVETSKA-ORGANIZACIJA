@@ -29,6 +29,19 @@ Ovaj direktorijum je centralni ulaz za čitanje i održavanje dokumentacije.
 - ownership, statusi, greške, audit i manual-review pravila ne zaključavaju se lokalno već kroz `06-developer/`
 - readiness pregled modula određuje redosled otvaranja slojeva kroz ceo repozitorijum
 
+## Jedinstveni radni takt
+
+- obavezni redosled rada ostaje: zahtev → domen → odluka → ugovor i deljeni modeli → test posledice → audit i usklađenost → implementacija → verifikacija i release odluka
+- create jezgro `profil → dokazi → procena → odluka → licenca → audit` ima prioritet u prvom talasu i svaki tehnički sloj mora pokazati kako ga podržava ili zašto ostaje van opsega
+- dokumentacija ne otvara sekundarne tokove pre potvrđenih source-of-truth, ownership, traceability i release kontrola za jezgro
+
+## Pravilo navigacije
+
+- svaka tehnička promena se vraća na `06-developer/README.md` pre izmene `apps/`, `services/`, `packages/`, `specs/api/` ili `tests/`
+- source-of-truth se menja pre zavisnih README, contract i test artefakata
+- ownership, statusi, greške, audit i manual-review pravila ne zaključavaju se lokalno već kroz `06-developer/`
+- readiness pregled modula određuje redosled otvaranja slojeva kroz ceo repozitorijum
+
 ## Pravilo navigacije
 
 - Strategija odgovara na pitanje **zašto**.

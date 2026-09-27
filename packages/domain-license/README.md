@@ -24,6 +24,19 @@ Početni skelet za modele licenci, statusa, obnove i suspenzije.
 - ownership: `../../docs/06-developer/create-domain-ownership-map.md`
 - traceability: `../../docs/06-developer/traceability-matrix.md`
 
+## Repo-wide radni takt
+
+- obavezni redosled ostaje: zahtev → domen → odluka → ugovor i deljeni modeli → test posledice → audit i usklađenost → implementacija → verifikacija i release odluka
+- ovaj artefakt se ne otvara ako prethodni koraci nisu potvrđeni kroz `../../docs/06-developer/README.md`, `../../docs/06-developer/definition-of-ready.md` i `../../docs/06-developer/release-gates.md`
+- otvorena pitanja, izuzeci i tehnološke odluke vode se kroz `../../docs/06-developer/decision-backlog.md` i `../../docs/06-developer/adrs/README.md`, ne lokalno
+
+## Kontrolni stubovi
+
+- bezbednost, privatnost i role-based pristup ulaze u dizajn od početka
+- audit trag, manual-review signal, regulatorna blokada i korektivni tok moraju biti vidljivi kada su relevantni
+- create jezgro `profil → dokazi → procena → odluka → licenca → audit` ima prioritet nad sekundarnim tokovima
+- traceability od izvornog zahteva do ugovora, testova i release odluke ostaje obavezna
+
 ## Ownership i kontrola
 
 - vlasnik odluke: produkt + policy + tehnički vlasnik

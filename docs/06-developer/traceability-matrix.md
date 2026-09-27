@@ -20,3 +20,5 @@ Ova matrica povezuje izvorne dokumente sa domenima, odlukama, interfejsima, test
 - kada dokument postane source-of-truth za oblast, mora biti dodat i u `source-of-truth-map.md`
 - svaki red mora ostati usklađen sa ownership, release i readiness dokumentima navedenim u koloni za kontrolne dokumente i release odluku
 - svaki tehnički README mora odražavati odgovarajući red iz ove matrice ili eksplicitno navesti da nasleđuje višedomensku kontrolu
+- create jezgro `profil → dokazi → procena → odluka → licenca → audit` ima prioritet; sekundarni tokovi ne ulaze u detaljnu specifikaciju bez odgovarajućeg reda ili proširenja postojeće sledljivosti
+- svaka promena mora pokazati test posledice, audit fokus i kontrolni signal za manual review ili regulatornu blokadu kada su relevantni
