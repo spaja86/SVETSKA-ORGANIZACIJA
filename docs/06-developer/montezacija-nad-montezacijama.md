@@ -14,6 +14,7 @@ Ovaj dokument formalizuje kako se zahtev „DEVELOPER AND CREATE / VRH PROGRAMSK
 
 - centralni ulaz ostaje `docs/06-developer/README.md`
 - fazna tehnička montaža ostaje zaključana kroz `program-equivalent-assembly-model.md`
+- operativni redosled validacije i gate provere ostaje zaključan kroz `vrh-programskog-ekvivalenta-operativni-protokol.md`
 - raspodela izvora istine ostaje zaključana kroz `source-of-truth-map.md`
 - sledljivost od izvornog zahteva do testa i release odluke ostaje zaključana kroz `traceability-matrix.md`
 - ovaj dokument ne redefiniše ownership, statuse, događaje, release nivoe niti readiness kriterijume, već propisuje kako se oni objedinjeno dokazuju kada se traži odobrenje za meta-nivo montaže
@@ -75,6 +76,12 @@ Narativ nije potpun ako opisuje samo ideju ili arhitektonski slogan bez dokaza d
 3. usklađivanje ownership-a, statusa, događaja i kontrolnih posledica
 4. povezivanje sa ugovornim, deljenim, servisnim, aplikativnim i test slojem
 5. potvrda readiness, definition-of-done i release gate kriterijuma za svaku zavisnu oblast
+
+## Obavezna gate validacija pre finalnog odobrenja
+
+- finalna VRH potvrda može biti doneta tek nakon redosleda `definition-of-ready.md` → `definition-of-done.md` → `release-gates.md`
+- predlog se odbija ili vraća na dopunu kada uvodi lokalna značenja, lokalne statuse/događaje ili zaobilazi centralni source-of-truth i ownership model
+- kontrolni zaključak mora pokazati da ne postoji kontradikcija između `docs/`, `specs/api/`, `packages/`, `services/`, `apps/` i `tests/` slojeva
 
 ## Očekivani deliverable-i
 
